@@ -7,6 +7,9 @@ Bağımsız bir karar destek aracıdır: Travian hesabına giriş yapmaz, şifre
 
 Derleme adımı ve bağımlılık yoktur: düz HTML + ES modülleri. Veriler yalnızca cihazda (tarayıcı deposu) tutulur.
 
+> **Hun sürümü de bu depoda:** [`hun/`](hun/) klasöründe Hun Vaha Aracı'nın "kayıpsız garanti" eklenmiş kopyası durur
+> (kaynak: [tbarissatir/travian-hun-oasistool](https://github.com/tbarissatir/travian-hun-oasistool)). GitHub Pages'te adresi: `…/travian-teuton-oasistool/hun/`
+
 ## Çalıştırma
 
 ```bash

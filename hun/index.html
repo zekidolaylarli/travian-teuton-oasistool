@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hun Vaha Aracı</title>
+<meta name="description" content="Travian: Legends vaha savaş simülatörü ve optimal Hun ordusu bulucu">
+<meta name="theme-color" content="#ffffff">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Hun Vaha">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<script>
+// Tema, sayfa çizilmeden önce uygulanır (açılışta renk sıçraması olmasın).
+try {
+  var s = JSON.parse(localStorage.getItem('hun-oasis-tool.v1') || 'null'), t = s && s.ui && s.ui.theme;
+  document.documentElement.dataset.theme = t || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+} catch (e) { document.documentElement.dataset.theme = 'light'; }
+</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div id="brand" class="brand"><h1>Hun Vaha Aracı</h1></div>
+  <div id="controls" class="controls"></div>
+</header>
+<nav id="tabs" class="tabs" aria-label="Bölümler"></nav>
+<main id="main"></main>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<noscript><p style="padding:16px">Bu uygulama JavaScript gerektirir. / This app requires JavaScript.</p></noscript>
+<script type="module" src="src/ui/app.js"></script>
+</body>
+</html>

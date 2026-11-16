@@ -1,0 +1,12 @@
+{
+  "name": "travian-hun-oasistool",
+  "version": "1.0.0",
+  "description": "Travian: Legends vaha savaş simülatörü ve optimal Hun ordusu bulucu",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "start": "node tools/serve.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
