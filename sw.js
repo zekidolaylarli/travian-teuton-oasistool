@@ -15,6 +15,7 @@ self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
   if (e.request.method !== 'GET' || url.origin !== location.origin) return; // API/CDN istekleri önbelleğe alınmaz
   if (url.pathname.startsWith(new URL('hun/', self.registration.scope).pathname)) return; // hun/ altındaki Hun aracı kendi service worker'ını kullanır
+  if (url.pathname.startsWith(new URL('radyoloji/', self.registration.scope).pathname)) return; // radyoloji/ kart uygulaması önbelleğe alınmaz
   e.respondWith(
     fetch(e.request).then((res) => {
       if (res.ok) { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(e.request, copy)); }
