@@ -19,14 +19,18 @@
 "t": "Trakea + mediasten KARŞI tarafa (sola) itilmiş"
 }
 ],
-"front": "img/efuzyon_o.jpg"
+"front": "img/efuzyon_o.jpg",
+"why": "Sıvı yer kaplar ve basınç yapar, bu yüzden mediasteni karşı tarafa iter. USG'nin seçilme nedeni: sıvıyı radyasyonsuz gösterir, miktarı ve septasyonu değerlendirir, torasentez iğnesine yol gösterir.",
+"ek": "PA grafide KFS'nin kapanması için ~200-300 ml sıvı gerekir. Daha az sıvıyı lateral dekübit grafi veya USG gösterir."
 },
 {
 "id": "q1",
 "deck": "Toraks",
 "kind": "Sözlü",
 "q": "Peki mediasten opak tarafa çekilmiş olsaydı?",
-"a": "<b>Hacim azalması</b>: total atelektazi (ana bronş tıkanıklığı – tümör, mukus, yabancı cisim) veya pnömonektomi. Diyafram yükselir, kosta aralıkları daralır. Nedeni için kontrastlı toraks BT + bronkoskopi."
+"a": "<b>Hacim azalması</b>: total atelektazi (ana bronş tıkanıklığı – tümör, mukus, yabancı cisim) veya pnömonektomi. Diyafram yükselir, kosta aralıkları daralır. Nedeni için kontrastlı toraks BT + bronkoskopi.",
+"why": "Atelektazide akciğer havasını kaybedip büzülür, oluşan boşluğu mediasten, diyafram ve kostalar kapatır. Bu yüzden her şey opak tarafa çekilir.",
+"ek": "Hoca 'mediasten ortadaysa?' diye sorabilir: atelektazi + efüzyon birlikteyse çekme ve itme dengelenir (ör. santral tümör + malign efüzyon)."
 },
 {
 "id": "q2",
@@ -53,14 +57,17 @@
 "t": "Mediasten genişlemiş (mediastinal LAP): LENFOMA"
 }
 ],
-"front": "img/hiler_o.jpg"
+"front": "img/hiler_o.jpg",
+"why": "Sarkoidozda lenf nodları iki tarafta simetrik büyür. Lenfomada tutulum asimetriktir ve ön mediasten öndedir. BT'nin istenme nedeni: nodların yerini ve boyutunu, parankimi gösterir, biyopsi için yol haritası çıkarır.",
+"ek": "Sarkoidoz evreleri (Scadding): 0 normal, 1 sadece BHL, 2 BHL + parankim, 3 sadece parankim, 4 fibroz."
 },
 {
 "id": "q3",
 "deck": "Toraks",
 "kind": "Sözlü",
 "q": "3 aylık bebek, AC'de mediasten geniş. Ne düşünürsün?",
-"a": "Bu yaşta geniş mediastenin en sık nedeni <b>normal timus</b>. Yelken bulgusu, dalgalı kontur, kitle etkisi yok, damarlar seçilir. Timustan ayrılamıyorsa ilk tetkik <b>USG</b> (radyasyonsuz, timusun homojen ekosu); hâlâ şüphe → MR/BT."
+"a": "Bu yaşta geniş mediastenin en sık nedeni <b>normal timus</b>. Yelken bulgusu, dalgalı kontur, kitle etkisi yok, damarlar seçilir. Timustan ayrılamıyorsa ilk tetkik <b>USG</b> (radyasyonsuz, timusun homojen ekosu); hâlâ şüphe → MR/BT.",
+"why": "Timus yumuşak bir organdır, kitle etkisi yapmaz: trakeayı itmez, damarları silmez. USG'nin seçilme nedeni: çocukta radyasyon yok ve ön mediasten sternumun yanından rahatça görülür."
 },
 {
 "id": "q4",
@@ -77,7 +84,9 @@
 "t": "Sağ akciğer hiperlüsen: sağ ana bronşta fındık → check-valve hava hapsi (tam tıkanırsa kollaps)"
 }
 ],
-"front": "img/yabanci_o.jpg"
+"front": "img/yabanci_o.jpg",
+"why": "Yabancı cisim bronşu kısmen tıkar: inspiryumda hava girer, ekspiryumda çıkamaz (check-valve). Bu yüzden ekspiryum grafisinde fark belirginleşir.",
+"ek": "Neden en sık sağ? Sağ ana bronş daha geniş, daha kısa ve daha dik."
 },
 {
 "id": "q5",
@@ -99,7 +108,9 @@
 "t": "Sağ kalp kenarı seçilemiyor = silüet (+) → patoloji kalbe komşu: SAĞ ORTA LOB (sol kalp kenarı silinirse lingula)"
 }
 ],
-"front": "img/siluet_o.jpg"
+"front": "img/siluet_o.jpg",
+"why": "Aynı dansitedeki iki yapı yan yana gelince aralarındaki sınır kaybolur. Sağ kalp kenarına komşu olan lob orta lobdur.",
+"ek": "Lateral grafide orta lob fissürler arasında üçgen opasite olarak görülür."
 },
 {
 "id": "q6",
@@ -126,14 +137,16 @@
 "t": "Solid nodül: yumuşak doku dansitesi, damarları tamamen örter"
 }
 ],
-"front": "img/nodul_o.jpg"
+"front": "img/nodul_o.jpg",
+"ek": "Parsiyel solid nodülün solid komponenti büyüdükçe invazyon olasılığı artar. Bu yüzden takipte solid kısmın boyutu ölçülür."
 },
 {
 "id": "q7",
 "deck": "KVS & PE",
 "kind": "Sözlü",
 "q": "60 yaşında erkek, bacakta ağrı-şişlik, nabız 110, hafif dispne. PE için ne yaparsın?",
-"a": "Önce <b>Wells</b>: DVT bulgusu 3 + taşikardi 1,5 = <b>4,5 (&gt;4)</b> → D-dimer beklemeden <b>doğrudan BT pulmoner anjiyografi</b>. Wells ≤4 olsaydı D-dimer: düşükse BT yok, yüksekse BT. Kontrast kontrendikasyonu/gebelik → V/Q sintigrafisi; DVT için alt ekstremite Doppler USG. Grafi PE için spesifik değil (Westermark, Hampton, Fleischner)."
+"a": "Önce <b>Wells</b>: DVT bulgusu 3 + taşikardi 1,5 = <b>4,5 (&gt;4)</b> → D-dimer beklemeden <b>doğrudan BT pulmoner anjiyografi</b>. Wells ≤4 olsaydı D-dimer: düşükse BT yok, yüksekse BT. Kontrast kontrendikasyonu/gebelik → V/Q sintigrafisi; DVT için alt ekstremite Doppler USG. Grafi PE için spesifik değil (Westermark, Hampton, Fleischner).",
+"why": "Wells &gt;4 olunca klinik olasılık yüksektir. Bu durumda negatif D-dimer bile PE'yi dışlamaz, o yüzden D-dimer'e bakılmaz. D-dimer düşük olasılıkta dışlama testidir: duyarlılığı yüksek, özgüllüğü düşüktür."
 },
 {
 "id": "q8",
@@ -174,14 +187,17 @@
 "t": "Aort lümeninde lineer İNTİMAL FLEP → gerçek + yalancı lümen (yalancı lümen genelde daha geniş, geç dolar)"
 }
 ],
-"front": "img/diseksiyon_o.jpg"
+"front": "img/diseksiyon_o.jpg",
+"why": "Asendan aort diseksiyonu perikarda (tamponad), koronerlere ve aort kapağına ilerleyebilir. Bu yüzden Stanford A acil cerrahidir."
 },
 {
 "id": "q11",
 "deck": "Akut batın & GİS",
 "kind": "Sözlü",
 "q": "Akut karın ağrısı ile gelen hastaya ilk ne çekersin, ne ararsın?",
-"a": "<b>Ayakta direkt batın grafisi</b> (+ ayakta AC): diyafram altı serbest hava (perforasyon), hava-sıvı seviyeleri (ileus), opak taş. Sonra kliniğe göre USG (safra, apandisit, jinekolojik, serbest sıvı) veya <b>BT (akut batında altın standart)</b>."
+"a": "<b>Ayakta direkt batın grafisi</b> (+ ayakta AC): diyafram altı serbest hava (perforasyon), hava-sıvı seviyeleri (ileus), opak taş. Sonra kliniğe göre USG (safra, apandisit, jinekolojik, serbest sıvı) veya <b>BT (akut batında altın standart)</b>.",
+"why": "Ayakta çekilir çünkü serbest hava yükselip diyafram altında toplanır, sıvı-hava seviyeleri de ancak ayakta görülür.",
+"ek": "Hasta ayakta duramıyorsa sol lateral dekübit çekilir: hava karaciğer ile karın duvarı arasında toplanır."
 },
 {
 "id": "q12",
@@ -242,7 +258,9 @@
 "t": "Kırmızı oklar: çevre yağ dokusunda ekojenite artışı (inflamasyon)"
 }
 ],
-"front": "img/app_usg_o.jpg"
+"front": "img/app_usg_o.jpg",
+"why": "Çocukta, gençte ve gebede önce USG, çünkü radyasyon yok. Erişkinde BT'nin doğruluğu daha yüksektir: obezite ve barsak gazı USG'yi kısıtlar.",
+"ek": "Hedef görünümü: inflame apendiksin kesitsel (aksiyel) görüntüsü."
 },
 {
 "id": "q15",
@@ -264,21 +282,25 @@
 "t": "BT: distandü kese, duvar kalınlaşması, perikolesistik sıvı/yağda kirlenme"
 }
 ],
-"front": "img/kolesistit_o.jpg"
+"front": "img/kolesistit_o.jpg",
+"why": "USG kese taşında en duyarlı yöntemdir ve sonografik Murphy'yi (prob ile tam kesenin üstüne basınca ağrı) gösterebilir.",
+"ek": "Taş ile polip ayrımı: taş hareketlidir ve gölge yapar, polip hareketsizdir ve gölge yapmaz."
 },
 {
 "id": "q16",
 "deck": "Akut batın & GİS",
 "kind": "Sözlü",
 "q": "Sarılıklı hastada görüntüleme sırası?",
-"a": "<b>1) USG</b> (safra yolları geniş mi, taş, kitle) → <b>2) BT</b> (kitle, evreleme) → <b>3) safra yolları genişse MRCP</b> (tanısal, noninvaziv) <b>veya ERCP</b> (tanı + tedavi: taş çıkarma, stent). Normal koledok ≤6 mm."
+"a": "<b>1) USG</b> (safra yolları geniş mi, taş, kitle) → <b>2) BT</b> (kitle, evreleme) → <b>3) safra yolları genişse MRCP</b> (tanısal, noninvaziv) <b>veya ERCP</b> (tanı + tedavi: taş çıkarma, stent). Normal koledok ≤6 mm.",
+"why": "USG ile önce safra yollarının geniş olup olmadığına bakılır, çünkü obstrüktif (cerrahi) ve hepatoselüler sarılık ayrımını bu belirler. ERCP invazivdir, bu yüzden sadece tedavi de gerekecekse yapılır."
 },
 {
 "id": "q17",
 "deck": "Akut batın & GİS",
 "kind": "Sözlü",
 "q": "Akut pankreatit tanısı nasıl konur, görüntüleme ne zaman?",
-"a": "3 kriterden 2'si: tipik epigastrik ağrı, amilaz/lipaz ≥3 kat, görüntüleme bulgusu. Tanı genelde klinik + lab; <b>BT</b> tanı şüpheliyse veya 48-72 saat sonra komplikasyon (nekroz, koleksiyon) için. Etyoloji (safra taşı) için USG."
+"a": "3 kriterden 2'si: tipik epigastrik ağrı, amilaz/lipaz ≥3 kat, görüntüleme bulgusu. Tanı genelde klinik + lab; <b>BT</b> tanı şüpheliyse veya 48-72 saat sonra komplikasyon (nekroz, koleksiyon) için. Etyoloji (safra taşı) için USG.",
+"why": "Erken BT nekrozu tam göstermez (nekroz 48-72 saatte belirginleşir). Tanı zaten klinik ve lab ile konur, bu yüzden erken BT gereksiz radyasyon olur."
 },
 {
 "id": "q18",
@@ -307,7 +329,8 @@
 "deck": "Üriner",
 "kind": "Sözlü",
 "q": "Böbrek taşı şüphesinde hangi tetkik?",
-"a": "<b>Kontrastsız BT</b> (en duyarlı, tüm taşlar görünür). Çocuk/gebe → <b>USG</b>; opak taş takibi DÜSG. USG'de hidronefroz + ekojen taş + akustik gölge."
+"a": "<b>Kontrastsız BT</b> (en duyarlı, tüm taşlar görünür). Çocuk/gebe → <b>USG</b>; opak taş takibi DÜSG. USG'de hidronefroz + ekojen taş + akustik gölge.",
+"why": "Neredeyse tüm taşlar BT'de hiperdenstir (indinavir taşı hariç). Ürik asit taşı direkt grafide görünmez ama BT'de görünür."
 },
 {
 "id": "q21",
@@ -343,7 +366,9 @@
 "t": "Direkt grafi: yaygın gaz distansiyonu. Kesin tanı: tam kat rektal biyopsi"
 }
 ],
-"front": "img/hirsch_o.jpg"
+"front": "img/hirsch_o.jpg",
+"why": "Rektal biyopsi kesin tanı koyar çünkü hastalık histolojiktir: ganglion hücresi yokluğu. Grafi sadece geçiş zonunu, yani hastalığın sınırını gösterir.",
+"ek": "Kolon grafisinden önce rektal tuşe yapılmaz, balon şişirilmez: geçiş zonu bozulabilir, perforasyon riski var."
 },
 {
 "id": "q24",
@@ -360,7 +385,8 @@
 "t": "Oklar: mide + duodenum bulbusunda iki hava kabarcığı, distalde gaz YOK → duodenal atrezi"
 }
 ],
-"front": "img/doublebubble_o.jpg"
+"front": "img/doublebubble_o.jpg",
+"why": "Hava mideyi ve duodenumu geçemez, bu yüzden iki kabarcık olur. Distale hiç gaz gitmemesi tam tıkanıklık (atrezi) demektir."
 },
 {
 "id": "q25",
@@ -377,7 +403,9 @@
 "t": "HEDEF (target / donut) görünümü: iç içe geçmiş barsak katları. İlk tetkik USG"
 }
 ],
-"front": "img/invaj_o.jpg"
+"front": "img/invaj_o.jpg",
+"why": "Hedef görünümü iç içe geçmiş barsak duvarlarının kesitidir. USG radyasyonsuzdur ve redüksiyon sonrası kontrolde de kullanılır.",
+"ek": "En sık yaş 3 ay-2 yaş. Tipik triad: aralıklı karın ağrısı, kusma, çilek jölesi dışkı. Bu triad hastaların ancak bir kısmında görülür."
 },
 {
 "id": "q26",
@@ -394,7 +422,9 @@
 "t": "Mesaneye verilen kontrastın üreter ve pelvikalisiyel sisteme geri kaçması = VUR (VSUG altın standart)"
 }
 ],
-"front": "img/vsug2_o.jpg"
+"front": "img/vsug2_o.jpg",
+"why": "VUR reflüsü mesane dolarken ve işerken olur. Bu yüzden VSUG'da görüntüler işeme sırasında alınır.",
+"ek": "Erkekte işeme sırasında üretra da görüntülenir: PUV ancak böyle görülür."
 },
 {
 "id": "q27",
@@ -408,14 +438,16 @@
 "deck": "Meme & BIRADS",
 "kind": "Sözlü",
 "q": "BI-RADS'ın açılımı ve kategorileri?",
-"a": "<b>Breast Imaging Reporting And Data System</b> (ACR). 0 eksik/ek inceleme, 1 negatif, 2 benign, 3 olası benign (≤%2, 6 ay takip), 4 şüpheli – biyopsi (4A %2-10, 4B %10-50, 4C %50-94), 5 ≥%95 malign – biyopsi, 6 biyopsiyle kanıtlı malign."
+"a": "<b>Breast Imaging Reporting And Data System</b> (ACR). 0 eksik/ek inceleme, 1 negatif, 2 benign, 3 olası benign (≤%2, 6 ay takip), 4 şüpheli – biyopsi (4A %2-10, 4B %10-50, 4C %50-94), 5 ≥%95 malign – biyopsi, 6 biyopsiyle kanıtlı malign.",
+"ek": "BIRADS 3 = takip, 4-5 = biyopsi. 0, eksik inceleme demektir: kategori ek tetkikten sonra verilir."
 },
 {
 "id": "q29",
 "deck": "Meme & BIRADS",
 "kind": "Sözlü",
 "q": "Ele gelen meme kitlesi ile gelen 30 yaşında kadın. İlk tetkik?",
-"a": "<b>Meme USG</b> (genç, yoğun meme; solid-kistik ayrım). ≥40 yaşta mamografi + USG. Şüpheli (BIRADS 4-5) → USG eşliğinde tru-cut biyopsi."
+"a": "<b>Meme USG</b> (genç, yoğun meme; solid-kistik ayrım). ≥40 yaşta mamografi + USG. Şüpheli (BIRADS 4-5) → USG eşliğinde tru-cut biyopsi.",
+"why": "40 yaş altında meme dokusu yoğundur, mamografide her şey beyaz görünür ve duyarlılık düşer. Ayrıca genç memeye radyasyon verilmemesi tercih edilir."
 },
 {
 "id": "q30",
@@ -437,7 +469,8 @@
 "t": "Arkasında AKUSTİK GÜÇLENME (kistik içerik). Solid–kistik ayrımını USG yapar!"
 }
 ],
-"front": "img/basitkist_o.jpg"
+"front": "img/basitkist_o.jpg",
+"why": "Mamografi X ışını ile dansite farkına bakar. Sıvı ile solid doku benzer miktarda X ışını tutar. USG ise iç yapıyı ses yansımasıyla görür: sıvı ekosuz (siyah) görünür."
 },
 {
 "id": "q31",
@@ -476,7 +509,8 @@
 "t": "Aynı lezyon MLO'da"
 }
 ],
-"front": "img/fa_kalsifik_o.jpg"
+"front": "img/fa_kalsifik_o.jpg",
+"why": "İri, kaba, düzensiz (popcorn) kalsifikasyon dejenere olmuş fibroadenomun tipik görünümüdür. Malign kalsifikasyonlar ince ve küçüktür."
 },
 {
 "id": "q33",
@@ -493,7 +527,8 @@
 "t": "Segmental/lineer dizilimli ince pleomorfik mikrokalsifikasyonlar → BIRADS 5 (biyopsi)"
 }
 ],
-"front": "img/mikroca_b5_o.jpg"
+"front": "img/mikroca_b5_o.jpg",
+"why": "İnce, lineer, dallanan kalsifikasyon süt kanalının içindeki nekrotik tümörün kalsiyumlanmasıdır, yani duktusun kalıbıdır. Bu yüzden DCIS düşündürür."
 },
 {
 "id": "q34",
@@ -510,7 +545,8 @@
 "t": "USG: oval, düzgün sınırlı, cilde PARALEL, homojen hipoekoik solid kitle → BIRADS 3 (6-12-24 ay takip)"
 }
 ],
-"front": "img/fa3_o.jpg"
+"front": "img/fa3_o.jpg",
+"why": "'Uzun &gt; geniş' büyüme doku planlarını dikey olarak delmek demektir: malign davranış. Benign lezyon doku planlarına paralel büyür."
 },
 {
 "id": "q35",
@@ -524,14 +560,17 @@
 "deck": "Nöro",
 "kind": "Sözlü",
 "q": "Kafa travmasıyla gelen hastada ilk tetkik? Sonra?",
-"a": "<b>1) Kontrastsız beyin BT</b> (akut kanama hiperdens, kırık, kitle etkisi). <b>2) Difüzyon MR</b> (BT normal ama klinik/nörolojik bulgu açıklanamıyorsa; diffüz aksonal hasar, iskemi). Kontrast verilmez."
+"a": "<b>1) Kontrastsız beyin BT</b> (akut kanama hiperdens, kırık, kitle etkisi). <b>2) Difüzyon MR</b> (BT normal ama klinik/nörolojik bulgu açıklanamıyorsa; diffüz aksonal hasar, iskemi). Kontrast verilmez.",
+"why": "BT'nin seçilme nedeni: hızlıdır, her yerde vardır, akut kanamayı (hiperdens) ve kırığı çok iyi gösterir. MR ise çok sürer ve travma hastasında monitörizasyon zordur.",
+"ek": "BT'de akut kan neden beyaz? Pıhtıdaki hemoglobin/protein yoğunluğu yüksektir. Zamanla izodens, sonra hipodens olur."
 },
 {
 "id": "q37",
 "deck": "Nöro",
 "kind": "Sözlü",
 "q": "BT'de epidural ile subdural hematomu nasıl ayırırsın?",
-"a": "<b>Epidural</b>: bikonveks (lens), sütürü geçmez, arteriyel (a. meningea media, temporal kırık), lusid interval. <b>Subdural</b>: hilal şekilli, sütürü geçer, falksı geçmez, köprü venler (yaşlı, alkolik, sallanmış bebek)."
+"a": "<b>Epidural</b>: bikonveks (lens), sütürü geçmez, arteriyel (a. meningea media, temporal kırık), lusid interval. <b>Subdural</b>: hilal şekilli, sütürü geçer, falksı geçmez, köprü venler (yaşlı, alkolik, sallanmış bebek).",
+"why": "Dura sütürlere sıkı yapışıktır. Dura ile kemik arasındaki epidural kan sütürü geçemez ve bikonveks olur. Subdural kan dura altında serbestçe yayılır ve hilal şeklini alır."
 },
 {
 "id": "q38",
@@ -553,7 +592,9 @@
 "t": "Karşı hemisferde de kortikal difüzyon kısıtlaması"
 }
 ],
-"front": "img/dwi_o.jpg"
+"front": "img/dwi_o.jpg",
+"why": "İskemide hücre içine su girer (sitotoksik ödem), su molekülünün hareketi kısıtlanır ve difüzyonda parlak görünür. BT ise ödem ve dansite değişikliği oluşana kadar normal kalır.",
+"ek": "Trombolitik öncesi önce BT çekilir, çünkü kanamada trombolitik kontrendikedir."
 },
 {
 "id": "q39",
@@ -586,7 +627,9 @@
 "t": "+ distal radioulnar eklem çıkığı. Kural: 2 eklem görüntülenmeli!"
 }
 ],
-"front": "img/galeazzi_o.jpg"
+"front": "img/galeazzi_o.jpg",
+"why": "Önkol bir halka gibidir. Bir yerden kırılırsa genelde ikinci bir noktada da (eklem) bozulur. Bu yüzden iki eklem birden görüntülenir.",
+"ek": "Hatırlatma: Galeazzi = radius kırığı + distal radioulnar eklem çıkığı. Monteggia = ulna kırığı + radius başı çıkığı."
 },
 {
 "id": "q41",
@@ -603,7 +646,8 @@
 "t": "Distal radius metafizinde korteks BOMBELEŞMESİ, net kırık hattı yok (çocukta plastisite)"
 }
 ],
-"front": "img/torus_o.jpg"
+"front": "img/torus_o.jpg",
+"why": "Çocuk kemiği esnektir, periost kalındır. Tam kırılmak yerine korteks bükülür veya bombeleşir."
 },
 {
 "id": "q42",
@@ -642,7 +686,8 @@
 "t": "Codman üçgeni → agresif/malign"
 }
 ],
-"front": "img/periost_o.jpg"
+"front": "img/periost_o.jpg",
+"why": "Yavaş büyüyen lezyona kemik cevap verecek zaman bulur: sklerotik kenar, düzgün periost. Hızlı büyüyende zaman yoktur: geniş geçiş zonu, Codman üçgeni, ışınsal periost."
 },
 {
 "id": "q44",
@@ -659,14 +704,16 @@
 "t": "Permeatif yıkım, düzensiz sınır, geniş geçiş zonu, korteks destrüksiyonu, osteoid matriks, yumuşak dokuya uzanım"
 }
 ],
-"front": "img/os_o.jpg"
+"front": "img/os_o.jpg",
+"ek": "Osteosarkomda biyopsiyi tedaviyi yapacak cerrah planlamalı: biyopsi trakti tümör hücresi taşır ve sonradan çıkarılır."
 },
 {
 "id": "q45",
 "deck": "Nükleer tıp",
 "kind": "Sözlü",
 "q": "Tiroid sintigrafisi endikasyonları?",
-"a": "1) <b>Nodülün fonksiyonu</b> (sıcak &lt;%1 malignite, soğuk %10-20) – özellikle TSH düşük hastada 2) <b>Hipertiroidi etyolojisi</b> (Graves / toksik nodül / tiroidit) 3) <b>Ektopik tiroid</b> (lingual, substernal) 4) <b>Tiroidektomi sonrası rezidü</b> 5) <b>Konjenital hipotiroidi</b> etyolojisi."
+"a": "1) <b>Nodülün fonksiyonu</b> (sıcak &lt;%1 malignite, soğuk %10-20) – özellikle TSH düşük hastada 2) <b>Hipertiroidi etyolojisi</b> (Graves / toksik nodül / tiroidit) 3) <b>Ektopik tiroid</b> (lingual, substernal) 4) <b>Tiroidektomi sonrası rezidü</b> 5) <b>Konjenital hipotiroidi</b> etyolojisi.",
+"why": "TSH baskılıysa nodül otonom (sıcak) olabilir. Sıcak nodül neredeyse hiç kanser olmadığı için gereksiz biyopsi önlenir."
 },
 {
 "id": "q46",
@@ -688,28 +735,33 @@
 "t": "TİROİDİT: tutulum çok düşük/yok (depo hormon kana geçmiş), uptake ~%1"
 }
 ],
-"front": "img/graves_tiroidit_o.jpg"
+"front": "img/graves_tiroidit_o.jpg",
+"why": "Graves'te TRAb TSH reseptörünü uyarır, tüm bez aşırı çalışır ve diffüz yoğun tutulum olur. Tiroiditte bez hasarlıdır, iyot tutmaz; kandaki hormon depodan boşalandır.",
+"ek": "Tc-99m organifiye olmaz, sadece yakalanır. Bu yüzden 20. dakikada görüntü alınır ve ucuzdur. Uptake ölçümü için iyot (I-123/I-131) gerekir."
 },
 {
 "id": "q47",
 "deck": "Nükleer tıp",
 "kind": "Sözlü",
 "q": "Graves'te tedavi seçenekleri, RAI kimlere yapılır?",
-"a": "Antitiroid ilaç (metimazol) ± beta bloker, <b>RAI (I-131)</b>, cerrahi. RAI: <b>toksik nodüler guatr, toksik MNG, Graves</b> (özellikle oftalmopatisi olmayan, cerrahi yapılamayan); <b>iyi diferansiye tiroid ca</b> (papiller, folliküler) tiroidektomi sonrası. Sonrası 4-6 ayda hipotiroidi beklenir."
+"a": "Antitiroid ilaç (metimazol) ± beta bloker, <b>RAI (I-131)</b>, cerrahi. RAI: <b>toksik nodüler guatr, toksik MNG, Graves</b> (özellikle oftalmopatisi olmayan, cerrahi yapılamayan); <b>iyi diferansiye tiroid ca</b> (papiller, folliküler) tiroidektomi sonrası. Sonrası 4-6 ayda hipotiroidi beklenir.",
+"why": "RAI'yi tiroid hücresi iyot gibi alır, beta ışını hücreyi içeriden yok eder. Bu yüzden 4-6 ayda hipotiroidi beklenir: bu bir komplikasyon değil, amaçtır."
 },
 {
 "id": "q48",
 "deck": "Nükleer tıp",
 "kind": "Sözlü",
 "q": "RAI kimlere yapılmaz, neden? Onlara ne yaparsın?",
-"a": "<b>Gebe ve emziren</b> (fetal tiroid hasarı, süte geçer) → antitiroid ilaç (1. trimester PTU) / cerrahi (2. trimester). <b>Aktif orta-ağır oftalmopati</b> (RAI alevlendirir) → ilaç veya cerrahi; hafifse steroid profilaksisi ile RAI. <b>Tiroidit</b> (iyot tutmaz) → beta bloker/NSAİİ. <b>Medüller/anaplastik ca</b> (iyot tutmaz) → cerrahi. Bası yapan büyük guatr/şüpheli nodül → cerrahi."
+"a": "<b>Gebe ve emziren</b> (fetal tiroid hasarı, süte geçer) → antitiroid ilaç (1. trimester PTU) / cerrahi (2. trimester). <b>Aktif orta-ağır oftalmopati</b> (RAI alevlendirir) → ilaç veya cerrahi; hafifse steroid profilaksisi ile RAI. <b>Tiroidit</b> (iyot tutmaz) → beta bloker/NSAİİ. <b>Medüller/anaplastik ca</b> (iyot tutmaz) → cerrahi. Bası yapan büyük guatr/şüpheli nodül → cerrahi.",
+"why": "I-131 plasentayı geçer, fetal tiroid 10-12. haftadan sonra iyot tutar ve yok olur. Ayrıca süte geçer. Oftalmopatide RAI sonrası antijen salınımı otoimmün reaksiyonu artırır."
 },
 {
 "id": "q49",
 "deck": "Nükleer tıp",
 "kind": "Sözlü",
 "q": "PET-CT'de en sık kullanılan radyofarmasötik? Tiroid ca'da ne zaman?",
-"a": "<b>F-18 FDG</b> (glukoz analoğu). Tiroid ca'da <b>Tg yüksek ama I-131 taraması negatif</b> (iyot tutmayan) olguda."
+"a": "<b>F-18 FDG</b> (glukoz analoğu). Tiroid ca'da <b>Tg yüksek ama I-131 taraması negatif</b> (iyot tutmayan) olguda.",
+"why": "FDG glukoz analoğudur. Tümör hücresi glukozu fazla tüketir ve FDG hücre içinde hapsolur. İyot tutmayan dediferansiye tümör ise glukozu fazla kullanır, bu yüzden FDG ile görülür."
 },
 {
 "id": "q50",
@@ -731,7 +783,8 @@
 "t": "Geç faz (2 saat): tiroidden temizlenir, adenomda ODAKSAL RETANSİYON (oklar)"
 }
 ],
-"front": "img/paratiroid_o.jpg"
+"front": "img/paratiroid_o.jpg",
+"why": "MIBI mitokondriden zengin hücrede birikir. Paratiroid adenomu oksifil hücreden zengindir, bu yüzden MIBI'yi daha uzun tutar. Tiroidden ise daha hızlı temizlenir."
 },
 {
 "id": "q51",
@@ -748,28 +801,32 @@
 "t": "Perfüzyonda (Tc-99m MAA) kama şeklinde segmental DEFEKT, ventilasyon (Technegas) NORMAL = UYUMSUZ (mismatch) → PE"
 }
 ],
-"front": "img/vq_mismatch_o.jpg"
+"front": "img/vq_mismatch_o.jpg",
+"why": "Emboli damarı tıkar, perfüzyon gelmez ama hava yolu açık kalır, ventilasyon normaldir: uyumsuz defekt. KOAH ve pnömonide hava yolu bozulur, refleks vazokonstriksiyonla perfüzyon da azalır: uyumlu defekt."
 },
 {
 "id": "q52",
 "deck": "Nükleer tıp",
 "kind": "Sözlü",
 "q": "Miyokard perfüzyon sintigrafisinde iskemi ile infarktı nasıl ayırırsın?",
-"a": "Tc-99m sestamibi stres + istirahat: <b>streste defekt, istirahatte düzelen = iskemi</b>; ikisinde de kalıcı = <b>infarkt</b> (veya hibernasyon). Canlılık için <b>FDG PET</b>: perfüzyon yok ama FDG tutuyorsa hiberne, canlı."
+"a": "Tc-99m sestamibi stres + istirahat: <b>streste defekt, istirahatte düzelen = iskemi</b>; ikisinde de kalıcı = <b>infarkt</b> (veya hibernasyon). Canlılık için <b>FDG PET</b>: perfüzyon yok ama FDG tutuyorsa hiberne, canlı.",
+"why": "Darlık olan koroner istirahatte yeterli kan taşır ama streste taşıyamaz. Bu yüzden defekt sadece streste görülür. İnfarkt dokusu ölüdür, her iki durumda da tutulum olmaz."
 },
 {
 "id": "q53",
 "deck": "Temel & girişimsel",
 "kind": "Sözlü",
 "q": "Kateter anjiyografi endikasyonları?",
-"a": "Noninvaziv yöntemle (BTA/MRA) aydınlatılamayan damar patolojisi ve özellikle <b>aynı seansta tedavi</b>: aktif kanama embolizasyonu (travma, GİS, postpartum, hemoptizi), stenozda anjiyoplasti/stent, inmede trombektomi, anevrizma koilleme, TACE, AVM. Kontrendikasyon: kontrast alerjisi, böbrek yetmezliği, koagülopati."
+"a": "Noninvaziv yöntemle (BTA/MRA) aydınlatılamayan damar patolojisi ve özellikle <b>aynı seansta tedavi</b>: aktif kanama embolizasyonu (travma, GİS, postpartum, hemoptizi), stenozda anjiyoplasti/stent, inmede trombektomi, anevrizma koilleme, TACE, AVM. Kontrendikasyon: kontrast alerjisi, böbrek yetmezliği, koagülopati.",
+"why": "Tanı için artık BTA/MRA yeterli ve noninvaziv. Kateter anjiyografi invaziv olduğu için, aynı seansta tedavi yapılacaksa değerlidir."
 },
 {
 "id": "q54",
 "deck": "Temel & girişimsel",
 "kind": "Sözlü",
 "q": "Grinin tonlarını sırala.",
-"a": "Siyahtan beyaza: <b>hava – yağ – yumuşak doku/sıvı – kemik/kalsiyum – metal</b>. Metal yabancı cisim parlak beyaz; radyolüsen yabancı cisim görünmez, dolaylı bulguya bakılır."
+"a": "Siyahtan beyaza: <b>hava – yağ – yumuşak doku/sıvı – kemik/kalsiyum – metal</b>. Metal yabancı cisim parlak beyaz; radyolüsen yabancı cisim görünmez, dolaylı bulguya bakılır.",
+"why": "Ne kadar yoğun (atom numarası yüksek) madde, o kadar X ışını tutar, filme o kadar az ışın ulaşır ve beyaz görünür."
 },
 {
 "id": "f_yelken",
@@ -2233,7 +2290,8 @@
 "c": "#00d2ff",
 "t": "Trakea + mediasten KARŞI tarafa (sola) itilmiş"
 }
-]
+],
+"ek": "Sıvı boşaltılmadan çekilen BT'de sıvı altındaki kitle ve akciğer iyi değerlendirilemez."
 },
 {
 "id": "o3",
@@ -2358,7 +2416,8 @@
 "c": "#ffd600",
 "t": "Kırmızı daire: sağ alt lob arterlerinde dolum defekti (trombüs). BT anjiyo: EN duyarlı ve spesifik; kontrast kontrendikasyonunda V/Q"
 }
-]
+],
+"ek": "Gebede AC normalse V/Q tercih edilir, çünkü meme dokusuna radyasyon BTA'dan azdır."
 },
 {
 "id": "o7",
@@ -2448,7 +2507,8 @@
 "c": "#ffd600",
 "t": "Oklar: dilate ans ve hava-sıvı seviyeleri"
 }
-]
+],
+"why": "BT'deki geçiş zonu tıkanıklığın yerini gösterir. Nedenin görülmemesi, öyküde operasyon varsa bride işaret eder."
 },
 {
 "id": "o10",
@@ -2569,7 +2629,8 @@
 "front": "img/elma_m.jpg",
 "img": "img/elma_m.jpg",
 "cap": "Kolon ca – ELMA KOÇANI görünümü, çift kontrastlı kolon grafisi (08 s37): halkasal daralma, düzensiz mukoza, 'omuz' oluşumu",
-"leg": []
+"leg": [],
+"ek": "Elma koçanı görünümü tümörün lümeni çepeçevre sarmasıdır (anüler lezyon). En sık rektosigmoidde görülür."
 },
 {
 "id": "o14",
@@ -2630,7 +2691,8 @@
 "c": "#00d2ff",
 "t": "Direkt grafi: yaygın gaz distansiyonu. Kesin tanı: tam kat rektal biyopsi"
 }
-]
+],
+"why": "Kontrastlı kolon grafisi geçiş zonunu, yani hastalığın sınırını gösterir. Kesin tanı ise histolojiktir."
 },
 {
 "id": "o16",
@@ -2892,7 +2954,8 @@
 "c": "#00d2ff",
 "t": "TİROİDİT: tutulum çok düşük/yok (depo hormon kana geçmiş), uptake ~%1"
 }
-]
+],
+"ek": "Graves tedavisinde: RAI oftalmopatisi olmayanda, cerrahi büyük guatr veya oftalmopatide, ilaç (metimazol) gebe olmayan hastada ilk seçenektir; gebede 1. trimesterde PTU."
 },
 {
 "id": "o25",
@@ -2927,7 +2990,8 @@
 "c": "#00d2ff",
 "t": "TİROİDİT: tutulum çok düşük/yok (depo hormon kana geçmiş), uptake ~%1"
 }
-]
+],
+"why": "Tiroiditte hormon sentezi artmamıştır, depo boşalmıştır. Bu yüzden sentezi baskılayan antitiroid ilacın burada işlevi yoktur."
 },
 {
 "id": "o26",
@@ -3048,7 +3112,8 @@
 "front": "img/fdg_viab_m.jpg",
 "img": "img/fdg_viab_m.jpg",
 "cap": "Miyokard canlılığı (20 s15): üst sıra MIBI perfüzyon defekti, alt sıra FDG tutulumu var → HİBERNE (viabl) miyokard",
-"leg": []
+"leg": [],
+"why": "Egzersiz yapamayan hastada vazodilatör (adenozin/dipiridamol) sağlam damarı genişletir. Dar damarın sulama alanı göreceli olarak az kan alır ve defekt ortaya çıkar."
 },
 {
 "id": "o30",
@@ -3072,7 +3137,8 @@
 "BT normal ama hasta komada kalıyor?",
 "<b>MR (difüzyon, SWI)</b> → diffüz aksonal hasar."
 ]
-]
+],
+"why": "Lusid interval: ilk travmada kısa bilinç kaybı olur, arteriyel kanama birikene kadar hasta iyi görünür, hematom büyüyünce yeniden kötüleşir."
 },
 {
 "id": "o31",
@@ -3190,7 +3256,8 @@
 "c": "#ff46c8",
 "t": "Distal femur metafizinde köşe (kova sapı) kırığı → çocuk istismarı için spesifik"
 }
-]
+],
+"why": "Metafizyel köşe kırığı bebeğin kolundan/bacağından tutulup sarsılmasıyla oluşan çekme-burkma kuvvetinin sonucudur. Düşme ile oluşmaz."
 },
 {
 "id": "o35",
@@ -3246,7 +3313,8 @@
 "c": "#ff46c8",
 "t": "Diyafizde permeatif yıkım + SOĞAN ZARI periost reaksiyonu; MR'da kemik iliği tutulumu ve yumuşak doku"
 }
-]
+],
+"why": "Ewing de osteomiyelit de ateş, sedim artışı ve permeatif yıkım yapar. Ayrımı biyopsi koyar."
 },
 {
 "id": "o37",
@@ -3295,21 +3363,24 @@
 "deck": "Temel & girişimsel",
 "kind": "Endikasyon",
 "q": "Kontrastsız BT ne zaman, kontrastlı BT ne zaman?",
-"a": "<b>Kontrastsız</b>: akut kanama (hiperdens), travmada beyin BT, kırık, böbrek taşı, kalsifikasyon. <b>Kontrastlı</b>: tümör, evreleme, enfeksiyon/abse, damar (BT anjiyo), akut batın, organ yaralanması."
+"a": "<b>Kontrastsız</b>: akut kanama (hiperdens), travmada beyin BT, kırık, böbrek taşı, kalsifikasyon. <b>Kontrastlı</b>: tümör, evreleme, enfeksiyon/abse, damar (BT anjiyo), akut batın, organ yaralanması.",
+"why": "Kontrast madde de hiperdens görünür. Kanama, taş ve kalsifikasyonla karışmaması için önce kontrastsız çekilir."
 },
 {
 "id": "e1",
 "deck": "Temel & girişimsel",
 "kind": "Endikasyon",
 "q": "İyotlu kontrast madde kontrendikasyonları / dikkat edilecekler?",
-"a": "Önceki kontrast <b>alerjisi</b> (premedikasyon), <b>böbrek yetmezliği</b> (kontrast nefropatisi; eGFR düşükse hidrasyon), <b>hipertiroidi</b> (tirotoksikoz riski; RAI planı varsa iyot yükü sorun olur), <b>metformin</b> kullanımı, multipl miyelom."
+"a": "Önceki kontrast <b>alerjisi</b> (premedikasyon), <b>böbrek yetmezliği</b> (kontrast nefropatisi; eGFR düşükse hidrasyon), <b>hipertiroidi</b> (tirotoksikoz riski; RAI planı varsa iyot yükü sorun olur), <b>metformin</b> kullanımı, multipl miyelom.",
+"why": "Hipertiroidide iyot yükü tiroid fırtınası yapabilir. Ayrıca yakın zamanda iyot alan hastada sintigrafi ve RAI tedavisi haftalarca bozulur."
 },
 {
 "id": "e2",
 "deck": "Temel & girişimsel",
 "kind": "Endikasyon",
 "q": "MR kontrendikasyonları?",
-"a": "MR uyumsuz <b>kalp pili / defibrilatör</b>, <b>koklear implant</b>, <b>göz içi metal yabancı cisim</b>, ferromanyetik anevrizma klipsi, bazı nörostimülatörler. Göreceli: gebeliğin 1. trimesteri, klostrofobi. <b>Gadolinyum</b>: ileri böbrek yetmezliğinde NSF riski, gebelikte verilmez."
+"a": "MR uyumsuz <b>kalp pili / defibrilatör</b>, <b>koklear implant</b>, <b>göz içi metal yabancı cisim</b>, ferromanyetik anevrizma klipsi, bazı nörostimülatörler. Göreceli: gebeliğin 1. trimesteri, klostrofobi. <b>Gadolinyum</b>: ileri böbrek yetmezliğinde NSF riski, gebelikte verilmez.",
+"why": "MR güçlü bir manyetik alandır: ferromanyetik metal hareket eder veya ısınır, elektronik cihaz bozulur."
 },
 {
 "id": "e3",
@@ -3323,7 +3394,8 @@
 "deck": "Temel & girişimsel",
 "kind": "Endikasyon",
 "q": "Gebe hastada görüntüleme tercihi?",
-"a": "<b>USG</b> ve <b>MR (gadolinyumsuz)</b> öncelikli. Gerekirse düşük doz BT (fetus alan dışındaysa risk çok düşük). Gebede apandisit: USG → MR. PE: bacak Doppler → V/Q veya düşük doz BTA."
+"a": "<b>USG</b> ve <b>MR (gadolinyumsuz)</b> öncelikli. Gerekirse düşük doz BT (fetus alan dışındaysa risk çok düşük). Gebede apandisit: USG → MR. PE: bacak Doppler → V/Q veya düşük doz BTA.",
+"why": "USG ve MR iyonizan radyasyon içermez. Gadolinyum plasentayı geçer, bu yüzden gebelikte verilmez."
 },
 {
 "id": "e5",
@@ -3393,14 +3465,16 @@
 "deck": "Akut batın & GİS",
 "kind": "Endikasyon",
 "q": "Akut batında BT neden altın standart?",
-"a": "Hızlıdır; serbest hava, obstrüksiyonun yeri ve nedeni (geçiş zonu), inflamasyon, abse, iskemi, kanama ve organ yaralanmasını tek tetkikte gösterir. Dezavantajı radyasyon ve kontrast."
+"a": "Hızlıdır; serbest hava, obstrüksiyonun yeri ve nedeni (geçiş zonu), inflamasyon, abse, iskemi, kanama ve organ yaralanmasını tek tetkikte gösterir. Dezavantajı radyasyon ve kontrast.",
+"ek": "Akut batında kontrastlı çekilir; böbrek taşı şüphesi ayrı tutulur (kontrastsız)."
 },
 {
 "id": "e15",
 "deck": "Akut batın & GİS",
 "kind": "Endikasyon",
 "q": "Çift kontrastlı baryumlu grafi kontrendikasyonları?",
-"a": "<b>İleus</b>, <b>perforasyon şüphesi</b> (baryum peritoniti; suda eriyen kontrast kullanılır), <b>toksik megakolon</b>, yakın zamanda <b>biyopsi/polipektomi</b>."
+"a": "<b>İleus</b>, <b>perforasyon şüphesi</b> (baryum peritoniti; suda eriyen kontrast kullanılır), <b>toksik megakolon</b>, yakın zamanda <b>biyopsi/polipektomi</b>.",
+"why": "Perforasyonda baryum peritona kaçarsa ağır kimyasal peritonit ve adezyon yapar. Bu yüzden suda eriyen iyotlu kontrast kullanılır."
 },
 {
 "id": "e16",
@@ -3435,7 +3509,8 @@
 "deck": "Pediatrik batın",
 "kind": "Endikasyon",
 "q": "Antenatal hidronefroz saptanan yenidoğanda USG ne zaman yapılır?",
-"a": "İlk <b>48 saatten sonra, 5-7. günde</b> (ilk günlerde fizyolojik dehidratasyon yalancı negatif sonuç verir); kontrol <b>4-6 hafta</b> sonra. Bilateral HN / PUV şüphesinde erken."
+"a": "İlk <b>48 saatten sonra, 5-7. günde</b> (ilk günlerde fizyolojik dehidratasyon yalancı negatif sonuç verir); kontrol <b>4-6 hafta</b> sonra. Bilateral HN / PUV şüphesinde erken.",
+"why": "İlk 48 saatte yenidoğan dehidratedir, idrar akımı azdır. Hidronefroz olduğundan küçük görünür (yalancı negatif)."
 },
 {
 "id": "e21",
@@ -3449,14 +3524,16 @@
 "deck": "Pediatrik batın",
 "kind": "Endikasyon",
 "q": "Gelişimsel kalça displazisinde görüntüleme?",
-"a": "İlk 3-6 ayda <b>kalça USG</b> (Graf; tarama 3-4. haftada). 4-6. aydan sonra femur başı ossifiye olunca <b>direkt grafi</b>."
+"a": "İlk 3-6 ayda <b>kalça USG</b> (Graf; tarama 3-4. haftada). 4-6. aydan sonra femur başı ossifiye olunca <b>direkt grafi</b>.",
+"why": "İlk aylarda femur başı kıkırdaktır ve grafide görünmez. USG kıkırdağı gösterir."
 },
 {
 "id": "e23",
 "deck": "Nöro",
 "kind": "Endikasyon",
 "q": "Kraniyal USG endikasyonları?",
-"a": "Fontaneli açık bebek, özellikle <b>prematüre</b>: <b>germinal matriks kanaması</b> (grade I-IV), periventriküler lökomalazi, hidrosefali, HİE."
+"a": "Fontaneli açık bebek, özellikle <b>prematüre</b>: <b>germinal matriks kanaması</b> (grade I-IV), periventriküler lökomalazi, hidrosefali, HİE.",
+"why": "Fontanel açıkken bir akustik pencere vardır. Prematürede germinal matriks kırılgandır ve kanamaya yatkındır."
 },
 {
 "id": "e24",
@@ -3540,14 +3617,16 @@
 "deck": "Nükleer tıp",
 "kind": "Endikasyon",
 "q": "RAI kontrendikasyonları ve nedenleri?",
-"a": "<b>Gebelik ve emzirme</b> (fetal tiroidi ablate eder, süte geçer). <b>Aktif orta-ağır Graves oftalmopatisi</b> (alevlenir). <b>Tiroidit</b> (bez iyot tutmaz). <b>Medüller/anaplastik ca</b> (iyot tutmaz). Bası yapan büyük guatr ve malignite şüpheli nodülde cerrahi tercih edilir."
+"a": "<b>Gebelik ve emzirme</b> (fetal tiroidi ablate eder, süte geçer). <b>Aktif orta-ağır Graves oftalmopatisi</b> (alevlenir). <b>Tiroidit</b> (bez iyot tutmaz). <b>Medüller/anaplastik ca</b> (iyot tutmaz). Bası yapan büyük guatr ve malignite şüpheli nodülde cerrahi tercih edilir.",
+"ek": "RAI sonrası 6-12 ay gebelikten kaçınılır."
 },
 {
 "id": "e36",
 "deck": "Nükleer tıp",
 "kind": "Endikasyon",
 "q": "Tc-99m perteknetat, I-123 ve I-131 farkları?",
-"a": "<b>Tc-99m</b>: yarı ömür 6 saat, IV, 20. dakikada görüntü, tutulur ama <b>organifiye olmaz</b>, en sık kullanılan. <b>I-123</b>: 13,2 saat, sadece görüntüleme, pahalı. <b>I-131</b>: 8,1 gün, beta + gama → <b>tedavi + görüntüleme</b>."
+"a": "<b>Tc-99m</b>: yarı ömür 6 saat, IV, 20. dakikada görüntü, tutulur ama <b>organifiye olmaz</b>, en sık kullanılan. <b>I-123</b>: 13,2 saat, sadece görüntüleme, pahalı. <b>I-131</b>: 8,1 gün, beta + gama → <b>tedavi + görüntüleme</b>.",
+"why": "Tc-99m sadece yakalanır, organifiye olmaz: ucuz, hızlı, düşük doz. I-131'in beta ışını dokuyu yok eder, bu yüzden tedavide kullanılır."
 },
 {
 "id": "e37",
