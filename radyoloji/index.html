@@ -56,7 +56,7 @@ select{appearance:none;-webkit-appearance:none;width:100%;font-size:16px;padding
 .cap{padding:9px 14px 0;color:var(--accInk);font-weight:700;font-size:15px}
 .leg{background:#14161b;margin-top:8px;padding:8px 14px;font-size:16px;line-height:1.45}
 .leg div{margin:3px 0}
-.ans{padding:10px 14px 14px;border-top:1px dashed var(--line);margin-top:10px}
+.ans{line-height:1.6;padding:10px 14px 14px;border-top:1px dashed var(--line);margin-top:10px}
 .step{padding:10px 14px;border-top:1px solid var(--line)}
 .step .sq{font-weight:700}
 .step .sa{margin-top:6px;padding:8px 12px;border-left:4px solid var(--acc);background:color-mix(in srgb,var(--acc) 10%,transparent);border-radius:0 8px 8px 0}
@@ -69,6 +69,7 @@ select{appearance:none;-webkit-appearance:none;width:100%;font-size:16px;padding
 .rate small{display:block;font-weight:400;font-size:12px;opacity:.92;margin-top:2px}
 .r0{background:var(--bad)}.r1{background:var(--mid)}.r2{background:var(--good)}
 .why{margin:8px 14px 0;padding:9px 12px;border-radius:10px;background:color-mix(in srgb,#9b77d6 12%,transparent);border-left:4px solid #9b77d6;font-size:16px}
+.why.hk{background:color-mix(in srgb,var(--good) 13%,transparent);border-left-color:var(--good)}
 .why.ek{background:color-mix(in srgb,var(--mid) 13%,transparent);border-left-color:var(--mid)}
 .why .lbl{color:inherit;opacity:.75}
 .src{margin:4px 14px 0;font-size:12.5px;font-weight:700;color:#fff;background:var(--hc);display:inline-block;padding:1px 8px;border-radius:6px}
@@ -174,7 +175,7 @@ function stats(){
 const film=(src,tag)=>`<div class="film" data-z="${src}"><img src="${src}" alt="Slayt görüntüsü">${tag?`<span class="tag">${tag}</span>`:""}</div>`;
 const legend=c=>c.leg&&c.leg.length?`<div class="leg">${c.leg.map(l=>`<div style="color:${l.c}"><b>(${l.n})</b> ${l.t}</div>`).join("")}</div>`:"";
 const rateBox=c=>`<div class="dock"><div class="rate"><button class="r0" data-r="0">Bilmiyorum<small>4 kart sonra yine</small></button><button class="r1" data-r="1">Zor<small>sona atılır</small></button><button class="r2" data-r="2">Biliyorum<small>desteden çıkar</small></button></div></div>`;
-const whyBox=c=>(c.why?`<div class="why"><span class="lbl">NEDEN?</span>${c.why}</div>`:"")+(c.ek?`<div class="why ek"><span class="lbl">SÖZLÜDE EK</span>${c.ek}</div>`:"");
+const whyBox=c=>(c.hook?`<div class="why hk"><span class="lbl">AKILDA TUT</span>${c.hook}</div>`:"")+(c.why?`<div class="why"><span class="lbl">NEDEN?</span>${c.why}</div>`:"")+(c.ek?`<div class="why ek"><span class="lbl">SÖZLÜDE EK</span>${c.ek}</div>`:"");
 const flipBox=(t,h)=>`<div class="dock">${h?`<div class="two"><button class="big" id="flip">${t}</button><button class="big ghost" id="hint">İpucu</button></div>`:`<button class="big" id="flip">${t}</button>`}</div>`;
 function render(){
   const v=$("#view");
