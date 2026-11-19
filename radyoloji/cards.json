@@ -829,6 +829,19 @@
 "why": "Ne kadar yoğun (atom numarası yüksek) madde, o kadar X ışını tutar, filme o kadar az ışın ulaşır ve beyaz görünür."
 },
 {
+"id": "q55",
+"deck": "Akut batın & GİS",
+"kind": "Sözlü",
+"q": "MRCP nedir, kime yapılır? ERCP'den farkı ne?",
+"a": "<b>MR kolanjiopankreatografi</b>: ağır T2 ağırlıklı MR ile safra ve pankreas kanalları parlak görüntülenir; <b>kontrast ve radyasyon yok, noninvaziv, sadece tanısal</b>. Endikasyon: <b>koledok taşı şüphesi</b> (USG'de dilatasyon var, taş görülmüyor), obstrüktif sarılığın nedeni (taş, striktür, tümör), ERCP öncesi yol haritası / ERCP yapılamayan hasta, koledok kisti, PSK. <b>ERCP</b> invazivdir ama hem tanı hem tedavi yapar (taş çıkarma, stent); komplikasyonu en sık pankreatit. Pratik: önce MRCP ile tanı, tedavi gerekirse ERCP.",
+"img": "img/mrcp_m.jpg",
+"cap": "MRCP (09 s60): T2 ağırlıklı, kontrastsız; safra ve pankreas kanalları parlak. Sarılık: USG → BT → MRCP/ERCP",
+"leg": [],
+"front": "img/mrcp_f.jpg",
+"why": "Safra ve pankreas sıvısı durağan ve T2'de çok parlaktır; ağır T2 sekansı çevre dokuyu baskılayıp sadece sıvıyı gösterir. Bu yüzden kontrast gerekmez.",
+"ek": "USG koledok distalini (pankreas başı arkası) barsak gazı yüzünden göremez; MRCP orayı da gösterir."
+},
+{
 "id": "f_yelken",
 "deck": "Toraks",
 "kind": "Görsel",
