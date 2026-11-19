@@ -3643,6 +3643,565 @@
 "a": "<b>MIBG</b>: feokromositoma, nöroblastom, karsinoid, medüller tiroid ca. <b>Tc-99m MIBI (çift faz)</b>: primer hiperparatiroidide ameliyat öncesi adenom lokalizasyonu."
 },
 {
+"id": "a_ct33",
+"deck": "Toraks",
+"kind": "Anatomi",
+"q": "Kontrastlı toraks BT, aksiyel. Numaralı yapılar ne?",
+"a": "Arkus aorta üstü (supraaortik) seviye.",
+"img": "img/anat_ct33.jpg",
+"front": "img/anat_ct33.jpg",
+"cap": "",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "Sol subklavyan arter"
+},
+{
+"n": 2,
+"c": "#00d2ff",
+"t": "Sol brakiyosefalik ven"
+},
+{
+"n": 3,
+"c": "#ff5ac8",
+"t": "Vena cava süperior"
+}
+],
+"ek": "Bu seviyede arkus dalları görülür. Bu hastada <b>bovin ark</b> varyasyonu var: sol CCA ile brakiyosefalik arter tek kökten çıkıyor."
+},
+{
+"id": "a_ct34",
+"deck": "Toraks",
+"kind": "Anatomi",
+"q": "Kontrastlı toraks BT, aksiyel. Numaralı yapılar ne?",
+"a": "Arkus aorta seviyesi.",
+"img": "img/anat_ct34.jpg",
+"front": "img/anat_ct34.jpg",
+"cap": "",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "Arkus aorta"
+},
+{
+"n": 2,
+"c": "#00d2ff",
+"t": "Vena cava süperior"
+}
+],
+"ek": "Arkus trakeanın solunda, önden arkaya uzanan tek tübüler yapı olarak görülür. VCS sağında kalır."
+},
+{
+"id": "a_ct37",
+"deck": "Toraks",
+"kind": "Anatomi",
+"q": "Kontrastlı toraks BT, aksiyel. Numaralı yapılar ne?",
+"a": "Arkus altı seviye.",
+"img": "img/anat_ct37.jpg",
+"front": "img/anat_ct37.jpg",
+"cap": "",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "Çıkan aorta"
+},
+{
+"n": 2,
+"c": "#00d2ff",
+"t": "İnen aorta"
+},
+{
+"n": 3,
+"c": "#ff5ac8",
+"t": "Vena cava süperior"
+}
+],
+"ek": "<b>Çıkan aorta</b> önde ve sağda, <b>inen aorta</b> vertebranın sol ön-yanında. VCS çıkan aortanın sağında."
+},
+{
+"id": "a_ct38",
+"deck": "Toraks",
+"kind": "Anatomi",
+"q": "Kontrastlı toraks BT, aksiyel. Numaralı yapılar ne?",
+"a": "Pulmoner trunkus seviyesi.",
+"img": "img/anat_ct38.jpg",
+"front": "img/anat_ct38.jpg",
+"cap": "",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "Çıkan aorta"
+},
+{
+"n": 2,
+"c": "#00d2ff",
+"t": "İnen aorta"
+},
+{
+"n": 3,
+"c": "#ff5ac8",
+"t": "Pulmoner trunkus"
+},
+{
+"n": 4,
+"c": "#5aff3c",
+"t": "Vena cava süperior"
+}
+],
+"ek": "Pulmoner trunkus çıkan aortanın solunda ve önündedir."
+},
+{
+"id": "a_ct39",
+"deck": "Toraks",
+"kind": "Anatomi",
+"q": "Kontrastlı toraks BT, aksiyel. Numaralı yapılar ne?",
+"a": "Pulmoner arter bifurkasyonu.",
+"img": "img/anat_ct39.jpg",
+"front": "img/anat_ct39.jpg",
+"cap": "",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "Çıkan aorta"
+},
+{
+"n": 2,
+"c": "#00d2ff",
+"t": "İnen aorta"
+},
+{
+"n": 3,
+"c": "#ff5ac8",
+"t": "Pulmoner trunkus"
+},
+{
+"n": 4,
+"c": "#5aff3c",
+"t": "Sol ana pulmoner arter"
+},
+{
+"n": 5,
+"c": "#ff8c00",
+"t": "Sağ ana pulmoner arter"
+}
+],
+"ek": "Sağ pulmoner arter çıkan aortanın arkasından sağa geçer; sol pulmoner arter sol ana bronşun üzerinden kıvrılır."
+},
+{
+"id": "a_ct41",
+"deck": "Toraks",
+"kind": "Anatomi",
+"q": "Kontrastlı toraks BT, aksiyel. Numaralı yapılar ne?",
+"a": "Pulmoner arterler seviyesi.",
+"img": "img/anat_ct41.jpg",
+"front": "img/anat_ct41.jpg",
+"cap": "",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "Çıkan aorta"
+},
+{
+"n": 2,
+"c": "#00d2ff",
+"t": "Sol ana pulmoner arter"
+},
+{
+"n": 3,
+"c": "#ff5ac8",
+"t": "Sağ ana pulmoner arter"
+},
+{
+"n": 4,
+"c": "#5aff3c",
+"t": "İnen aorta"
+}
+]
+},
+{
+"id": "a_ct42",
+"deck": "Toraks",
+"kind": "Anatomi",
+"q": "Kontrastlı toraks BT, aksiyel. Numaralı yapılar ne?",
+"a": "Aort kökü seviyesi.",
+"img": "img/anat_ct42.jpg",
+"front": "img/anat_ct42.jpg",
+"cap": "",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "Çıkan aorta"
+},
+{
+"n": 2,
+"c": "#00d2ff",
+"t": "Sağ atrium"
+},
+{
+"n": 3,
+"c": "#ff5ac8",
+"t": "Sol atrial aurikula"
+},
+{
+"n": 4,
+"c": "#5aff3c",
+"t": "İnen aorta"
+}
+]
+},
+{
+"id": "a_ct44",
+"deck": "Toraks",
+"kind": "Anatomi",
+"q": "Kontrastlı toraks BT, aksiyel. Numaralı yapılar ne?",
+"a": "Kalp boşlukları seviyesi.",
+"img": "img/anat_ct44.jpg",
+"front": "img/anat_ct44.jpg",
+"cap": "",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "Sağ atrium"
+},
+{
+"n": 2,
+"c": "#00d2ff",
+"t": "Sol atrium"
+},
+{
+"n": 3,
+"c": "#ff5ac8",
+"t": "Sağ ventrikül"
+},
+{
+"n": 4,
+"c": "#5aff3c",
+"t": "İnen aorta"
+},
+{
+"n": 5,
+"c": "#ff8c00",
+"t": "Pulmoner venler"
+}
+],
+"ek": "<b>Sol atrium</b> en arkadaki boşluktur (özefagus ve inen aortanın önünde); pulmoner venler sol atriuma açılır."
+},
+{
+"id": "a_ct47",
+"deck": "Toraks",
+"kind": "Anatomi",
+"q": "Kontrastlı toraks BT, aksiyel. Numaralı yapılar ne?",
+"a": "Dört boşluk görüntüsü.",
+"img": "img/anat_ct47.jpg",
+"front": "img/anat_ct47.jpg",
+"cap": "",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "Sağ atrium"
+},
+{
+"n": 2,
+"c": "#00d2ff",
+"t": "Sol atrium"
+},
+{
+"n": 3,
+"c": "#ff5ac8",
+"t": "Sağ ventrikül"
+},
+{
+"n": 4,
+"c": "#5aff3c",
+"t": "İnterventriküler septum"
+},
+{
+"n": 5,
+"c": "#ff8c00",
+"t": "Sol ventrikül"
+},
+{
+"n": 6,
+"c": "#be82ff",
+"t": "İnteratriyal septum"
+},
+{
+"n": 7,
+"c": "#ff5050",
+"t": "İnen aorta"
+},
+{
+"n": 8,
+"c": "#78ffdc",
+"t": "Pulmoner venler"
+}
+],
+"ek": "<b>Sağ ventrikül</b> en öndedir (sternumun arkası), <b>sol atrium</b> en arkada. Sol ventrikül duvarı sağdan kalındır."
+},
+{
+"id": "a_ct49",
+"deck": "Toraks",
+"kind": "Anatomi",
+"q": "Kontrastlı toraks BT, aksiyel. Numaralı yapılar ne?",
+"a": "Ventriküller ve VCI seviyesi.",
+"img": "img/anat_ct49.jpg",
+"front": "img/anat_ct49.jpg",
+"cap": "",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "Sağ ventrikül"
+},
+{
+"n": 2,
+"c": "#00d2ff",
+"t": "İnterventriküler septum"
+},
+{
+"n": 3,
+"c": "#ff5ac8",
+"t": "Sol ventrikül"
+},
+{
+"n": 4,
+"c": "#5aff3c",
+"t": "Vena cava inferior"
+},
+{
+"n": 5,
+"c": "#ff8c00",
+"t": "İnen aorta"
+}
+],
+"ek": "VCI sağ atriuma alttan açılır."
+},
+{
+"id": "a_ct52",
+"deck": "Toraks",
+"kind": "Anatomi",
+"q": "Kontrastlı toraks BT, aksiyel. Numaralı yapılar ne?",
+"a": "Diyafram / karaciğer kubbesi seviyesi.",
+"img": "img/anat_ct52.jpg",
+"front": "img/anat_ct52.jpg",
+"cap": "",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "Vena cava inferior"
+},
+{
+"n": 2,
+"c": "#00d2ff",
+"t": "İnen aorta"
+}
+],
+"ek": "VCI karaciğerin içinden geçer; inen aorta vertebranın solunda kalır ve diyaframdan sonra abdominal aorta olur."
+},
+{
+"id": "a_pa_kontur",
+"deck": "Toraks",
+"kind": "Anatomi",
+"q": "PA akciğer grafisi: 1-9 numaralı mediasten konturları ne?",
+"a": "1 Brakiyosefalik ven · 2 Vena cava süperior · 3 Sağ atrium · 4 Vena cava inferior · 5 Sol subklavyen arter · 6 Aort topuzu · 7 Pulmoner konüs (trunkus) · 8 Sol atriyal apendiks (aurikula) · 9 Sol ventrikül",
+"img": "img/anat_pa_kontur.jpg",
+"front": "img/anat_pa_kontur.jpg",
+"cap": "",
+"leg": [],
+"ek": "<b>Sağ kontur</b> (yukarıdan aşağı): brakiyosefalik ven/VCS → sağ atrium → VCI. <b>Sol kontur</b>: sol subklavyen arter → aort topuzu → pulmoner trunkus → sol atriyal apendiks → sol ventrikül. Sol atrium büyürse 8 belirginleşir ve karina açısı genişler."
+},
+{
+"id": "a_abd_cor",
+"deck": "Akut batın & GİS",
+"kind": "Anatomi",
+"q": "Kontrastlı batın BT, koronal. Numaralı yapılar ne?",
+"a": "Üst batın ve retroperiton.",
+"img": "img/anat_abd_cor.jpg",
+"front": "img/anat_abd_cor.jpg",
+"cap": "",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "Karaciğer"
+},
+{
+"n": 2,
+"c": "#00d2ff",
+"t": "Dalak"
+},
+{
+"n": 3,
+"c": "#ff5ac8",
+"t": "Sağ böbrek"
+},
+{
+"n": 4,
+"c": "#5aff3c",
+"t": "Sol böbrek"
+},
+{
+"n": 5,
+"c": "#ff8c00",
+"t": "Lomber vertebra korpusu"
+},
+{
+"n": 6,
+"c": "#be82ff",
+"t": "Psoas kası"
+},
+{
+"n": 7,
+"c": "#ff5050",
+"t": "İnen kolon"
+},
+{
+"n": 8,
+"c": "#78ffdc",
+"t": "İliak kemik"
+}
+],
+"ek": "Karaciğer sağda ve büyük, dalak solda üstte. Böbrekler T12-L3 arasında, psoas kasları vertebranın iki yanında aşağı doğru kalınlaşır. Psoas konturunun silinmesi retroperitoneal patolojiyi düşündürür."
+},
+{
+"id": "a_abd_ax",
+"deck": "Akut batın & GİS",
+"kind": "Anatomi",
+"q": "Batın BT, aksiyel (böbrek seviyesi). Numaralı yapılar ne?",
+"a": "Böbrek hilusu seviyesi.",
+"img": "img/anat_abd_ax.jpg",
+"front": "img/anat_abd_ax.jpg",
+"cap": "",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "Karaciğer (sağ lob)"
+},
+{
+"n": 2,
+"c": "#00d2ff",
+"t": "Sağ böbrek"
+},
+{
+"n": 3,
+"c": "#ff5ac8",
+"t": "Sol böbrek"
+},
+{
+"n": 4,
+"c": "#5aff3c",
+"t": "Vertebra korpusu"
+},
+{
+"n": 5,
+"c": "#ff8c00",
+"t": "Çıkan kolon / hepatik fleksura (dışkı)"
+},
+{
+"n": 6,
+"c": "#be82ff",
+"t": "Paraspinal kaslar"
+}
+],
+"ek": "Görüntüde hastanın sağı ekranın solundadır. Aorta vertebranın sol önünde, VCI sağ önünde yer alır."
+},
+{
+"id": "a_ivp",
+"deck": "Üriner",
+"kind": "Anatomi",
+"q": "İntravenöz piyelografi (İVP). Numaralı yapılar ne?",
+"a": "Toplayıcı sistem: minör kaliks → majör kaliks → renal pelvis → üreter → mesane.",
+"img": "img/anat_ivp.jpg",
+"front": "img/anat_ivp.jpg",
+"cap": "",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "Kaliksler"
+},
+{
+"n": 2,
+"c": "#00d2ff",
+"t": "Sağ renal pelvis"
+},
+{
+"n": 3,
+"c": "#ff5ac8",
+"t": "Sol renal pelvis"
+},
+{
+"n": 4,
+"c": "#5aff3c",
+"t": "Sağ üreter"
+},
+{
+"n": 5,
+"c": "#ff8c00",
+"t": "Sol üreter"
+},
+{
+"n": 6,
+"c": "#be82ff",
+"t": "Mesane"
+},
+{
+"n": 7,
+"c": "#ff5050",
+"t": "Femur başı"
+}
+],
+"ek": "Üreterin 3 fizyolojik darlığı (taş takılma yeri): <b>UP bileşke</b>, <b>iliak damarları çaprazladığı yer</b>, <b>UV bileşke</b>."
+},
+{
+"id": "at0",
+"deck": "Toraks",
+"kind": "Anatomi",
+"q": "PA grafide sağ ve sol mediasten konturlarını oluşturan yapıları say.",
+"a": "<b>Sağ</b>: brakiyosefalik ven / VCS, sağ atrium, VCI. <b>Sol</b>: sol subklavyen arter, aort topuzu, pulmoner trunkus (konüs), sol atriyal apendiks, sol ventrikül.",
+"ek": "Sağ ventrikül PA grafide kontur oluşturmaz, lateral grafide sternum arkasında (retrosternal) görülür."
+},
+{
+"id": "at1",
+"deck": "Toraks",
+"kind": "Anatomi",
+"q": "Mediasten kompartmanları ve içerikleri?",
+"a": "<b>Ön</b>: timus, lenf nodları, yağ (kitle: 4T – timoma, teratom, tiroid, lenfoma). <b>Orta</b>: kalp-perikard, çıkan aorta ve arkus, VCS, pulmoner arterler, trakea ve ana bronşlar, lenf nodları. <b>Arka</b>: inen aorta, özefagus, azigos, sempatik zincir (kitle: nörojenik tümör)."
+},
+{
+"id": "at2",
+"deck": "Toraks",
+"kind": "Anatomi",
+"q": "Toraks BT'de çıkan ve inen aortayı nasıl ayırırsın?",
+"a": "<b>Çıkan aorta</b>: önde, sternumun arkasında, pulmoner trunkusun sağında. <b>İnen aorta</b>: arkada, vertebra korpusunun sol ön-yanında. <b>Arkus</b>: trakeanın solunda tek tübüler yapı.",
+"ek": "Diseksiyonda Stanford A/B ayrımı bu yüzden önemlidir: flep çıkan aortadaysa tip A."
+},
+{
+"id": "at3",
+"deck": "Toraks",
+"kind": "Anatomi",
+"q": "Lateral akciğer grafisinde retrosternal ve retrokardiyak alan neyi gösterir?",
+"a": "<b>Retrosternal boşluk</b> normalde hava ile doludur; dolması ön mediasten kitlesi veya sağ ventrikül büyümesini düşündürür. <b>Retrokardiyak boşluk</b>: sol atrium büyümesi veya alt lob patolojisi burayı daraltır/doldurur."
+},
+{
+"id": "at4",
+"deck": "Akut batın & GİS",
+"kind": "Anatomi",
+"q": "Batın BT'de aorta ve VCI nerede, retroperitoneal organlar hangileri?",
+"a": "Aorta vertebranın <b>sol önünde</b>, VCI <b>sağ önünde</b>. Retroperitoneal: böbrekler, sürrenaller, pankreas (kuyruk hariç), duodenum (2-4. kısım), çıkan ve inen kolon, aorta, VCI, üreterler."
+},
+{
 "id": "b0",
 "deck": "Meme & BIRADS",
 "kind": "BIRADS",

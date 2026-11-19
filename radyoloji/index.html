@@ -46,7 +46,7 @@ select{appearance:none;-webkit-appearance:none;width:100%;font-size:16px;padding
 .card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:clip;box-shadow:0 12px 30px -18px rgba(0,0,0,.45)}
 .top{display:flex;justify-content:space-between;gap:8px;padding:11px 14px 0;font-size:13px;color:var(--mute)}
 .kind{font-weight:700;color:var(--accInk)}
-.kind.OSCE{color:#d0583f}.kind.BIRADS{color:#d0458f}.kind.Endikasyon{color:#9b77d6}
+.kind.OSCE{color:#d0583f}.kind.BIRADS{color:#d0458f}.kind.Anatomi{color:#3b82c4}.kind.Endikasyon{color:#9b77d6}
 .q{font-weight:700;font-size:clamp(18px,2.4vw,22px);line-height:1.35;padding:6px 14px 8px;margin:0}
 .case{padding:6px 14px 10px;font-size:17px}
 .lbl{font-size:12px;color:var(--mute);font-weight:700;letter-spacing:.02em;display:block;margin-bottom:2px}
@@ -131,8 +131,8 @@ details li{margin:4px 0}
 <div id="zoom"><img alt=""></div>
 <script>
 {
-const KINDS=["Sözlü","Görsel","OSCE","BIRADS","Endikasyon"];
-const KLAB={"Sözlü":"Sözlü soru","Görsel":"Görsel","OSCE":"OSCE olgu","Endikasyon":"Endikasyon","BIRADS":"BIRADS kaç?"};
+const KINDS=["Sözlü","Görsel","OSCE","BIRADS","Anatomi","Endikasyon"];
+const KLAB={"Sözlü":"Sözlü soru","Görsel":"Görsel","OSCE":"OSCE olgu","Endikasyon":"Endikasyon","BIRADS":"BIRADS kaç?","Anatomi":"Anatomi"};
 let CARDS=[],queue=[],pos=0,shown=0,hint=false,done=0,doneR=[0,0,0];
 const store={get(){try{return JSON.parse(localStorage.getItem("rk_prog")||"{}")}catch(e){return {}}},set(o){try{localStorage.setItem("rk_prog",JSON.stringify(o))}catch(e){}}};
 let prog=store.get();
