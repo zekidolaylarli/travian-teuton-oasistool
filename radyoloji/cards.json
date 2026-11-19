@@ -3641,5 +3641,401 @@
 "kind": "Endikasyon",
 "q": "MIBG ve paratiroid sintigrafisi endikasyonları?",
 "a": "<b>MIBG</b>: feokromositoma, nöroblastom, karsinoid, medüller tiroid ca. <b>Tc-99m MIBI (çift faz)</b>: primer hiperparatiroidide ameliyat öncesi adenom lokalizasyonu."
+},
+{
+"id": "b0",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? USG: oval, anekoik, keskin sınırlı, arkasında akustik güçlenme olan lezyon.",
+"a": "<b>BIRADS 2</b> – basit kist. Rutin tarama.",
+"why": "Tamamen sıvı, solid komponent yok: malignite riski yok denecek kadar az.",
+"img": "img/basitkist_m.jpg",
+"cap": "BASİT KİST – BIRADS 2 (13 s4)",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "Oval, ANEKOİK, keskin sınırlı"
+},
+{
+"n": 2,
+"c": "#00d2ff",
+"t": "Arkasında AKUSTİK GÜÇLENME (kistik içerik). Solid–kistik ayrımını USG yapar!"
+}
+],
+"front": "img/basitkist_f.jpg"
+},
+{
+"id": "b1",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? USG: kist içinde ince seviyelenme / homojen iç eko var, duvar ince, solid komponent yok (komplike kist).",
+"a": "<b>BIRADS 3</b> – kısa aralıklı takip (6 ay). Gerekirse aspirasyon.",
+"why": "İçerik yoğun (protein, kan, enfeksiyon) ama solid doku yok; risk ≤%2."
+},
+{
+"id": "b2",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? USG: kümelenmiş mikrokistler (küçük anekoik kistler, ince septalar).",
+"a": "<b>BIRADS 3</b> (tipik görünümde 2 de denebilir) – takip.",
+"why": "Fibrokistik değişiklik; solid komponent yok."
+},
+{
+"id": "b3",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? USG: kist içinde solid komponent, kalın duvar/septa, Doppler'de kanlanma.",
+"a": "<b>BIRADS 4A</b> (en az) – biyopsi.",
+"why": "Solid papiller komponent intrakistik papillom veya papiller karsinom olabilir; içi görülmeden ayrılamaz.",
+"img": "img/mikst_m.jpg",
+"cap": "Mikst solid-kistik lezyon – BIRADS 4A (13 s7)",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "Kist içinde solid komponent + Doppler'de kanlanma → biyopsi (BIRADS 4A)"
+}
+],
+"front": "img/mikst_f.jpg"
+},
+{
+"id": "b4",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Genç kadın, USG: oval, düzgün sınırlı, cilde paralel, homojen hipoekoik solid kitle (ilk kez saptanmış).",
+"a": "<b>BIRADS 3</b> – 6-12-24 ay takip; 2 yıl stabilse BIRADS 2. Büyürse 4 → biyopsi.",
+"why": "Tipik fibroadenom görünümü; malignite riski ≤%2, biyopsi yerine takip yeterli.",
+"img": "img/fa3_m.jpg",
+"cap": "Fibroadenom – BIRADS 3 (13 s9)",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "USG: oval, düzgün sınırlı, cilde PARALEL, homojen hipoekoik solid kitle → BIRADS 3 (6-12-24 ay takip)"
+}
+],
+"front": "img/fa3_f.jpg"
+},
+{
+"id": "b5",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Mamografi: iri, kaba 'popcorn' kalsifikasyon içeren kitle.",
+"a": "<b>BIRADS 2</b> – involüe (kalsifik) fibroadenom. Rutin tarama.",
+"why": "Dejenere fibroadenomun tipik kalsifikasyonu; malign kalsifikasyonlar ince ve küçüktür.",
+"img": "img/fa_kalsifik_m.jpg",
+"cap": "Kalsifik (involüe) fibroadenom – BIRADS 2 (13 s13)",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "İri, kaba 'POPCORN' kalsifikasyon → benign, BIRADS 2"
+},
+{
+"n": 2,
+"c": "#ffd600",
+"t": "Aynı lezyon MLO'da"
+}
+],
+"front": "img/fa_kalsifik_f.jpg"
+},
+{
+"id": "b6",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Mamografi: tamamen yağ dansiteli, ince kapsüllü lezyon.",
+"a": "<b>BIRADS 2</b> – lipom.",
+"why": "Yağ içeren lezyonlar (lipom, yağ kisti, hamartom, galaktosel) her zaman benigndir.",
+"img": "img/lipom_mmg_m.jpg",
+"cap": "Lipom – mamografi, BIRADS 2 (13 s18): yağ dansiteli, ince kapsüllü lezyon",
+"leg": [],
+"front": "img/lipom_mmg_f.jpg"
+},
+{
+"id": "b7",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Mamografi: böbrek şeklinde, ortasında yağlı hilusu olan küçük lezyon (üst dış kadran).",
+"a": "<b>BIRADS 2</b> – intramamarian lenf nodu.",
+"why": "Yağlı hilus normal lenf nodunun işaretidir."
+},
+{
+"id": "b8",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Mamografi: damar boyunca ray şeklinde kalsifikasyon / cilt kalsifikasyonu / kalın çubuk (rod-like) sekretuar kalsifikasyon / milk of calcium.",
+"a": "<b>BIRADS 2</b> – tipik benign kalsifikasyonlar.",
+"why": "Milk of calcium: CC'de yuvarlak-silik, MLO/lateralde çay fincanı (seviyelenme) görünümü."
+},
+{
+"id": "b9",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Mamografi: tek grup halinde, küçük, yuvarlak (punktat) kalsifikasyonlar – ilk kez görülüyor.",
+"a": "<b>BIRADS 3</b> – 6 ay sonra kontrol.",
+"why": "Punktat kalsifikasyon lobüler tiptir, genelde benign; ama yeni grup olduğu için takip edilir."
+},
+{
+"id": "b10",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Mamografi: grup halinde amorf (silik, şekli seçilemeyen) kalsifikasyonlar.",
+"a": "<b>BIRADS 4B</b> – biyopsi (stereotaktik).",
+"why": "Amorf ve kaba heterojen kalsifikasyonlar 'şüpheli' morfolojidir (DCIS olabilir)."
+},
+{
+"id": "b11",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Mamografi: yeni gelişen grup halinde ince pleomorfik mikrokalsifikasyonlar.",
+"a": "<b>BIRADS 4C</b> – biyopsi.",
+"why": "Farklı şekil ve boyutta ince kalsifikasyonlar duktal nekrozu düşündürür."
+},
+{
+"id": "b12",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Mamografi: segmental / lineer dağılım gösteren ince lineer, dallanan mikrokalsifikasyonlar.",
+"a": "<b>BIRADS 5</b> (en az 4C) – stereotaktik vakum biyopsi / tel ile işaretleme.",
+"why": "Duktusun kalıbı (casting): DCIS/invaziv karsinom. Segmental dağılım tek bir duktal sistemi gösterir.",
+"img": "img/mikroca_b5_m.jpg",
+"cap": "Sol retroareolar mikrokalsifikasyon – BIRADS 5 (14 s33)",
+"leg": [
+{
+"n": 1,
+"c": "#ff46c8",
+"t": "Segmental/lineer dizilimli ince pleomorfik mikrokalsifikasyonlar → BIRADS 5 (biyopsi)"
+}
+],
+"front": "img/mikroca_b5_f.jpg"
+},
+{
+"id": "b13",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Mamografi: düzensiz şekilli, spiküle kenarlı, yüksek dansiteli kitle.",
+"a": "<b>BIRADS 5</b> (≥%95) – USG eşliğinde tru-cut biyopsi.",
+"why": "Spikülasyon tümörün çevre dokuyu infiltre edip desmoplastik reaksiyonla çekmesidir.",
+"img": "img/b5_m.jpg",
+"cap": "BIRADS 5 – mamografi (15 s57)",
+"leg": [
+{
+"n": 1,
+"c": "#ff46c8",
+"t": "Yüksek dansiteli, SPİKÜLE kenarlı düzensiz kitle → malignite olasılığı ≥%95, biyopsi"
+}
+],
+"front": "img/b5_f.jpg"
+},
+{
+"id": "b14",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Mamografi: spiküle kitle / yapısal distorsiyon.",
+"a": "<b>BIRADS 5</b> (distorsiyon tek başına, cerrahi öyküsü yoksa <b>en az BIRADS 4</b>) – biyopsi.",
+"why": "Cerrahi öyküsü olmayan distorsiyon invaziv karsinom veya radyal skar olabilir; ikisi de biyopsi/eksizyon ister. Postop skar ise BIRADS 2.",
+"img": "img/spikule_m.jpg",
+"cap": "Spiküle kitle (15 s23)",
+"leg": [
+{
+"n": 1,
+"c": "#ff46c8",
+"t": "Sarı oklar: spiküle kenar / yapısal distorsiyon → malignite lehine (BIRADS 5)"
+}
+],
+"front": "img/spikule_f.jpg"
+},
+{
+"id": "b15",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? USG: uzun ekseni cilde dik (taller than wide), angüle kenarlı, arkasında akustik gölge olan hipoekoik kitle.",
+"a": "<b>BIRADS 4C-5</b> – biyopsi.",
+"why": "Paralel olmayan oryantasyon doku planlarını delerek büyümek demektir; gölge desmoplazidendir.",
+"img": "img/us_paraleldegil_m.jpg",
+"cap": "USG – oryantasyon: paralel değil + posterior akustik gölge (15 s75, s82)",
+"leg": [
+{
+"n": 1,
+"c": "#ff46c8",
+"t": "Paralel DEĞİL (uzun &gt; geniş, 'taller than wide') → malignite lehine"
+},
+{
+"n": 2,
+"c": "#00d2ff",
+"t": "Arkasında akustik GÖLGELENME"
+}
+],
+"front": "img/us_paraleldegil_f.jpg"
+},
+{
+"id": "b16",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? USG: angüle / mikrolobüle / spiküle kenarlı hipoekoik kitle.",
+"a": "<b>BIRADS 4C</b> (ek kötü bulgularla 5) – biyopsi.",
+"why": "Kenar özelliği USG'de malignitenin en güçlü göstergelerinden biridir.",
+"img": "img/us_angule_m.jpg",
+"cap": "USG – kenar: angüle, mikrolobüle, spiküle (15 s72)",
+"leg": [
+{
+"n": 1,
+"c": "#ff46c8",
+"t": "Angüle / mikrolobüle / spiküle kenar → malignite lehine"
+}
+],
+"front": "img/us_angule_f.jpg"
+},
+{
+"id": "b17",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? USG: intrakistik solid kitle (miks solid-kistik).",
+"a": "<b>BIRADS 4A</b> (en az) – biyopsi.",
+"why": "İntrakistik papiller karsinom olabilir.",
+"img": "img/us_miks_m.jpg",
+"cap": "USG – miks solid-kistik (intrakistik papiller ca) (15 s79)",
+"leg": [
+{
+"n": 1,
+"c": "#ff46c8",
+"t": "Kist içinde solid komponent → en az BIRADS 4A"
+}
+],
+"front": "img/us_miks_f.jpg"
+},
+{
+"id": "b18",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Mamografi: kısmen keskin, kısmen belirsiz kenarlı oval kitle.",
+"a": "<b>BIRADS 4B</b> – biyopsi.",
+"why": "Belirsiz kenar tümörün çevreye infiltrasyonunu gizliyor olabilir."
+},
+{
+"id": "b19",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Mamografi: düzensiz şekilli, belirsiz kenarlı solid kitle (spikülasyon yok).",
+"a": "<b>BIRADS 4C</b> – biyopsi."
+},
+{
+"id": "b20",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Tarama mamografisinde kitle/asimetri var ama karakterize edilemiyor.",
+"a": "<b>BIRADS 0</b> – ek inceleme (spot kompresyon, magnifikasyon, USG) veya eski filmle karşılaştırma. Bu olguda ek USG basit kist gösterdi → <b>BIRADS 2</b>.",
+"why": "0 bir sonuç değil, 'eksik inceleme' demektir; kategori ek tetkikten sonra verilir.",
+"img": "img/b0_kist_m.jpg",
+"cap": "BIRADS 0 → ek inceleme → BIRADS 2 (15 s40)",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "Tarama mamografisinde kitle: karar verilemiyor → BIRADS 0 (ek görüntüleme gerekli)"
+},
+{
+"n": 2,
+"c": "#00d2ff",
+"t": "Ek USG: basit kist → BIRADS 2"
+}
+],
+"front": "img/b0_kist_f.jpg"
+},
+{
+"id": "b21",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Mamografi: tek projeksiyonda görülen asimetri.",
+"a": "<b>BIRADS 0</b> – ek görüntüleme (spot kompresyon). Süperpozisyon ise kaybolur → 1/2.",
+"why": "Tek projeksiyonda görülen asimetri çoğunlukla dokuların üst üste binmesidir."
+},
+{
+"id": "b22",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Önceki filmlere göre yeni ortaya çıkan veya büyüyen fokal asimetri (gelişen asimetri).",
+"a": "<b>BIRADS 4</b> – USG ile değerlendirme + biyopsi.",
+"why": "Yeni gelişen bulgu, benign görünse bile şüphelidir."
+},
+{
+"id": "b23",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Palpe edilmeyen, ek incelemede kitle özelliği taşımayan fokal asimetri.",
+"a": "<b>BIRADS 3</b> – 6 ay takip."
+},
+{
+"id": "b24",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? 76 yaşında postmenopozal kadın, yeni ortaya çıkmış, oldukça düzgün sınırlı kitle.",
+"a": "<b>En az BIRADS 4A</b> – biyopsi.",
+"why": "Yaşlıda yeni kitle FA olamaz; müsinöz/medüller karsinom ve papiller ca düzgün sınırlı olup FA'yı taklit eder.",
+"img": "img/musinoz_m.jpg",
+"cap": "76 y kadın, postmenopozal (14 s97)",
+"leg": [
+{
+"n": 1,
+"c": "#ffd600",
+"t": "Lobüle, kısmen düzgün sınırlı kitle → yaşlı kadında 'düzgün sınır' benign demek değildir (müsinöz/medüller ca taklit eder)"
+}
+],
+"front": "img/musinoz_f.jpg"
+},
+{
+"id": "b25",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? BIRADS 3 olarak takip edilen lezyon 2 yıl boyunca değişmedi.",
+"a": "<b>BIRADS 2</b>'ye düşürülür, rutin taramaya döner."
+},
+{
+"id": "b26",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? BIRADS 3 olarak takip edilen lezyon kontrolde büyümüş.",
+"a": "<b>BIRADS 4</b> – biyopsi."
+},
+{
+"id": "b27",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Lumpektomi sonrası operasyon yerinde spiküle görünüm, önceki kontrollere göre stabil.",
+"a": "<b>BIRADS 2</b> – postoperatif skar.",
+"why": "Nüks şüphesinde (yeni/büyüyen) ayrım için <b>meme MR</b> (skar kontrastlanmaz, nüks kontrastlanır)."
+},
+{
+"id": "b28",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Biyopsi ile invaziv duktal karsinom kanıtlanmış, neoadjuvan kemoterapi öncesi meme MR.",
+"a": "<b>BIRADS 6</b> – biyopsi ile kanıtlı malignite.",
+"why": "Ek şüpheli lezyon varsa ona ayrı kategori verilir."
+},
+{
+"id": "b29",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Hangi BIRADS? Mamografi ve USG tamamen normal, simetrik.",
+"a": "<b>BIRADS 1</b> – negatif, rutin tarama.",
+"why": "1 = hiç bulgu yok; 2 = bulgu var ama benign."
+},
+{
+"id": "b30",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "Aynı gün mamografi BIRADS 0, USG'de basit kist. Raporda kategori?",
+"a": "Tek birleşik rapor: <b>BIRADS 2</b>.",
+"why": "Aynı gün yapılan yöntemler tek raporda birleştirilir; en şüpheli bulguya göre tek kategori verilir."
+},
+{
+"id": "b31",
+"deck": "Meme & BIRADS",
+"kind": "BIRADS",
+"q": "BIRADS kategorilerinde malignite olasılıkları ve öneriler?",
+"a": "<b>0</b> ek inceleme · <b>1</b> negatif · <b>2</b> benign (%0) · <b>3</b> ≤%2, 6 ay takip · <b>4A</b> %2-10 · <b>4B</b> %10-50 · <b>4C</b> %50-95 → biyopsi · <b>5</b> ≥%95 → biyopsi · <b>6</b> kanıtlı malign → tedavi.",
+"why": "3 ile 4 arasındaki sınır: %2'nin üstü biyopsi demektir."
 }
 ]
