@@ -21,7 +21,8 @@
 ],
 "front": "img/efuzyon_f.jpg",
 "why": "Sıvı yer kaplar ve basınç yapar, bu yüzden mediasteni karşı tarafa iter. USG'nin seçilme nedeni: sıvıyı radyasyonsuz gösterir, miktarı ve septasyonu değerlendirir, torasentez iğnesine yol gösterir.",
-"ek": "PA grafide KFS'nin kapanması için ~200-300 ml sıvı gerekir. Daha az sıvıyı lateral dekübit grafi veya USG gösterir."
+"ek": "PA grafide KFS'nin kapanması için ~200-300 ml sıvı gerekir. Daha az sıvıyı lateral dekübit grafi veya USG gösterir.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "q1",
@@ -59,7 +60,8 @@
 ],
 "front": "img/hiler_f.jpg",
 "why": "Sarkoidozda lenf nodları iki tarafta simetrik büyür. Lenfomada tutulum asimetriktir ve ön mediasten öndedir. BT'nin istenme nedeni: nodların yerini ve boyutunu, parankimi gösterir, biyopsi için yol haritası çıkarır.",
-"ek": "Sarkoidoz evreleri (Scadding): 0 normal, 1 sadece BHL, 2 BHL + parankim, 3 sadece parankim, 4 fibroz."
+"ek": "Sarkoidoz evreleri (Scadding): 0 normal, 1 sadece BHL, 2 BHL + parankim, 3 sadece parankim, 4 fibroz.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "q3",
@@ -86,7 +88,8 @@
 ],
 "front": "img/yabanci_f.jpg",
 "why": "Yabancı cisim bronşu kısmen tıkar: inspiryumda hava girer, ekspiryumda çıkamaz (check-valve). Bu yüzden ekspiryum grafisinde fark belirginleşir.",
-"ek": "Neden en sık sağ? Sağ ana bronş daha geniş, daha kısa ve daha dik."
+"ek": "Neden en sık sağ? Sağ ana bronş daha geniş, daha kısa ve daha dik.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "q5",
@@ -110,7 +113,8 @@
 ],
 "front": "img/siluet_f.jpg",
 "why": "Aynı dansitedeki iki yapı yan yana gelince aralarındaki sınır kaybolur. Sağ kalp kenarına komşu olan lob orta lobdur.",
-"ek": "Lateral grafide orta lob fissürler arasında üçgen opasite olarak görülür."
+"ek": "Lateral grafide orta lob fissürler arasında üçgen opasite olarak görülür.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "q6",
@@ -138,7 +142,8 @@
 }
 ],
 "front": "img/nodul_f.jpg",
-"ek": "Parsiyel solid nodülün solid komponenti büyüdükçe invazyon olasılığı artar. Bu yüzden takipte solid kısmın boyutu ölçülür."
+"ek": "Parsiyel solid nodülün solid komponenti büyüdükçe invazyon olasılığı artar. Bu yüzden takipte solid kısmın boyutu ölçülür.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "q7",
@@ -146,14 +151,16 @@
 "kind": "Sözlü",
 "q": "60 yaşında erkek, bacakta ağrı-şişlik, nabız 110, hafif dispne. PE için ne yaparsın?",
 "a": "Önce <b>Wells</b>: DVT bulgusu 3 + taşikardi 1,5 = <b>4,5 (&gt;4)</b> → D-dimer beklemeden <b>doğrudan BT pulmoner anjiyografi</b>. Wells ≤4 olsaydı D-dimer: düşükse BT yok, yüksekse BT. Kontrast kontrendikasyonu/gebelik → V/Q sintigrafisi; DVT için alt ekstremite Doppler USG. Grafi PE için spesifik değil (Westermark, Hampton, Fleischner).",
-"why": "Wells &gt;4 olunca klinik olasılık yüksektir. Bu durumda negatif D-dimer bile PE'yi dışlamaz, o yüzden D-dimer'e bakılmaz. D-dimer düşük olasılıkta dışlama testidir: duyarlılığı yüksek, özgüllüğü düşüktür."
+"why": "Wells &gt;4 olunca klinik olasılık yüksektir. Bu durumda negatif D-dimer bile PE'yi dışlamaz, o yüzden D-dimer'e bakılmaz. D-dimer düşük olasılıkta dışlama testidir: duyarlılığı yüksek, özgüllüğü düşüktür.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "q8",
 "deck": "KVS & PE",
 "kind": "Sözlü",
 "q": "Wells skorunun parametrelerini say.",
-"a": "DVT bulguları 3, PE en olası tanı 3, kalp hızı &gt;100 1,5, immobilizasyon (≥3 gün)/son 4 haftada cerrahi 1,5, geçirilmiş DVT/PE 1,5, hemoptizi 1, malignite 1."
+"a": "DVT bulguları 3, PE en olası tanı 3, kalp hızı &gt;100 1,5, immobilizasyon (≥3 gün)/son 4 haftada cerrahi 1,5, geçirilmiş DVT/PE 1,5, hemoptizi 1, malignite 1.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "q9",
@@ -170,7 +177,8 @@
 "t": "Kırmızı daire: sağ alt lob arterlerinde dolum defekti (trombüs). BT anjiyo: EN duyarlı ve spesifik; kontrast kontrendikasyonunda V/Q"
 }
 ],
-"front": "img/pe_bta_f.jpg"
+"front": "img/pe_bta_f.jpg",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "q10",
@@ -188,7 +196,8 @@
 }
 ],
 "front": "img/diseksiyon_f.jpg",
-"why": "Asendan aort diseksiyonu perikarda (tamponad), koronerlere ve aort kapağına ilerleyebilir. Bu yüzden Stanford A acil cerrahidir."
+"why": "Asendan aort diseksiyonu perikarda (tamponad), koronerlere ve aort kapağına ilerleyebilir. Bu yüzden Stanford A acil cerrahidir.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "q11",
@@ -197,7 +206,8 @@
 "q": "Akut karın ağrısı ile gelen hastaya ilk ne çekersin, ne ararsın?",
 "a": "<b>Ayakta direkt batın grafisi</b> (+ ayakta AC): diyafram altı serbest hava (perforasyon), hava-sıvı seviyeleri (ileus), opak taş. Sonra kliniğe göre USG (safra, apandisit, jinekolojik, serbest sıvı) veya <b>BT (akut batında altın standart)</b>.",
 "why": "Ayakta çekilir çünkü serbest hava yükselip diyafram altında toplanır, sıvı-hava seviyeleri de ancak ayakta görülür.",
-"ek": "Hasta ayakta duramıyorsa sol lateral dekübit çekilir: hava karaciğer ile karın duvarı arasında toplanır."
+"ek": "Hasta ayakta duramıyorsa sol lateral dekübit çekilir: hava karaciğer ile karın duvarı arasında toplanır.",
+"hoca": "Elçin Aydın"
 },
 {
 "id": "q12",
@@ -214,7 +224,8 @@
 "t": "Oklar: sağ ve sol diyafram altında hilal şeklinde SERBEST HAVA. İlk tetkik: AYAKTA AC / direkt batın grafisi; BT en duyarlı"
 }
 ],
-"front": "img/perf_gis_f.jpg"
+"front": "img/perf_gis_f.jpg",
+"hoca": "Elçin Aydın"
 },
 {
 "id": "q13",
@@ -231,7 +242,8 @@
 "t": "Oklar: dilate ans ve hava-sıvı seviyeleri"
 }
 ],
-"front": "img/ileus_gis_f.jpg"
+"front": "img/ileus_gis_f.jpg",
+"hoca": "Elçin Aydın"
 },
 {
 "id": "q14",
@@ -260,7 +272,8 @@
 ],
 "front": "img/app_usg_f.jpg",
 "why": "Çocukta, gençte ve gebede önce USG, çünkü radyasyon yok. Erişkinde BT'nin doğruluğu daha yüksektir: obezite ve barsak gazı USG'yi kısıtlar.",
-"ek": "Hedef görünümü: inflame apendiksin kesitsel (aksiyel) görüntüsü."
+"ek": "Hedef görünümü: inflame apendiksin kesitsel (aksiyel) görüntüsü.",
+"hoca": "Elçin Aydın"
 },
 {
 "id": "q15",
@@ -284,7 +297,8 @@
 ],
 "front": "img/kolesistit_f.jpg",
 "why": "USG kese taşında en duyarlı yöntemdir ve sonografik Murphy'yi (prob ile tam kesenin üstüne basınca ağrı) gösterebilir.",
-"ek": "Taş ile polip ayrımı: taş hareketlidir ve gölge yapar, polip hareketsizdir ve gölge yapmaz."
+"ek": "Taş ile polip ayrımı: taş hareketlidir ve gölge yapar, polip hareketsizdir ve gölge yapmaz.",
+"hoca": "Elçin Aydın"
 },
 {
 "id": "q16",
@@ -292,7 +306,8 @@
 "kind": "Sözlü",
 "q": "Sarılıklı hastada görüntüleme sırası?",
 "a": "<b>1) USG</b> (safra yolları geniş mi, taş, kitle) → <b>2) BT</b> (kitle, evreleme) → <b>3) safra yolları genişse MRCP</b> (tanısal, noninvaziv) <b>veya ERCP</b> (tanı + tedavi: taş çıkarma, stent). Normal koledok ≤6 mm.",
-"why": "USG ile önce safra yollarının geniş olup olmadığına bakılır, çünkü obstrüktif (cerrahi) ve hepatoselüler sarılık ayrımını bu belirler. ERCP invazivdir, bu yüzden sadece tedavi de gerekecekse yapılır."
+"why": "USG ile önce safra yollarının geniş olup olmadığına bakılır, çünkü obstrüktif (cerrahi) ve hepatoselüler sarılık ayrımını bu belirler. ERCP invazivdir, bu yüzden sadece tedavi de gerekecekse yapılır.",
+"hoca": "Elçin Aydın"
 },
 {
 "id": "q17",
@@ -300,7 +315,8 @@
 "kind": "Sözlü",
 "q": "Akut pankreatit tanısı nasıl konur, görüntüleme ne zaman?",
 "a": "3 kriterden 2'si: tipik epigastrik ağrı, amilaz/lipaz ≥3 kat, görüntüleme bulgusu. Tanı genelde klinik + lab; <b>BT</b> tanı şüpheliyse veya 48-72 saat sonra komplikasyon (nekroz, koleksiyon) için. Etyoloji (safra taşı) için USG.",
-"why": "Erken BT nekrozu tam göstermez (nekroz 48-72 saatte belirginleşir). Tanı zaten klinik ve lab ile konur, bu yüzden erken BT gereksiz radyasyon olur."
+"why": "Erken BT nekrozu tam göstermez (nekroz 48-72 saatte belirginleşir). Tanı zaten klinik ve lab ile konur, bu yüzden erken BT gereksiz radyasyon olur.",
+"hoca": "Elçin Aydın"
 },
 {
 "id": "q18",
@@ -311,7 +327,8 @@
 "img": "img/mide_sema_m.jpg",
 "cap": "Midenin bölümleri (08 s25): kardia, fundus, korpus, antrum, pilor",
 "leg": [],
-"front": "img/mide_sema_f.jpg"
+"front": "img/mide_sema_f.jpg",
+"hoca": "Elçin Aydın"
 },
 {
 "id": "q19",
@@ -322,7 +339,8 @@
 "img": "img/elma_m.jpg",
 "cap": "Kolon ca – ELMA KOÇANI görünümü, çift kontrastlı kolon grafisi (08 s37): halkasal daralma, düzensiz mukoza, 'omuz' oluşumu",
 "leg": [],
-"front": "img/elma_f.jpg"
+"front": "img/elma_f.jpg",
+"hoca": "Elçin Aydın"
 },
 {
 "id": "q20",
@@ -330,21 +348,24 @@
 "kind": "Sözlü",
 "q": "Böbrek taşı şüphesinde hangi tetkik?",
 "a": "<b>Kontrastsız BT</b> (en duyarlı, tüm taşlar görünür). Çocuk/gebe → <b>USG</b>; opak taş takibi DÜSG. USG'de hidronefroz + ekojen taş + akustik gölge.",
-"why": "Neredeyse tüm taşlar BT'de hiperdenstir (indinavir taşı hariç). Ürik asit taşı direkt grafide görünmez ama BT'de görünür."
+"why": "Neredeyse tüm taşlar BT'de hiperdenstir (indinavir taşı hariç). Ürik asit taşı direkt grafide görünmez ama BT'de görünür.",
+"hoca": "Hilal Şahin"
 },
 {
 "id": "q21",
 "deck": "Üriner",
 "kind": "Sözlü",
 "q": "Akut piyelonefritte görüntüleme?",
-"a": "Komplike olmayan erişkinde gerekmez; gerekirse <b>kontrastlı BT</b> ilk tercih: yamalı hipodens alanlar, çizgili nefrogram, perirenal yağda çizgilenme; abse ayrımı. Çocukta ateşli ilk İYE → USG."
+"a": "Komplike olmayan erişkinde gerekmez; gerekirse <b>kontrastlı BT</b> ilk tercih: yamalı hipodens alanlar, çizgili nefrogram, perirenal yağda çizgilenme; abse ayrımı. Çocukta ateşli ilk İYE → USG.",
+"hoca": "Hilal Şahin"
 },
 {
 "id": "q22",
 "deck": "Üriner",
 "kind": "Sözlü",
 "q": "Böbrekte kistik lezyonu nasıl sınıflarsın?",
-"a": "<b>Bosniak</b>: duvar kalınlığı, septa, kalsifikasyon, mural nodül, kontrastlanan solid komponente göre. 1-2 benign, 2F takip, 3 orta risk, 4 yüksek risk (cerrahi)."
+"a": "<b>Bosniak</b>: duvar kalınlığı, septa, kalsifikasyon, mural nodül, kontrastlanan solid komponente göre. 1-2 benign, 2F takip, 3 orta risk, 4 yüksek risk (cerrahi).",
+"hoca": "Hilal Şahin"
 },
 {
 "id": "q23",
@@ -368,7 +389,8 @@
 ],
 "front": "img/hirsch_f.jpg",
 "why": "Rektal biyopsi kesin tanı koyar çünkü hastalık histolojiktir: ganglion hücresi yokluğu. Grafi sadece geçiş zonunu, yani hastalığın sınırını gösterir.",
-"ek": "Kolon grafisinden önce rektal tuşe yapılmaz, balon şişirilmez: geçiş zonu bozulabilir, perforasyon riski var."
+"ek": "Kolon grafisinden önce rektal tuşe yapılmaz, balon şişirilmez: geçiş zonu bozulabilir, perforasyon riski var.",
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "q24",
@@ -386,7 +408,8 @@
 }
 ],
 "front": "img/doublebubble_f.jpg",
-"why": "Hava mideyi ve duodenumu geçemez, bu yüzden iki kabarcık olur. Distale hiç gaz gitmemesi tam tıkanıklık (atrezi) demektir."
+"why": "Hava mideyi ve duodenumu geçemez, bu yüzden iki kabarcık olur. Distale hiç gaz gitmemesi tam tıkanıklık (atrezi) demektir.",
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "q25",
@@ -405,7 +428,8 @@
 ],
 "front": "img/invaj_f.jpg",
 "why": "Hedef görünümü iç içe geçmiş barsak duvarlarının kesitidir. USG radyasyonsuzdur ve redüksiyon sonrası kontrolde de kullanılır.",
-"ek": "En sık yaş 3 ay-2 yaş. Tipik triad: aralıklı karın ağrısı, kusma, çilek jölesi dışkı. Bu triad hastaların ancak bir kısmında görülür."
+"ek": "En sık yaş 3 ay-2 yaş. Tipik triad: aralıklı karın ağrısı, kusma, çilek jölesi dışkı. Bu triad hastaların ancak bir kısmında görülür.",
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "q26",
@@ -424,14 +448,16 @@
 ],
 "front": "img/vsug2_f.jpg",
 "why": "VUR reflüsü mesane dolarken ve işerken olur. Bu yüzden VSUG'da görüntüler işeme sırasında alınır.",
-"ek": "Erkekte işeme sırasında üretra da görüntülenir: PUV ancak böyle görülür."
+"ek": "Erkekte işeme sırasında üretra da görüntülenir: PUV ancak böyle görülür.",
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "q27",
 "deck": "Pediatrik batın",
 "kind": "Sözlü",
 "q": "Çocukta neden MR, dezavantajı ne?",
-"a": "Radyasyon yok, yumuşak doku çözünürlüğü en yüksek → pediatrik nöro (konjenital anomali, ensefalit, tümör, inme), spinal, MSK (osteomiyelit, tümör), MR-ürografi, MRCP. Dezavantaj: uzun süre → <b>sedasyon/anestezi</b>, pahalı, metal implant, gadolinyum."
+"a": "Radyasyon yok, yumuşak doku çözünürlüğü en yüksek → pediatrik nöro (konjenital anomali, ensefalit, tümör, inme), spinal, MSK (osteomiyelit, tümör), MR-ürografi, MRCP. Dezavantaj: uzun süre → <b>sedasyon/anestezi</b>, pahalı, metal implant, gadolinyum.",
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "q28",
@@ -439,7 +465,8 @@
 "kind": "Sözlü",
 "q": "BI-RADS'ın açılımı ve kategorileri?",
 "a": "<b>Breast Imaging Reporting And Data System</b> (ACR). 0 eksik/ek inceleme, 1 negatif, 2 benign, 3 olası benign (≤%2, 6 ay takip), 4 şüpheli – biyopsi (4A %2-10, 4B %10-50, 4C %50-94), 5 ≥%95 malign – biyopsi, 6 biyopsiyle kanıtlı malign.",
-"ek": "BIRADS 3 = takip, 4-5 = biyopsi. 0, eksik inceleme demektir: kategori ek tetkikten sonra verilir."
+"ek": "BIRADS 3 = takip, 4-5 = biyopsi. 0, eksik inceleme demektir: kategori ek tetkikten sonra verilir.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "q29",
@@ -447,7 +474,8 @@
 "kind": "Sözlü",
 "q": "Ele gelen meme kitlesi ile gelen 30 yaşında kadın. İlk tetkik?",
 "a": "<b>Meme USG</b> (genç, yoğun meme; solid-kistik ayrım). ≥40 yaşta mamografi + USG. Şüpheli (BIRADS 4-5) → USG eşliğinde tru-cut biyopsi.",
-"why": "40 yaş altında meme dokusu yoğundur, mamografide her şey beyaz görünür ve duyarlılık düşer. Ayrıca genç memeye radyasyon verilmemesi tercih edilir."
+"why": "40 yaş altında meme dokusu yoğundur, mamografide her şey beyaz görünür ve duyarlılık düşer. Ayrıca genç memeye radyasyon verilmemesi tercih edilir.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "q30",
@@ -470,7 +498,8 @@
 }
 ],
 "front": "img/basitkist_f.jpg",
-"why": "Mamografi X ışını ile dansite farkına bakar. Sıvı ile solid doku benzer miktarda X ışını tutar. USG ise iç yapıyı ses yansımasıyla görür: sıvı ekosuz (siyah) görünür."
+"why": "Mamografi X ışını ile dansite farkına bakar. Sıvı ile solid doku benzer miktarda X ışını tutar. USG ise iç yapıyı ses yansımasıyla görür: sıvı ekosuz (siyah) görünür.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "q31",
@@ -487,7 +516,8 @@
 "t": "Yüksek dansiteli, SPİKÜLE kenarlı düzensiz kitle → malignite olasılığı ≥%95, biyopsi"
 }
 ],
-"front": "img/b5_f.jpg"
+"front": "img/b5_f.jpg",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "q32",
@@ -510,7 +540,8 @@
 }
 ],
 "front": "img/fa_kalsifik_f.jpg",
-"why": "İri, kaba, düzensiz (popcorn) kalsifikasyon dejenere olmuş fibroadenomun tipik görünümüdür. Malign kalsifikasyonlar ince ve küçüktür."
+"why": "İri, kaba, düzensiz (popcorn) kalsifikasyon dejenere olmuş fibroadenomun tipik görünümüdür. Malign kalsifikasyonlar ince ve küçüktür.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "q33",
@@ -528,7 +559,8 @@
 }
 ],
 "front": "img/mikroca_b5_f.jpg",
-"why": "İnce, lineer, dallanan kalsifikasyon süt kanalının içindeki nekrotik tümörün kalsiyumlanmasıdır, yani duktusun kalıbıdır. Bu yüzden DCIS düşündürür."
+"why": "İnce, lineer, dallanan kalsifikasyon süt kanalının içindeki nekrotik tümörün kalsiyumlanmasıdır, yani duktusun kalıbıdır. Bu yüzden DCIS düşündürür.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "q34",
@@ -546,14 +578,16 @@
 }
 ],
 "front": "img/fa3_f.jpg",
-"why": "'Uzun &gt; geniş' büyüme doku planlarını dikey olarak delmek demektir: malign davranış. Benign lezyon doku planlarına paralel büyür."
+"why": "'Uzun &gt; geniş' büyüme doku planlarını dikey olarak delmek demektir: malign davranış. Benign lezyon doku planlarına paralel büyür.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "q35",
 "deck": "Meme & BIRADS",
 "kind": "Sözlü",
 "q": "Meme MR endikasyonları?",
-"a": "<b>BRCA/yüksek risk taraması</b>, opere memede <b>nüks</b> şüphesi, <b>neoadjuvan</b> kemoterapi yanıtı, problem çözme (yoğun meme, multisentrisite, implant). Duyarlılık yüksek, özgüllük düşük."
+"a": "<b>BRCA/yüksek risk taraması</b>, opere memede <b>nüks</b> şüphesi, <b>neoadjuvan</b> kemoterapi yanıtı, problem çözme (yoğun meme, multisentrisite, implant). Duyarlılık yüksek, özgüllük düşük.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "q36",
@@ -594,7 +628,8 @@
 ],
 "front": "img/dwi_f.jpg",
 "why": "İskemide hücre içine su girer (sitotoksik ödem), su molekülünün hareketi kısıtlanır ve difüzyonda parlak görünür. BT ise ödem ve dansite değişikliği oluşana kadar normal kalır.",
-"ek": "Trombolitik öncesi önce BT çekilir, çünkü kanamada trombolitik kontrendikedir."
+"ek": "Trombolitik öncesi önce BT çekilir, çünkü kanamada trombolitik kontrendikedir.",
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "q39",
@@ -605,7 +640,8 @@
 "img": "img/epifiz_m.jpg",
 "cap": "Epifiz – fizis – metafiz – diyafiz (17 s4): çocukta büyüme plağı (fizis) açık; erişkinde kapanır",
 "leg": [],
-"front": "img/epifiz_f.jpg"
+"front": "img/epifiz_f.jpg",
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "q40",
@@ -629,7 +665,8 @@
 ],
 "front": "img/galeazzi_f.jpg",
 "why": "Önkol bir halka gibidir. Bir yerden kırılırsa genelde ikinci bir noktada da (eklem) bozulur. Bu yüzden iki eklem birden görüntülenir.",
-"ek": "Hatırlatma: Galeazzi = radius kırığı + distal radioulnar eklem çıkığı. Monteggia = ulna kırığı + radius başı çıkığı."
+"ek": "Hatırlatma: Galeazzi = radius kırığı + distal radioulnar eklem çıkığı. Monteggia = ulna kırığı + radius başı çıkığı.",
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "q41",
@@ -647,14 +684,16 @@
 }
 ],
 "front": "img/torus_f.jpg",
-"why": "Çocuk kemiği esnektir, periost kalındır. Tam kırılmak yerine korteks bükülür veya bombeleşir."
+"why": "Çocuk kemiği esnektir, periost kalındır. Tam kırılmak yerine korteks bükülür veya bombeleşir.",
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "q42",
 "deck": "Kemik tümörü",
 "kind": "Sözlü",
 "q": "Direkt grafide kemik lezyonunu nasıl değerlendirirsin?",
-"a": "Yaş + lokalizasyon + 5 kriter: <b>1) şekil-kenar / yıkım tipi (jeografik, güve yeniği, permeatif) ve geçiş zonu 2) matriks (osseöz, kondroid, fibröz) 3) korteks (ekspansiyon, destrüksiyon) 4) periost reaksiyonu 5) yumuşak doku komponenti</b>."
+"a": "Yaş + lokalizasyon + 5 kriter: <b>1) şekil-kenar / yıkım tipi (jeografik, güve yeniği, permeatif) ve geçiş zonu 2) matriks (osseöz, kondroid, fibröz) 3) korteks (ekspansiyon, destrüksiyon) 4) periost reaksiyonu 5) yumuşak doku komponenti</b>.",
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "q43",
@@ -687,7 +726,8 @@
 }
 ],
 "front": "img/periost_f.jpg",
-"why": "Yavaş büyüyen lezyona kemik cevap verecek zaman bulur: sklerotik kenar, düzgün periost. Hızlı büyüyende zaman yoktur: geniş geçiş zonu, Codman üçgeni, ışınsal periost."
+"why": "Yavaş büyüyen lezyona kemik cevap verecek zaman bulur: sklerotik kenar, düzgün periost. Hızlı büyüyende zaman yoktur: geniş geçiş zonu, Codman üçgeni, ışınsal periost.",
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "q44",
@@ -705,7 +745,8 @@
 }
 ],
 "front": "img/os_f.jpg",
-"ek": "Osteosarkomda biyopsiyi tedaviyi yapacak cerrah planlamalı: biyopsi trakti tümör hücresi taşır ve sonradan çıkarılır."
+"ek": "Osteosarkomda biyopsiyi tedaviyi yapacak cerrah planlamalı: biyopsi trakti tümör hücresi taşır ve sonradan çıkarılır.",
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "q45",
@@ -737,7 +778,8 @@
 ],
 "front": "img/graves_tiroidit_f.jpg",
 "why": "Graves'te TRAb TSH reseptörünü uyarır, tüm bez aşırı çalışır ve diffüz yoğun tutulum olur. Tiroiditte bez hasarlıdır, iyot tutmaz; kandaki hormon depodan boşalandır.",
-"ek": "Tc-99m organifiye olmaz, sadece yakalanır. Bu yüzden 20. dakikada görüntü alınır ve ucuzdur. Uptake ölçümü için iyot (I-123/I-131) gerekir."
+"ek": "Tc-99m organifiye olmaz, sadece yakalanır. Bu yüzden 20. dakikada görüntü alınır ve ucuzdur. Uptake ölçümü için iyot (I-123/I-131) gerekir.",
+"hoca": "Nurşin Agüloğlu"
 },
 {
 "id": "q47",
@@ -784,7 +826,8 @@
 }
 ],
 "front": "img/paratiroid_f.jpg",
-"why": "MIBI mitokondriden zengin hücrede birikir. Paratiroid adenomu oksifil hücreden zengindir, bu yüzden MIBI'yi daha uzun tutar. Tiroidden ise daha hızlı temizlenir."
+"why": "MIBI mitokondriden zengin hücrede birikir. Paratiroid adenomu oksifil hücreden zengindir, bu yüzden MIBI'yi daha uzun tutar. Tiroidden ise daha hızlı temizlenir.",
+"hoca": "Nurşin Agüloğlu"
 },
 {
 "id": "q51",
@@ -802,7 +845,8 @@
 }
 ],
 "front": "img/vq_mismatch_f.jpg",
-"why": "Emboli damarı tıkar, perfüzyon gelmez ama hava yolu açık kalır, ventilasyon normaldir: uyumsuz defekt. KOAH ve pnömonide hava yolu bozulur, refleks vazokonstriksiyonla perfüzyon da azalır: uyumlu defekt."
+"why": "Emboli damarı tıkar, perfüzyon gelmez ama hava yolu açık kalır, ventilasyon normaldir: uyumsuz defekt. KOAH ve pnömonide hava yolu bozulur, refleks vazokonstriksiyonla perfüzyon da azalır: uyumlu defekt.",
+"hoca": "Emine Budak"
 },
 {
 "id": "q52",
@@ -839,7 +883,8 @@
 "leg": [],
 "front": "img/mrcp_f.jpg",
 "why": "Safra ve pankreas sıvısı durağan ve T2'de çok parlaktır; ağır T2 sekansı çevre dokuyu baskılayıp sadece sıvıyı gösterir. Bu yüzden kontrast gerekmez.",
-"ek": "USG koledok distalini (pankreas başı arkası) barsak gazı yüzünden göremez; MRCP orayı da gösterir."
+"ek": "USG koledok distalini (pankreas başı arkası) barsak gazı yüzünden göremez; MRCP orayı da gösterir.",
+"hoca": "Elçin Aydın"
 },
 {
 "id": "f_yelken",
@@ -854,7 +899,8 @@
 "c": "#ffd600",
 "t": "Yelken bulgusu: timusun üçgen şekilli alt kenarı (slayttaki kırmızı ok). Normal timus, kitle değil!"
 }
-]
+],
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "f_dalgali",
@@ -869,7 +915,8 @@
 "c": "#ffd600",
 "t": "Dalgalı kontur: kostalar yumuşak timusa iz yapar (slayt okları) → normal timus bulgusu"
 }
-]
+],
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "f_timus_usg",
@@ -884,7 +931,8 @@
 "c": "#00d2ff",
 "t": "Timustan ayrılamayan mediasten opasitesi → USG ile timus değerlendirilir (hoca: ilk tetkik USG)"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "f_kto",
@@ -904,7 +952,8 @@
 "c": "#00d2ff",
 "t": "KTİ = (x+y) / z (z: toraksın en geniş iç çapı). PA grafide &gt;0,5 → kardiyomegali (perikard efüzyonu da artırır)"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "f_hiler",
@@ -929,7 +978,8 @@
 "c": "#00d2ff",
 "t": "Mediasten genişlemiş (mediastinal LAP): LENFOMA"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "f_efuzyon",
@@ -949,7 +999,8 @@
 "c": "#00d2ff",
 "t": "Trakea + mediasten KARŞI tarafa (sola) itilmiş"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "f_pnomonektomi",
@@ -974,7 +1025,8 @@
 "c": "#5aff3c",
 "t": "Sağ akciğer kompansatuvar genişlemiş"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "f_ptx",
@@ -994,7 +1046,8 @@
 "c": "#00d2ff",
 "t": "Önce çekim hatası/rotasyon dışla: klavikula uçlarına bak!"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "f_yabanci",
@@ -1009,7 +1062,8 @@
 "c": "#ffd600",
 "t": "Sağ akciğer hiperlüsen: sağ ana bronşta fındık → check-valve hava hapsi (tam tıkanırsa kollaps)"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "f_siluet",
@@ -1029,7 +1083,8 @@
 "c": "#00d2ff",
 "t": "Sağ kalp kenarı seçilemiyor = silüet (+) → patoloji kalbe komşu: SAĞ ORTA LOB (sol kalp kenarı silinirse lingula)"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "f_goldens",
@@ -1049,7 +1104,8 @@
 "c": "#00d2ff",
 "t": "Kırmızı çizgi: yukarı çekilmiş minör fissür + medialde hiler kitle konveksitesi = ters S → bronş karsinomu"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "f_derinsulkus",
@@ -1064,7 +1120,8 @@
 "c": "#ffd600",
 "t": "Lateral kostofrenik sinüs derin ve keskin: supin hastada pnömotoraks (hava laterale-öne toplanır)"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "f_cannonball",
@@ -1084,7 +1141,8 @@
 "c": "#ffd600",
 "t": "→ hematojen METASTAZ (top güllesi) düşün; ilk sonraki tetkik kontrastlı toraks BT"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "f_nodul",
@@ -1109,7 +1167,8 @@
 "c": "#00d2ff",
 "t": "Solid nodül: yumuşak doku dansitesi, damarları tamamen örter"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "f_obs_atel",
@@ -1129,7 +1188,8 @@
 "c": "#00d2ff",
 "t": "BT: sağ ana bronşu tıkayan lezyon → distal akciğer kollabe (kontrastlı BT ile kitle-atelektazi ayrılır)"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "f_rds",
@@ -1149,7 +1209,8 @@
 "c": "#00d2ff",
 "t": "Ağır olguda 'beyaz akciğer' – kalp kenarları silinir"
 }
-]
+],
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "f_kvs_pala",
@@ -1164,7 +1225,8 @@
 "c": "#ffd600",
 "t": "Beyaz oklar: sağ akciğerden aşağı inen anormal pulmoner ven (pala) → VCI'ya drene olur"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "f_diseksiyon",
@@ -1179,7 +1241,8 @@
 "c": "#ffd600",
 "t": "Aort lümeninde lineer İNTİMAL FLEP → gerçek + yalancı lümen (yalancı lümen genelde daha geniş, geç dolar)"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "f_pe_bta",
@@ -1194,7 +1257,8 @@
 "c": "#ffd600",
 "t": "Kırmızı daire: sağ alt lob arterlerinde dolum defekti (trombüs). BT anjiyo: EN duyarlı ve spesifik; kontrast kontrendikasyonunda V/Q"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "f_pe_grafi",
@@ -1219,7 +1283,8 @@
 "c": "#ff46c8",
 "t": "Westermark: emboli distalinde vasküler işaret azalması, lüsensi artışı"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "f_app_usg",
@@ -1244,7 +1309,8 @@
 "c": "#00d2ff",
 "t": "Kırmızı oklar: çevre yağ dokusunda ekojenite artışı (inflamasyon)"
 }
-]
+],
+"hoca": "Elçin Aydın"
 },
 {
 "id": "f_app_bt",
@@ -1259,7 +1325,8 @@
 "c": "#ffd600",
 "t": "Kırmızı oklar: kalınlaşmış, kontrastlanan apendiks + periçekal yağda kirlenme; komplikasyon: apendikolit, abse, perforasyon"
 }
-]
+],
+"hoca": "Elçin Aydın"
 },
 {
 "id": "f_kolesistit",
@@ -1279,7 +1346,8 @@
 "c": "#00d2ff",
 "t": "BT: distandü kese, duvar kalınlaşması, perikolesistik sıvı/yağda kirlenme"
 }
-]
+],
+"hoca": "Elçin Aydın"
 },
 {
 "id": "f_divertikulit",
@@ -1294,7 +1362,8 @@
 "c": "#ffd600",
 "t": "Sarı oklar: segmental kolon duvar kalınlaşması + inflame divertikül; BT ilk tercih (yaşlı, sol alt kadran)"
 }
-]
+],
+"hoca": "Elçin Aydın"
 },
 {
 "id": "f_ileus",
@@ -1314,7 +1383,8 @@
 "c": "#00d2ff",
 "t": "BT: dilate ansların kalibrasyon değiştirdiği GEÇİŞ ZONU (kırmızı ok) → nedeni gösterir (brid, herni, tümör)"
 }
-]
+],
+"hoca": "Elçin Aydın"
 },
 {
 "id": "f_perf_gis",
@@ -1329,7 +1399,8 @@
 "c": "#ffd600",
 "t": "Oklar: sağ ve sol diyafram altında hilal şeklinde SERBEST HAVA. İlk tetkik: AYAKTA AC / direkt batın grafisi; BT en duyarlı"
 }
-]
+],
+"hoca": "Elçin Aydın"
 },
 {
 "id": "f_perforasyon",
@@ -1344,7 +1415,8 @@
 "c": "#ffd600",
 "t": "Beyaz oklar: ön karın duvarı altında serbest hava (BT, az miktar serbest havada en duyarlı)"
 }
-]
+],
+"hoca": "Elçin Aydın"
 },
 {
 "id": "f_pankreatit",
@@ -1359,7 +1431,8 @@
 "c": "#ffd600",
 "t": "Oklar: ödemli pankreas, peripankreatik sıvı ve yağ dokusunda kirlenme; tanı 3 kriterin 2'si (klinik, amilaz/lipaz ≥3x, görüntüleme)"
 }
-]
+],
+"hoca": "Elçin Aydın"
 },
 {
 "id": "f_ileus_gis",
@@ -1374,7 +1447,8 @@
 "c": "#ffd600",
 "t": "Oklar: dilate ans ve hava-sıvı seviyeleri"
 }
-]
+],
+"hoca": "Elçin Aydın"
 },
 {
 "id": "f_kolelit",
@@ -1389,7 +1463,8 @@
 "c": "#ffd600",
 "t": "Ok: kese içinde EKOJEN odak + arkasında AKUSTİK GÖLGE; pozisyonla HAREKETLİ"
 }
-]
+],
+"hoca": "Elçin Aydın"
 },
 {
 "id": "f_hemanjiom_usg",
@@ -1404,7 +1479,8 @@
 "c": "#ffd600",
 "t": "Ok: iyi sınırlı, homojen HİPEREKOİK lezyon (en sık benign KC tümörü)"
 }
-]
+],
+"hoca": "Elçin Aydın"
 },
 {
 "id": "f_doublebubble",
@@ -1419,7 +1495,8 @@
 "c": "#ffd600",
 "t": "Oklar: mide + duodenum bulbusunda iki hava kabarcığı, distalde gaz YOK → duodenal atrezi"
 }
-]
+],
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "f_hirsch",
@@ -1439,7 +1516,8 @@
 "c": "#00d2ff",
 "t": "Direkt grafi: yaygın gaz distansiyonu. Kesin tanı: tam kat rektal biyopsi"
 }
-]
+],
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "f_malrot",
@@ -1454,7 +1532,8 @@
 "c": "#ffd600",
 "t": "Oklar: duodenum/jejunum normal yerinde değil, tirbuşon görünümü → midgut volvulusu (acil!)"
 }
-]
+],
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "f_invaj",
@@ -1469,7 +1548,8 @@
 "c": "#ffd600",
 "t": "HEDEF (target / donut) görünümü: iç içe geçmiş barsak katları. İlk tetkik USG"
 }
-]
+],
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "f_vsug2",
@@ -1484,7 +1564,8 @@
 "c": "#ffd600",
 "t": "Mesaneye verilen kontrastın üreter ve pelvikalisiyel sisteme geri kaçması = VUR (VSUG altın standart)"
 }
-]
+],
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "f_atnali",
@@ -1499,7 +1580,8 @@
 "c": "#ffd600",
 "t": "Sarı oklar: alt pollerin orta hat önünde (isthmus) birleşmesi"
 }
-]
+],
+"hoca": "Hilal Şahin"
 },
 {
 "id": "f_staghorn",
@@ -1514,7 +1596,8 @@
 "c": "#ffd600",
 "t": "Sol böbrek toplayıcı sisteminde hiperdens taşlar (kontrastsız BT taşta en duyarlı); geyik boynuzu = toplayıcı sistemin şeklini alan büyük taş"
 }
-]
+],
+"hoca": "Hilal Şahin"
 },
 {
 "id": "f_basitkist",
@@ -1534,7 +1617,8 @@
 "c": "#00d2ff",
 "t": "Arkasında AKUSTİK GÜÇLENME (kistik içerik). Solid–kistik ayrımını USG yapar!"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "f_mikst",
@@ -1549,7 +1633,8 @@
 "c": "#ffd600",
 "t": "Kist içinde solid komponent + Doppler'de kanlanma → biyopsi (BIRADS 4A)"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "f_fa3",
@@ -1564,7 +1649,8 @@
 "c": "#ffd600",
 "t": "USG: oval, düzgün sınırlı, cilde PARALEL, homojen hipoekoik solid kitle → BIRADS 3 (6-12-24 ay takip)"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "f_fa_kalsifik",
@@ -1584,7 +1670,8 @@
 "c": "#ffd600",
 "t": "Aynı lezyon MLO'da"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "f_mikroca_sema",
@@ -1604,7 +1691,8 @@
 "c": "#ff46c8",
 "t": "İNTRADUKTAL tip: pleomorfik, ince LİNEER / DALLANAN (duktus kalıbı) → malign (DCIS)"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "f_mikroca_b5",
@@ -1619,7 +1707,8 @@
 "c": "#ff46c8",
 "t": "Segmental/lineer dizilimli ince pleomorfik mikrokalsifikasyonlar → BIRADS 5 (biyopsi)"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "f_musinoz",
@@ -1634,7 +1723,8 @@
 "c": "#ffd600",
 "t": "Lobüle, kısmen düzgün sınırlı kitle → yaşlı kadında 'düzgün sınır' benign demek değildir (müsinöz/medüller ca taklit eder)"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "f_spikule",
@@ -1649,7 +1739,8 @@
 "c": "#ff46c8",
 "t": "Sarı oklar: spiküle kenar / yapısal distorsiyon → malignite lehine (BIRADS 5)"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "f_fa_vs_ca",
@@ -1669,7 +1760,8 @@
 "c": "#ff46c8",
 "t": "inv kribriform ca: düzensiz, sınırları belirsiz, dens"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "f_b0_kist",
@@ -1689,7 +1781,8 @@
 "c": "#00d2ff",
 "t": "Ek USG: basit kist → BIRADS 2"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "f_b5",
@@ -1704,7 +1797,8 @@
 "c": "#ff46c8",
 "t": "Yüksek dansiteli, SPİKÜLE kenarlı düzensiz kitle → malignite olasılığı ≥%95, biyopsi"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "f_us_yuvarlak",
@@ -1719,7 +1813,8 @@
 "c": "#ffd600",
 "t": "Yuvarlak şekilli lezyon"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "f_us_duzensiz",
@@ -1734,7 +1829,8 @@
 "c": "#ff46c8",
 "t": "Düzensiz (irregüler) şekil → şüpheli"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "f_us_cevrelenmis",
@@ -1749,7 +1845,8 @@
 "c": "#ffd600",
 "t": "Kenar düzgün, çevrelenmiş (kesin benign demek değil)"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "f_us_angule",
@@ -1764,7 +1861,8 @@
 "c": "#ff46c8",
 "t": "Angüle / mikrolobüle / spiküle kenar → malignite lehine"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "f_us_paralel",
@@ -1779,7 +1877,8 @@
 "c": "#ffd600",
 "t": "Uzun ekseni cilde PARALEL (geniş &gt; uzun) → benign lehine"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "f_us_paraleldegil",
@@ -1799,7 +1898,8 @@
 "c": "#00d2ff",
 "t": "Arkasında akustik GÖLGELENME"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "f_us_miks",
@@ -1814,7 +1914,8 @@
 "c": "#ff46c8",
 "t": "Kist içinde solid komponent → en az BIRADS 4A"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "f_kanama_bt",
@@ -1834,7 +1935,8 @@
 "c": "#00d2ff",
 "t": "Mavi ok: kafatası dışı yumuşak doku (skalp) hematomu. Travmada İLK tetkik: KONTRASTSIZ BEYİN BT"
 }
-]
+],
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "f_dwi",
@@ -1854,7 +1956,8 @@
 "c": "#ffd600",
 "t": "Karşı hemisferde de kortikal difüzyon kısıtlaması"
 }
-]
+],
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "f_torus",
@@ -1869,7 +1972,8 @@
 "c": "#ffd600",
 "t": "Distal radius metafizinde korteks BOMBELEŞMESİ, net kırık hattı yok (çocukta plastisite)"
 }
-]
+],
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "f_galeazzi",
@@ -1889,7 +1993,8 @@
 "c": "#00d2ff",
 "t": "+ distal radioulnar eklem çıkığı. Kural: 2 eklem görüntülenmeli!"
 }
-]
+],
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "f_monteggia",
@@ -1909,7 +2014,8 @@
 "c": "#00d2ff",
 "t": "+ radius başı çıkığı (dirsek). 'Ulna kırığı görürsen radius başına bak'"
 }
-]
+],
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "f_kose",
@@ -1924,7 +2030,8 @@
 "c": "#ff46c8",
 "t": "Distal femur metafizinde köşe (kova sapı) kırığı → çocuk istismarı için spesifik"
 }
-]
+],
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "f_skafoid",
@@ -1939,7 +2046,8 @@
 "c": "#ffd600",
 "t": "Grafi normal görünebilir; klinik şüphede MR (sağ) kırığı gösterir"
 }
-]
+],
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "f_colles",
@@ -1954,7 +2062,8 @@
 "c": "#ffd600",
 "t": "Distal radius kırığı, fragman dorsale yer değiştirmiş"
 }
-]
+],
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "f_periost",
@@ -1984,7 +2093,8 @@
 "c": "#ff46c8",
 "t": "Codman üçgeni → agresif/malign"
 }
-]
+],
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "f_basitkemikkisti",
@@ -1999,7 +2109,8 @@
 "c": "#5aff3c",
 "t": "Jeografik, düzgün sklerotik kenar, periost reaksiyonu yok = benign; ok: DÜŞEN FRAGMAN"
 }
-]
+],
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "f_os",
@@ -2014,7 +2125,8 @@
 "c": "#ff46c8",
 "t": "Permeatif yıkım, düzensiz sınır, geniş geçiş zonu, korteks destrüksiyonu, osteoid matriks, yumuşak dokuya uzanım"
 }
-]
+],
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "f_ewing",
@@ -2029,7 +2141,8 @@
 "c": "#ff46c8",
 "t": "Diyafizde permeatif yıkım + SOĞAN ZARI periost reaksiyonu; MR'da kemik iliği tutulumu ve yumuşak doku"
 }
-]
+],
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "f_osteokondrom",
@@ -2044,7 +2157,8 @@
 "c": "#5aff3c",
 "t": "Metafizden dışa uzanan, korteks ve medulla ile devamlı ekzostoz; MR'da kıkırdak başlık"
 }
-]
+],
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "f_kondroblastom",
@@ -2059,7 +2173,8 @@
 "c": "#5aff3c",
 "t": "Proksimal humerus epifizinde iyi sınırlı litik lezyon"
 }
-]
+],
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "f_nodul_sinti",
@@ -2079,7 +2194,8 @@
 "c": "#00d2ff",
 "t": "Mavi halka: SOĞUK (hipoaktif) nodül → %10-20 kanser, biyopsi"
 }
-]
+],
+"hoca": "Nurşin Agüloğlu"
 },
 {
 "id": "f_graves_tiroidit",
@@ -2099,7 +2215,8 @@
 "c": "#00d2ff",
 "t": "TİROİDİT: tutulum çok düşük/yok (depo hormon kana geçmiş), uptake ~%1"
 }
-]
+],
+"hoca": "Nurşin Agüloğlu"
 },
 {
 "id": "f_sublingual",
@@ -2114,7 +2231,8 @@
 "c": "#ff8c00",
 "t": "Oklar: dil altında tutulum, boyunda normal tiroid lojunda tutulum yok"
 }
-]
+],
+"hoca": "Nurşin Agüloğlu"
 },
 {
 "id": "f_toksiknodul",
@@ -2134,7 +2252,8 @@
 "c": "#00d2ff",
 "t": "RAI sonrası: ekstranodüler doku görünür, nodül aktivitesi azalmış"
 }
-]
+],
+"hoca": "Nurşin Agüloğlu"
 },
 {
 "id": "f_postop",
@@ -2154,7 +2273,8 @@
 "c": "#ff8c00",
 "t": "Kırmızı oklar: lojda ve tiroglossal hatta REZİDÜ tiroid dokusu → RAİ ablasyon"
 }
-]
+],
+"hoca": "Nurşin Agüloğlu"
 },
 {
 "id": "f_paratiroid",
@@ -2174,7 +2294,8 @@
 "c": "#ff8c00",
 "t": "Geç faz (2 saat): tiroidden temizlenir, adenomda ODAKSAL RETANSİYON (oklar)"
 }
-]
+],
+"hoca": "Nurşin Agüloğlu"
 },
 {
 "id": "f_vq_mismatch",
@@ -2189,7 +2310,8 @@
 "c": "#ff8c00",
 "t": "Perfüzyonda (Tc-99m MAA) kama şeklinde segmental DEFEKT, ventilasyon (Technegas) NORMAL = UYUMSUZ (mismatch) → PE"
 }
-]
+],
+"hoca": "Emine Budak"
 },
 {
 "id": "o0",
@@ -2224,7 +2346,8 @@
 "c": "#00d2ff",
 "t": "Kırmızı çizgi: yukarı çekilmiş minör fissür + medialde hiler kitle konveksitesi = ters S → bronş karsinomu"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "o1",
@@ -2264,7 +2387,8 @@
 "c": "#00d2ff",
 "t": "Mediasten genişlemiş (mediastinal LAP): LENFOMA"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "o2",
@@ -2304,7 +2428,8 @@
 "t": "Trakea + mediasten KARŞI tarafa (sola) itilmiş"
 }
 ],
-"ek": "Sıvı boşaltılmadan çekilen BT'de sıvı altındaki kitle ve akciğer iyi değerlendirilemez."
+"ek": "Sıvı boşaltılmadan çekilen BT'de sıvı altındaki kitle ve akciğer iyi değerlendirilemez.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "o3",
@@ -2330,7 +2455,8 @@
 "c": "#ffd600",
 "t": "Sağ akciğer hiperlüsen: sağ ana bronşta fındık → check-valve hava hapsi (tam tıkanırsa kollaps)"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "o4",
@@ -2360,7 +2486,8 @@
 "c": "#ffd600",
 "t": "Yelken bulgusu: timusun üçgen şekilli alt kenarı (slayttaki kırmızı ok). Normal timus, kitle değil!"
 }
-]
+],
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "o5",
@@ -2395,7 +2522,8 @@
 "c": "#00d2ff",
 "t": "Ağır olguda 'beyaz akciğer' – kalp kenarları silinir"
 }
-]
+],
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "o6",
@@ -2430,7 +2558,8 @@
 "t": "Kırmızı daire: sağ alt lob arterlerinde dolum defekti (trombüs). BT anjiyo: EN duyarlı ve spesifik; kontrast kontrendikasyonunda V/Q"
 }
 ],
-"ek": "Gebede AC normalse V/Q tercih edilir, çünkü meme dokusuna radyasyon BTA'dan azdır."
+"ek": "Gebede AC normalse V/Q tercih edilir, çünkü meme dokusuna radyasyon BTA'dan azdır.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "o7",
@@ -2460,7 +2589,8 @@
 "c": "#ffd600",
 "t": "Aort lümeninde lineer İNTİMAL FLEP → gerçek + yalancı lümen (yalancı lümen genelde daha geniş, geç dolar)"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "o8",
@@ -2490,7 +2620,8 @@
 "c": "#ffd600",
 "t": "Oklar: sağ ve sol diyafram altında hilal şeklinde SERBEST HAVA. İlk tetkik: AYAKTA AC / direkt batın grafisi; BT en duyarlı"
 }
-]
+],
+"hoca": "Elçin Aydın"
 },
 {
 "id": "o9",
@@ -2521,7 +2652,8 @@
 "t": "Oklar: dilate ans ve hava-sıvı seviyeleri"
 }
 ],
-"why": "BT'deki geçiş zonu tıkanıklığın yerini gösterir. Nedenin görülmemesi, öyküde operasyon varsa bride işaret eder."
+"why": "BT'deki geçiş zonu tıkanıklığın yerini gösterir. Nedenin görülmemesi, öyküde operasyon varsa bride işaret eder.",
+"hoca": "Elçin Aydın"
 },
 {
 "id": "o10",
@@ -2561,7 +2693,8 @@
 "c": "#00d2ff",
 "t": "Kırmızı oklar: çevre yağ dokusunda ekojenite artışı (inflamasyon)"
 }
-]
+],
+"hoca": "Elçin Aydın"
 },
 {
 "id": "o11",
@@ -2596,7 +2729,8 @@
 "c": "#00d2ff",
 "t": "BT: distandü kese, duvar kalınlaşması, perikolesistik sıvı/yağda kirlenme"
 }
-]
+],
+"hoca": "Elçin Aydın"
 },
 {
 "id": "o12",
@@ -2622,7 +2756,8 @@
 "c": "#ffd600",
 "t": "Oklar: ödemli pankreas, peripankreatik sıvı ve yağ dokusunda kirlenme; tanı 3 kriterin 2'si (klinik, amilaz/lipaz ≥3x, görüntüleme)"
 }
-]
+],
+"hoca": "Elçin Aydın"
 },
 {
 "id": "o13",
@@ -2643,7 +2778,8 @@
 "img": "img/elma_m.jpg",
 "cap": "Kolon ca – ELMA KOÇANI görünümü, çift kontrastlı kolon grafisi (08 s37): halkasal daralma, düzensiz mukoza, 'omuz' oluşumu",
 "leg": [],
-"ek": "Elma koçanı görünümü tümörün lümeni çepeçevre sarmasıdır (anüler lezyon). En sık rektosigmoidde görülür."
+"ek": "Elma koçanı görünümü tümörün lümeni çepeçevre sarmasıdır (anüler lezyon). En sık rektosigmoidde görülür.",
+"hoca": "Elçin Aydın"
 },
 {
 "id": "o14",
@@ -2669,7 +2805,8 @@
 "c": "#ffd600",
 "t": "Sol böbrek toplayıcı sisteminde hiperdens taşlar (kontrastsız BT taşta en duyarlı); geyik boynuzu = toplayıcı sistemin şeklini alan büyük taş"
 }
-]
+],
+"hoca": "Hilal Şahin"
 },
 {
 "id": "o15",
@@ -2705,7 +2842,8 @@
 "t": "Direkt grafi: yaygın gaz distansiyonu. Kesin tanı: tam kat rektal biyopsi"
 }
 ],
-"why": "Kontrastlı kolon grafisi geçiş zonunu, yani hastalığın sınırını gösterir. Kesin tanı ise histolojiktir."
+"why": "Kontrastlı kolon grafisi geçiş zonunu, yani hastalığın sınırını gösterir. Kesin tanı ise histolojiktir.",
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "o16",
@@ -2735,7 +2873,8 @@
 "c": "#ffd600",
 "t": "Oklar: mide + duodenum bulbusunda iki hava kabarcığı, distalde gaz YOK → duodenal atrezi"
 }
-]
+],
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "o17",
@@ -2765,7 +2904,8 @@
 "c": "#ffd600",
 "t": "HEDEF (target / donut) görünümü: iç içe geçmiş barsak katları. İlk tetkik USG"
 }
-]
+],
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "o18",
@@ -2791,7 +2931,8 @@
 "c": "#ffd600",
 "t": "Mesaneye verilen kontrastın üreter ve pelvikalisiyel sisteme geri kaçması = VUR (VSUG altın standart)"
 }
-]
+],
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "o19",
@@ -2826,7 +2967,8 @@
 "c": "#00d2ff",
 "t": "Arkasında AKUSTİK GÜÇLENME (kistik içerik). Solid–kistik ayrımını USG yapar!"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "o20",
@@ -2856,7 +2998,8 @@
 "c": "#ffd600",
 "t": "USG: oval, düzgün sınırlı, cilde PARALEL, homojen hipoekoik solid kitle → BIRADS 3 (6-12-24 ay takip)"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "o21",
@@ -2886,7 +3029,8 @@
 "c": "#ff46c8",
 "t": "Yüksek dansiteli, SPİKÜLE kenarlı düzensiz kitle → malignite olasılığı ≥%95, biyopsi"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "o22",
@@ -2912,7 +3056,8 @@
 "c": "#ff46c8",
 "t": "Segmental/lineer dizilimli ince pleomorfik mikrokalsifikasyonlar → BIRADS 5 (biyopsi)"
 }
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "o23",
@@ -2928,7 +3073,8 @@
 "Meme MR'ın diğer endikasyonları?",
 "Opere memede <b>nüks</b> şüphesi (skar mı nüks mü), <b>neoadjuvan kemoterapi yanıtı</b>, problem çözme (yoğun meme, multifokalite, kontralateral meme, implant). MR'ın duyarlılığı yüksek, özgüllüğü düşüktür."
 ]
-]
+],
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "o24",
@@ -2968,7 +3114,8 @@
 "t": "TİROİDİT: tutulum çok düşük/yok (depo hormon kana geçmiş), uptake ~%1"
 }
 ],
-"ek": "Graves tedavisinde: RAI oftalmopatisi olmayanda, cerrahi büyük guatr veya oftalmopatide, ilaç (metimazol) gebe olmayan hastada ilk seçenektir; gebede 1. trimesterde PTU."
+"ek": "Graves tedavisinde: RAI oftalmopatisi olmayanda, cerrahi büyük guatr veya oftalmopatide, ilaç (metimazol) gebe olmayan hastada ilk seçenektir; gebede 1. trimesterde PTU.",
+"hoca": "Nurşin Agüloğlu"
 },
 {
 "id": "o25",
@@ -3004,7 +3151,8 @@
 "t": "TİROİDİT: tutulum çok düşük/yok (depo hormon kana geçmiş), uptake ~%1"
 }
 ],
-"why": "Tiroiditte hormon sentezi artmamıştır, depo boşalmıştır. Bu yüzden sentezi baskılayan antitiroid ilacın burada işlevi yoktur."
+"why": "Tiroiditte hormon sentezi artmamıştır, depo boşalmıştır. Bu yüzden sentezi baskılayan antitiroid ilacın burada işlevi yoktur.",
+"hoca": "Nurşin Agüloğlu"
 },
 {
 "id": "o26",
@@ -3035,7 +3183,8 @@
 "c": "#00d2ff",
 "t": "Mavi halka: SOĞUK (hipoaktif) nodül → %10-20 kanser, biyopsi"
 }
-]
+],
+"hoca": "Nurşin Agüloğlu"
 },
 {
 "id": "o27",
@@ -3070,7 +3219,8 @@
 "c": "#ff8c00",
 "t": "Kırmızı oklar: lojda ve tiroglossal hatta REZİDÜ tiroid dokusu → RAİ ablasyon"
 }
-]
+],
+"hoca": "Nurşin Agüloğlu"
 },
 {
 "id": "o28",
@@ -3101,7 +3251,8 @@
 "c": "#ff8c00",
 "t": "Geç faz (2 saat): tiroidden temizlenir, adenomda ODAKSAL RETANSİYON (oklar)"
 }
-]
+],
+"hoca": "Nurşin Agüloğlu"
 },
 {
 "id": "o29",
@@ -3126,7 +3277,8 @@
 "img": "img/fdg_viab_m.jpg",
 "cap": "Miyokard canlılığı (20 s15): üst sıra MIBI perfüzyon defekti, alt sıra FDG tutulumu var → HİBERNE (viabl) miyokard",
 "leg": [],
-"why": "Egzersiz yapamayan hastada vazodilatör (adenozin/dipiridamol) sağlam damarı genişletir. Dar damarın sulama alanı göreceli olarak az kan alır ve defekt ortaya çıkar."
+"why": "Egzersiz yapamayan hastada vazodilatör (adenozin/dipiridamol) sağlam damarı genişletir. Dar damarın sulama alanı göreceli olarak az kan alır ve defekt ortaya çıkar.",
+"hoca": "Emine Budak"
 },
 {
 "id": "o30",
@@ -3182,7 +3334,8 @@
 "c": "#ffd600",
 "t": "Karşı hemisferde de kortikal difüzyon kısıtlaması"
 }
-]
+],
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "o32",
@@ -3212,7 +3365,8 @@
 "c": "#ffd600",
 "t": "Distal radius metafizinde korteks BOMBELEŞMESİ, net kırık hattı yok (çocukta plastisite)"
 }
-]
+],
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "o33",
@@ -3243,7 +3397,8 @@
 "c": "#00d2ff",
 "t": "+ distal radioulnar eklem çıkığı. Kural: 2 eklem görüntülenmeli!"
 }
-]
+],
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "o34",
@@ -3270,7 +3425,8 @@
 "t": "Distal femur metafizinde köşe (kova sapı) kırığı → çocuk istismarı için spesifik"
 }
 ],
-"why": "Metafizyel köşe kırığı bebeğin kolundan/bacağından tutulup sarsılmasıyla oluşan çekme-burkma kuvvetinin sonucudur. Düşme ile oluşmaz."
+"why": "Metafizyel köşe kırığı bebeğin kolundan/bacağından tutulup sarsılmasıyla oluşan çekme-burkma kuvvetinin sonucudur. Düşme ile oluşmaz.",
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "o35",
@@ -3300,7 +3456,8 @@
 "c": "#ff46c8",
 "t": "Permeatif yıkım, düzensiz sınır, geniş geçiş zonu, korteks destrüksiyonu, osteoid matriks, yumuşak dokuya uzanım"
 }
-]
+],
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "o36",
@@ -3327,7 +3484,8 @@
 "t": "Diyafizde permeatif yıkım + SOĞAN ZARI periost reaksiyonu; MR'da kemik iliği tutulumu ve yumuşak doku"
 }
 ],
-"why": "Ewing de osteomiyelit de ateş, sedim artışı ve permeatif yıkım yapar. Ayrımı biyopsi koyar."
+"why": "Ewing de osteomiyelit de ateş, sedim artışı ve permeatif yıkım yapar. Ayrımı biyopsi koyar.",
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "o37",
@@ -3353,7 +3511,8 @@
 "c": "#5aff3c",
 "t": "Jeografik, düzgün sklerotik kenar, periost reaksiyonu yok = benign; ok: DÜŞEN FRAGMAN"
 }
-]
+],
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "o38",
@@ -3369,7 +3528,8 @@
 "Endometrium kanseri tanısı kondu. Lokal evreleme?",
 "<b>Pelvik MR (T2 + kontrast)</b>: miyometrial invazyon derinliği, servikal stroma tutulumu, LAP."
 ]
-]
+],
+"hoca": "Hilal Şahin"
 },
 {
 "id": "e0",
@@ -3443,35 +3603,40 @@
 "deck": "KVS & PE",
 "kind": "Endikasyon",
 "q": "Hangi hastada PE için BT anjiyo endikedir?",
-"a": "<b>Wells &gt;4</b> (PE olası) → doğrudan BTA. <b>Wells ≤4</b> → D-dimer; D-dimer yüksekse BTA, düşükse BT yapılmaz. Her dispne-taşikardi hastasına BTA istenmez."
+"a": "<b>Wells &gt;4</b> (PE olası) → doğrudan BTA. <b>Wells ≤4</b> → D-dimer; D-dimer yüksekse BTA, düşükse BT yapılmaz. Her dispne-taşikardi hastasına BTA istenmez.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "e10",
 "deck": "KVS & PE",
 "kind": "Endikasyon",
 "q": "V/Q sintigrafisi ne zaman tercih edilir?",
-"a": "PE şüphesi olup <b>iyotlu kontrast verilemeyen</b> hastada (alerji, böbrek yetmezliği) ve <b>gebede</b> (AC normalse). Uyumsuz defekt (perfüzyon bozuk, ventilasyon normal) = PE."
+"a": "PE şüphesi olup <b>iyotlu kontrast verilemeyen</b> hastada (alerji, böbrek yetmezliği) ve <b>gebede</b> (AC normalse). Uyumsuz defekt (perfüzyon bozuk, ventilasyon normal) = PE.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "e11",
 "deck": "KVS & PE",
 "kind": "Endikasyon",
 "q": "Abdominal aort anevrizmasında tarama ve takip?",
-"a": "Tarama ve takip <b>USG</b> ile (≥3 cm anevrizma). Altın standart <b>BT anjiyo</b> (cerrahi/EVAR planlama). &gt;5,5 cm veya hızlı büyüme → tedavi."
+"a": "Tarama ve takip <b>USG</b> ile (≥3 cm anevrizma). Altın standart <b>BT anjiyo</b> (cerrahi/EVAR planlama). &gt;5,5 cm veya hızlı büyüme → tedavi.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "e12",
 "deck": "KVS & PE",
 "kind": "Endikasyon",
 "q": "Miyokard perfüzyon sintigrafisi endikasyonları?",
-"a": "KAH tanısı (orta olasılık, EKG tanısal değil / egzersiz yapamıyor), risk sınıflaması (MI sonrası, kronik stabil KAH, kalp dışı cerrahi öncesi), canlılık değerlendirmesi, akut göğüs ağrısı, tedavi etkinliği."
+"a": "KAH tanısı (orta olasılık, EKG tanısal değil / egzersiz yapamıyor), risk sınıflaması (MI sonrası, kronik stabil KAH, kalp dışı cerrahi öncesi), canlılık değerlendirmesi, akut göğüs ağrısı, tedavi etkinliği.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "e13",
 "deck": "Akut batın & GİS",
 "kind": "Endikasyon",
 "q": "Akut batında hangi patolojide hangi ilk tetkik?",
-"a": "<b>Perforasyon</b>: ayakta AC/ADBG (serbest hava). <b>İleus</b>: ADBG (hava-sıvı) → BT. <b>Apandisit</b>: USG (genç, çocuk, gebe) / BT (erişkin). <b>Kolesistit</b>: USG. <b>Pankreatit</b>: klinik + lab; komplikasyon için BT. <b>Divertikülit</b>: BT. <b>Travma</b>: FAST + kontrastlı BT."
+"a": "<b>Perforasyon</b>: ayakta AC/ADBG (serbest hava). <b>İleus</b>: ADBG (hava-sıvı) → BT. <b>Apandisit</b>: USG (genç, çocuk, gebe) / BT (erişkin). <b>Kolesistit</b>: USG. <b>Pankreatit</b>: klinik + lab; komplikasyon için BT. <b>Divertikülit</b>: BT. <b>Travma</b>: FAST + kontrastlı BT.",
+"hoca": "Elçin Aydın"
 },
 {
 "id": "e14",
@@ -3479,7 +3644,8 @@
 "kind": "Endikasyon",
 "q": "Akut batında BT neden altın standart?",
 "a": "Hızlıdır; serbest hava, obstrüksiyonun yeri ve nedeni (geçiş zonu), inflamasyon, abse, iskemi, kanama ve organ yaralanmasını tek tetkikte gösterir. Dezavantajı radyasyon ve kontrast.",
-"ek": "Akut batında kontrastlı çekilir; böbrek taşı şüphesi ayrı tutulur (kontrastsız)."
+"ek": "Akut batında kontrastlı çekilir; böbrek taşı şüphesi ayrı tutulur (kontrastsız).",
+"hoca": "Elçin Aydın"
 },
 {
 "id": "e15",
@@ -3487,35 +3653,40 @@
 "kind": "Endikasyon",
 "q": "Çift kontrastlı baryumlu grafi kontrendikasyonları?",
 "a": "<b>İleus</b>, <b>perforasyon şüphesi</b> (baryum peritoniti; suda eriyen kontrast kullanılır), <b>toksik megakolon</b>, yakın zamanda <b>biyopsi/polipektomi</b>.",
-"why": "Perforasyonda baryum peritona kaçarsa ağır kimyasal peritonit ve adezyon yapar. Bu yüzden suda eriyen iyotlu kontrast kullanılır."
+"why": "Perforasyonda baryum peritona kaçarsa ağır kimyasal peritonit ve adezyon yapar. Bu yüzden suda eriyen iyotlu kontrast kullanılır.",
+"hoca": "Elçin Aydın"
 },
 {
 "id": "e16",
 "deck": "Akut batın & GİS",
 "kind": "Endikasyon",
 "q": "MRCP endikasyonları?",
-"a": "<b>Koledok taşı</b> şüphesi, USG'de dilate safra yolu, obstrüktif sarılık nedenini araştırma, ERCP öncesi yol haritası, safra yolu anomalisi, PSK. Noninvazivdir, kontrast gerektirmez (T2)."
+"a": "<b>Koledok taşı</b> şüphesi, USG'de dilate safra yolu, obstrüktif sarılık nedenini araştırma, ERCP öncesi yol haritası, safra yolu anomalisi, PSK. Noninvazivdir, kontrast gerektirmez (T2).",
+"hoca": "Elçin Aydın"
 },
 {
 "id": "e17",
 "deck": "Akut batın & GİS",
 "kind": "Endikasyon",
 "q": "Sarılıkta görüntüleme algoritması?",
-"a": "<b>1) USG</b> (safra yolları geniş mi, taş, kitle) → <b>2) BT</b> (kitle, evreleme) → <b>3) MRCP / ERCP</b> (safra yolları genişse; ERCP tanı + tedavi)."
+"a": "<b>1) USG</b> (safra yolları geniş mi, taş, kitle) → <b>2) BT</b> (kitle, evreleme) → <b>3) MRCP / ERCP</b> (safra yolları genişse; ERCP tanı + tedavi).",
+"hoca": "Elçin Aydın"
 },
 {
 "id": "e18",
 "deck": "Üriner",
 "kind": "Endikasyon",
 "q": "Böbrek patolojilerinde ilk tetkikler?",
-"a": "<b>Hidronefroz</b>: USG. <b>Taş</b>: kontrastsız BT (çocuk ve gebede USG). <b>Akut piyelonefrit</b>: kontrastlı BT. <b>Renal kitle</b>: kontrastlı BT/MR. <b>Kistik lezyon</b>: BT/MR → Bosniak. <b>Konjenital anomali</b>: USG, BT/MR."
+"a": "<b>Hidronefroz</b>: USG. <b>Taş</b>: kontrastsız BT (çocuk ve gebede USG). <b>Akut piyelonefrit</b>: kontrastlı BT. <b>Renal kitle</b>: kontrastlı BT/MR. <b>Kistik lezyon</b>: BT/MR → Bosniak. <b>Konjenital anomali</b>: USG, BT/MR.",
+"hoca": "Hilal Şahin"
 },
 {
 "id": "e19",
 "deck": "Pediatrik batın",
 "kind": "Endikasyon",
 "q": "VSUG endikasyonları?",
-"a": "<b>Ateşli ikinci İYE</b> (veya USG'de anormallik olan ilk İYE), antenatal/postnatal <b>hidronefroz + dilate üreter</b>, <b>PUV şüphesi</b> (erkek, kalın mesane, posterior üretra dilatasyonu), nörojen mesane. VUR için altın standart."
+"a": "<b>Ateşli ikinci İYE</b> (veya USG'de anormallik olan ilk İYE), antenatal/postnatal <b>hidronefroz + dilate üreter</b>, <b>PUV şüphesi</b> (erkek, kalın mesane, posterior üretra dilatasyonu), nörojen mesane. VUR için altın standart.",
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "e20",
@@ -3523,14 +3694,16 @@
 "kind": "Endikasyon",
 "q": "Antenatal hidronefroz saptanan yenidoğanda USG ne zaman yapılır?",
 "a": "İlk <b>48 saatten sonra, 5-7. günde</b> (ilk günlerde fizyolojik dehidratasyon yalancı negatif sonuç verir); kontrol <b>4-6 hafta</b> sonra. Bilateral HN / PUV şüphesinde erken.",
-"why": "İlk 48 saatte yenidoğan dehidratedir, idrar akımı azdır. Hidronefroz olduğundan küçük görünür (yalancı negatif)."
+"why": "İlk 48 saatte yenidoğan dehidratedir, idrar akımı azdır. Hidronefroz olduğundan küçük görünür (yalancı negatif).",
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "e21",
 "deck": "Pediatrik batın",
 "kind": "Endikasyon",
 "q": "Çocukta MR endikasyonları?",
-"a": "Nöro: konjenital anomali, inme, ensefalit, MS/ADEM, tümör (hipofiz, beyin sapı), nöral tüp defekti, spinal tümör. MSK: osteomiyelit, Perthes, tümör. Batın: MR-ürografi, MRCP, tümör evreleme. Dezavantaj: sedasyon gerekebilir."
+"a": "Nöro: konjenital anomali, inme, ensefalit, MS/ADEM, tümör (hipofiz, beyin sapı), nöral tüp defekti, spinal tümör. MSK: osteomiyelit, Perthes, tümör. Batın: MR-ürografi, MRCP, tümör evreleme. Dezavantaj: sedasyon gerekebilir.",
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "e22",
@@ -3538,7 +3711,8 @@
 "kind": "Endikasyon",
 "q": "Gelişimsel kalça displazisinde görüntüleme?",
 "a": "İlk 3-6 ayda <b>kalça USG</b> (Graf; tarama 3-4. haftada). 4-6. aydan sonra femur başı ossifiye olunca <b>direkt grafi</b>.",
-"why": "İlk aylarda femur başı kıkırdaktır ve grafide görünmez. USG kıkırdağı gösterir."
+"why": "İlk aylarda femur başı kıkırdaktır ve grafide görünmez. USG kıkırdağı gösterir.",
+"hoca": "Güleç Mert Doğan"
 },
 {
 "id": "e23",
@@ -3567,49 +3741,56 @@
 "deck": "MSK travma",
 "kind": "Endikasyon",
 "q": "MSK travmada hangi durumda hangi tetkik?",
-"a": "İlk <b>direkt grafi</b> (2 yön). Okült kırık (skafoid, femur boynu, stres kırığı) → <b>MR</b>. Eklem içi/kompleks kırık, cerrahi planlama → <b>BT</b>. Çocukta efüzyon/yumuşak doku → <b>USG</b>. Bağ-menisküs → MR."
+"a": "İlk <b>direkt grafi</b> (2 yön). Okült kırık (skafoid, femur boynu, stres kırığı) → <b>MR</b>. Eklem içi/kompleks kırık, cerrahi planlama → <b>BT</b>. Çocukta efüzyon/yumuşak doku → <b>USG</b>. Bağ-menisküs → MR.",
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "e27",
 "deck": "MSK travma",
 "kind": "Endikasyon",
 "q": "2'ler kuralını say.",
-"a": "2 yön, <b>2 eklem</b> (Galeazzi), <b>2 kemik</b> (Monteggia), 2 taraf (çocukta karşılaştırmalı), 2 zaman (skafoid: 10-14 gün sonra tekrar), 2 tetkik, 2. patoloji, 2. fikir."
+"a": "2 yön, <b>2 eklem</b> (Galeazzi), <b>2 kemik</b> (Monteggia), 2 taraf (çocukta karşılaştırmalı), 2 zaman (skafoid: 10-14 gün sonra tekrar), 2 tetkik, 2. patoloji, 2. fikir.",
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "e28",
 "deck": "Kemik tümörü",
 "kind": "Endikasyon",
 "q": "Malign kemik lezyonu şüphesinde tetkik sırası?",
-"a": "<b>Direkt grafi</b> (karakterizasyon) → <b>kontrastlı MR</b> (lokal yayılım, yumuşak doku, skip lezyon) → <b>toraks BT</b> (akciğer metastazı) → kemik sintigrafisi / PET-BT → en son <b>biyopsi</b> (tedavi edecek ekiple)."
+"a": "<b>Direkt grafi</b> (karakterizasyon) → <b>kontrastlı MR</b> (lokal yayılım, yumuşak doku, skip lezyon) → <b>toraks BT</b> (akciğer metastazı) → kemik sintigrafisi / PET-BT → en son <b>biyopsi</b> (tedavi edecek ekiple).",
+"hoca": "Mahmut Öksüzler"
 },
 {
 "id": "e29",
 "deck": "Meme & BIRADS",
 "kind": "Endikasyon",
 "q": "Meme USG endikasyonları?",
-"a": "40 yaş altında <b>ele gelen kitle</b>, gebe/emziren, yoğun meme (mamografiye ek), mamografide görülen kitlenin karakterizasyonu (<b>solid-kistik ayrım</b>), aksilla değerlendirmesi, <b>biyopsi rehberliği</b>, implant, erkek memesi."
+"a": "40 yaş altında <b>ele gelen kitle</b>, gebe/emziren, yoğun meme (mamografiye ek), mamografide görülen kitlenin karakterizasyonu (<b>solid-kistik ayrım</b>), aksilla değerlendirmesi, <b>biyopsi rehberliği</b>, implant, erkek memesi.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "e30",
 "deck": "Meme & BIRADS",
 "kind": "Endikasyon",
 "q": "Tarama mamografisi kime, ne sıklıkta?",
-"a": "Ortalama risk: <b>40 yaştan itibaren 1-2 yılda bir</b>. Yüksek risk (BRCA): yıllık MR + 30 yaştan sonra mamografi."
+"a": "Ortalama risk: <b>40 yaştan itibaren 1-2 yılda bir</b>. Yüksek risk (BRCA): yıllık MR + 30 yaştan sonra mamografi.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "e31",
 "deck": "Meme & BIRADS",
 "kind": "Endikasyon",
 "q": "Meme MR endikasyonları?",
-"a": "<b>BRCA taşıyıcı / yüksek risk taraması</b>, opere hastada <b>nüks</b> şüphesi, <b>neoadjuvan kemoterapi yanıtı</b>, diğer yöntemlerle çözülemeyen problem (yoğun meme, multifokalite, kontralateral meme, implant rüptürü)."
+"a": "<b>BRCA taşıyıcı / yüksek risk taraması</b>, opere hastada <b>nüks</b> şüphesi, <b>neoadjuvan kemoterapi yanıtı</b>, diğer yöntemlerle çözülemeyen problem (yoğun meme, multifokalite, kontralateral meme, implant rüptürü).",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "e32",
 "deck": "Meme & BIRADS",
 "kind": "Endikasyon",
 "q": "Hangi lezyonda hangi biyopsi yöntemi?",
-"a": "USG'de görülen kitle → <b>USG eşliğinde tru-cut</b>. Sadece mikrokalsifikasyon → <b>stereotaktik (vakum) biyopsi</b> / tel ile işaretleme. Sadece MR'da görülen → <b>MR eşliğinde biyopsi</b>."
+"a": "USG'de görülen kitle → <b>USG eşliğinde tru-cut</b>. Sadece mikrokalsifikasyon → <b>stereotaktik (vakum) biyopsi</b> / tel ile işaretleme. Sadece MR'da görülen → <b>MR eşliğinde biyopsi</b>.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "e33",
@@ -3681,7 +3862,8 @@
 "t": "Vena cava süperior"
 }
 ],
-"ek": "Bu seviyede arkus dalları görülür. Bu hastada <b>bovin ark</b> varyasyonu var: sol CCA ile brakiyosefalik arter tek kökten çıkıyor."
+"ek": "Bu seviyede arkus dalları görülür. Bu hastada <b>bovin ark</b> varyasyonu var: sol CCA ile brakiyosefalik arter tek kökten çıkıyor.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "a_ct34",
@@ -3704,7 +3886,8 @@
 "t": "Vena cava süperior"
 }
 ],
-"ek": "Arkus trakeanın solunda, önden arkaya uzanan tek tübüler yapı olarak görülür. VCS sağında kalır."
+"ek": "Arkus trakeanın solunda, önden arkaya uzanan tek tübüler yapı olarak görülür. VCS sağında kalır.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "a_ct37",
@@ -3732,7 +3915,8 @@
 "t": "Vena cava süperior"
 }
 ],
-"ek": "<b>Çıkan aorta</b> önde ve sağda, <b>inen aorta</b> vertebranın sol ön-yanında. VCS çıkan aortanın sağında."
+"ek": "<b>Çıkan aorta</b> önde ve sağda, <b>inen aorta</b> vertebranın sol ön-yanında. VCS çıkan aortanın sağında.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "a_ct38",
@@ -3765,7 +3949,8 @@
 "t": "Vena cava süperior"
 }
 ],
-"ek": "Pulmoner trunkus çıkan aortanın solunda ve önündedir."
+"ek": "Pulmoner trunkus çıkan aortanın solunda ve önündedir.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "a_ct39",
@@ -3803,7 +3988,8 @@
 "t": "Sağ ana pulmoner arter"
 }
 ],
-"ek": "Sağ pulmoner arter çıkan aortanın arkasından sağa geçer; sol pulmoner arter sol ana bronşun üzerinden kıvrılır."
+"ek": "Sağ pulmoner arter çıkan aortanın arkasından sağa geçer; sol pulmoner arter sol ana bronşun üzerinden kıvrılır.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "a_ct41",
@@ -3835,7 +4021,8 @@
 "c": "#5aff3c",
 "t": "İnen aorta"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "a_ct42",
@@ -3867,7 +4054,8 @@
 "c": "#5aff3c",
 "t": "İnen aorta"
 }
-]
+],
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "a_ct44",
@@ -3905,7 +4093,8 @@
 "t": "Pulmoner venler"
 }
 ],
-"ek": "<b>Sol atrium</b> en arkadaki boşluktur (özefagus ve inen aortanın önünde); pulmoner venler sol atriuma açılır."
+"ek": "<b>Sol atrium</b> en arkadaki boşluktur (özefagus ve inen aortanın önünde); pulmoner venler sol atriuma açılır.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "a_ct47",
@@ -3958,7 +4147,8 @@
 "t": "Pulmoner venler"
 }
 ],
-"ek": "<b>Sağ ventrikül</b> en öndedir (sternumun arkası), <b>sol atrium</b> en arkada. Sol ventrikül duvarı sağdan kalındır."
+"ek": "<b>Sağ ventrikül</b> en öndedir (sternumun arkası), <b>sol atrium</b> en arkada. Sol ventrikül duvarı sağdan kalındır.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "a_ct49",
@@ -3996,7 +4186,8 @@
 "t": "İnen aorta"
 }
 ],
-"ek": "VCI sağ atriuma alttan açılır."
+"ek": "VCI sağ atriuma alttan açılır.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "a_ct52",
@@ -4019,7 +4210,8 @@
 "t": "İnen aorta"
 }
 ],
-"ek": "VCI karaciğerin içinden geçer; inen aorta vertebranın solunda kalır ve diyaframdan sonra abdominal aorta olur."
+"ek": "VCI karaciğerin içinden geçer; inen aorta vertebranın solunda kalır ve diyaframdan sonra abdominal aorta olur.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "a_pa_kontur",
@@ -4031,7 +4223,8 @@
 "front": "img/anat_pa_kontur.jpg",
 "cap": "",
 "leg": [],
-"ek": "<b>Sağ kontur</b> (yukarıdan aşağı): brakiyosefalik ven/VCS → sağ atrium → VCI. <b>Sol kontur</b>: sol subklavyen arter → aort topuzu → pulmoner trunkus → sol atriyal apendiks → sol ventrikül. Sol atrium büyürse 8 belirginleşir ve karina açısı genişler."
+"ek": "<b>Sağ kontur</b> (yukarıdan aşağı): brakiyosefalik ven/VCS → sağ atrium → VCI. <b>Sol kontur</b>: sol subklavyen arter → aort topuzu → pulmoner trunkus → sol atriyal apendiks → sol ventrikül. Sol atrium büyürse 8 belirginleşir ve karina açısı genişler.",
+"hoca": "Kenan Çetinoğlu"
 },
 {
 "id": "a_abd_cor",
@@ -4084,7 +4277,8 @@
 "t": "İliak kemik"
 }
 ],
-"ek": "Karaciğer sağda ve büyük, dalak solda üstte. Böbrekler T12-L3 arasında, psoas kasları vertebranın iki yanında aşağı doğru kalınlaşır. Psoas konturunun silinmesi retroperitoneal patolojiyi düşündürür."
+"ek": "Karaciğer sağda ve büyük, dalak solda üstte. Böbrekler T12-L3 arasında, psoas kasları vertebranın iki yanında aşağı doğru kalınlaşır. Psoas konturunun silinmesi retroperitoneal patolojiyi düşündürür.",
+"hoca": "Hilal Şahin"
 },
 {
 "id": "a_abd_ax",
@@ -4127,7 +4321,8 @@
 "t": "Paraspinal kaslar"
 }
 ],
-"ek": "Görüntüde hastanın sağı ekranın solundadır. Aorta vertebranın sol önünde, VCI sağ önünde yer alır."
+"ek": "Görüntüde hastanın sağı ekranın solundadır. Aorta vertebranın sol önünde, VCI sağ önünde yer alır.",
+"hoca": "Hilal Şahin"
 },
 {
 "id": "a_ivp",
@@ -4175,7 +4370,8 @@
 "t": "Femur başı"
 }
 ],
-"ek": "Üreterin 3 fizyolojik darlığı (taş takılma yeri): <b>UP bileşke</b>, <b>iliak damarları çaprazladığı yer</b>, <b>UV bileşke</b>."
+"ek": "Üreterin 3 fizyolojik darlığı (taş takılma yeri): <b>UP bileşke</b>, <b>iliak damarları çaprazladığı yer</b>, <b>UV bileşke</b>.",
+"hoca": "Hilal Şahin"
 },
 {
 "id": "at0",
@@ -4235,7 +4431,8 @@
 "t": "Arkasında AKUSTİK GÜÇLENME (kistik içerik). Solid–kistik ayrımını USG yapar!"
 }
 ],
-"front": "img/basitkist_f.jpg"
+"front": "img/basitkist_f.jpg",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b1",
@@ -4243,7 +4440,8 @@
 "kind": "BIRADS",
 "q": "Hangi BIRADS? USG: kist içinde ince seviyelenme / homojen iç eko var, duvar ince, solid komponent yok (komplike kist).",
 "a": "<b>BIRADS 3</b> – kısa aralıklı takip (6 ay). Gerekirse aspirasyon.",
-"why": "İçerik yoğun (protein, kan, enfeksiyon) ama solid doku yok; risk ≤%2."
+"why": "İçerik yoğun (protein, kan, enfeksiyon) ama solid doku yok; risk ≤%2.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b2",
@@ -4251,7 +4449,8 @@
 "kind": "BIRADS",
 "q": "Hangi BIRADS? USG: kümelenmiş mikrokistler (küçük anekoik kistler, ince septalar).",
 "a": "<b>BIRADS 3</b> (tipik görünümde 2 de denebilir) – takip.",
-"why": "Fibrokistik değişiklik; solid komponent yok."
+"why": "Fibrokistik değişiklik; solid komponent yok.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b3",
@@ -4269,7 +4468,8 @@
 "t": "Kist içinde solid komponent + Doppler'de kanlanma → biyopsi (BIRADS 4A)"
 }
 ],
-"front": "img/mikst_f.jpg"
+"front": "img/mikst_f.jpg",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b4",
@@ -4287,7 +4487,8 @@
 "t": "USG: oval, düzgün sınırlı, cilde PARALEL, homojen hipoekoik solid kitle → BIRADS 3 (6-12-24 ay takip)"
 }
 ],
-"front": "img/fa3_f.jpg"
+"front": "img/fa3_f.jpg",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b5",
@@ -4310,7 +4511,8 @@
 "t": "Aynı lezyon MLO'da"
 }
 ],
-"front": "img/fa_kalsifik_f.jpg"
+"front": "img/fa_kalsifik_f.jpg",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b6",
@@ -4322,7 +4524,8 @@
 "img": "img/lipom_mmg_m.jpg",
 "cap": "Lipom – mamografi, BIRADS 2 (13 s18): yağ dansiteli, ince kapsüllü lezyon",
 "leg": [],
-"front": "img/lipom_mmg_f.jpg"
+"front": "img/lipom_mmg_f.jpg",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b7",
@@ -4330,7 +4533,8 @@
 "kind": "BIRADS",
 "q": "Hangi BIRADS? Mamografi: böbrek şeklinde, ortasında yağlı hilusu olan küçük lezyon (üst dış kadran).",
 "a": "<b>BIRADS 2</b> – intramamarian lenf nodu.",
-"why": "Yağlı hilus normal lenf nodunun işaretidir."
+"why": "Yağlı hilus normal lenf nodunun işaretidir.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b8",
@@ -4338,7 +4542,8 @@
 "kind": "BIRADS",
 "q": "Hangi BIRADS? Mamografi: damar boyunca ray şeklinde kalsifikasyon / cilt kalsifikasyonu / kalın çubuk (rod-like) sekretuar kalsifikasyon / milk of calcium.",
 "a": "<b>BIRADS 2</b> – tipik benign kalsifikasyonlar.",
-"why": "Milk of calcium: CC'de yuvarlak-silik, MLO/lateralde çay fincanı (seviyelenme) görünümü."
+"why": "Milk of calcium: CC'de yuvarlak-silik, MLO/lateralde çay fincanı (seviyelenme) görünümü.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b9",
@@ -4346,7 +4551,8 @@
 "kind": "BIRADS",
 "q": "Hangi BIRADS? Mamografi: tek grup halinde, küçük, yuvarlak (punktat) kalsifikasyonlar – ilk kez görülüyor.",
 "a": "<b>BIRADS 3</b> – 6 ay sonra kontrol.",
-"why": "Punktat kalsifikasyon lobüler tiptir, genelde benign; ama yeni grup olduğu için takip edilir."
+"why": "Punktat kalsifikasyon lobüler tiptir, genelde benign; ama yeni grup olduğu için takip edilir.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b10",
@@ -4354,7 +4560,8 @@
 "kind": "BIRADS",
 "q": "Hangi BIRADS? Mamografi: grup halinde amorf (silik, şekli seçilemeyen) kalsifikasyonlar.",
 "a": "<b>BIRADS 4B</b> – biyopsi (stereotaktik).",
-"why": "Amorf ve kaba heterojen kalsifikasyonlar 'şüpheli' morfolojidir (DCIS olabilir)."
+"why": "Amorf ve kaba heterojen kalsifikasyonlar 'şüpheli' morfolojidir (DCIS olabilir).",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b11",
@@ -4362,7 +4569,8 @@
 "kind": "BIRADS",
 "q": "Hangi BIRADS? Mamografi: yeni gelişen grup halinde ince pleomorfik mikrokalsifikasyonlar.",
 "a": "<b>BIRADS 4C</b> – biyopsi.",
-"why": "Farklı şekil ve boyutta ince kalsifikasyonlar duktal nekrozu düşündürür."
+"why": "Farklı şekil ve boyutta ince kalsifikasyonlar duktal nekrozu düşündürür.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b12",
@@ -4380,7 +4588,8 @@
 "t": "Segmental/lineer dizilimli ince pleomorfik mikrokalsifikasyonlar → BIRADS 5 (biyopsi)"
 }
 ],
-"front": "img/mikroca_b5_f.jpg"
+"front": "img/mikroca_b5_f.jpg",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b13",
@@ -4398,7 +4607,8 @@
 "t": "Yüksek dansiteli, SPİKÜLE kenarlı düzensiz kitle → malignite olasılığı ≥%95, biyopsi"
 }
 ],
-"front": "img/b5_f.jpg"
+"front": "img/b5_f.jpg",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b14",
@@ -4416,7 +4626,8 @@
 "t": "Sarı oklar: spiküle kenar / yapısal distorsiyon → malignite lehine (BIRADS 5)"
 }
 ],
-"front": "img/spikule_f.jpg"
+"front": "img/spikule_f.jpg",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b15",
@@ -4439,7 +4650,8 @@
 "t": "Arkasında akustik GÖLGELENME"
 }
 ],
-"front": "img/us_paraleldegil_f.jpg"
+"front": "img/us_paraleldegil_f.jpg",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b16",
@@ -4457,7 +4669,8 @@
 "t": "Angüle / mikrolobüle / spiküle kenar → malignite lehine"
 }
 ],
-"front": "img/us_angule_f.jpg"
+"front": "img/us_angule_f.jpg",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b17",
@@ -4475,7 +4688,8 @@
 "t": "Kist içinde solid komponent → en az BIRADS 4A"
 }
 ],
-"front": "img/us_miks_f.jpg"
+"front": "img/us_miks_f.jpg",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b18",
@@ -4483,14 +4697,16 @@
 "kind": "BIRADS",
 "q": "Hangi BIRADS? Mamografi: kısmen keskin, kısmen belirsiz kenarlı oval kitle.",
 "a": "<b>BIRADS 4B</b> – biyopsi.",
-"why": "Belirsiz kenar tümörün çevreye infiltrasyonunu gizliyor olabilir."
+"why": "Belirsiz kenar tümörün çevreye infiltrasyonunu gizliyor olabilir.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b19",
 "deck": "Meme & BIRADS",
 "kind": "BIRADS",
 "q": "Hangi BIRADS? Mamografi: düzensiz şekilli, belirsiz kenarlı solid kitle (spikülasyon yok).",
-"a": "<b>BIRADS 4C</b> – biyopsi."
+"a": "<b>BIRADS 4C</b> – biyopsi.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b20",
@@ -4513,7 +4729,8 @@
 "t": "Ek USG: basit kist → BIRADS 2"
 }
 ],
-"front": "img/b0_kist_f.jpg"
+"front": "img/b0_kist_f.jpg",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b21",
@@ -4521,7 +4738,8 @@
 "kind": "BIRADS",
 "q": "Hangi BIRADS? Mamografi: tek projeksiyonda görülen asimetri.",
 "a": "<b>BIRADS 0</b> – ek görüntüleme (spot kompresyon). Süperpozisyon ise kaybolur → 1/2.",
-"why": "Tek projeksiyonda görülen asimetri çoğunlukla dokuların üst üste binmesidir."
+"why": "Tek projeksiyonda görülen asimetri çoğunlukla dokuların üst üste binmesidir.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b22",
@@ -4529,14 +4747,16 @@
 "kind": "BIRADS",
 "q": "Hangi BIRADS? Önceki filmlere göre yeni ortaya çıkan veya büyüyen fokal asimetri (gelişen asimetri).",
 "a": "<b>BIRADS 4</b> – USG ile değerlendirme + biyopsi.",
-"why": "Yeni gelişen bulgu, benign görünse bile şüphelidir."
+"why": "Yeni gelişen bulgu, benign görünse bile şüphelidir.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b23",
 "deck": "Meme & BIRADS",
 "kind": "BIRADS",
 "q": "Hangi BIRADS? Palpe edilmeyen, ek incelemede kitle özelliği taşımayan fokal asimetri.",
-"a": "<b>BIRADS 3</b> – 6 ay takip."
+"a": "<b>BIRADS 3</b> – 6 ay takip.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b24",
@@ -4554,21 +4774,24 @@
 "t": "Lobüle, kısmen düzgün sınırlı kitle → yaşlı kadında 'düzgün sınır' benign demek değildir (müsinöz/medüller ca taklit eder)"
 }
 ],
-"front": "img/musinoz_f.jpg"
+"front": "img/musinoz_f.jpg",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b25",
 "deck": "Meme & BIRADS",
 "kind": "BIRADS",
 "q": "Hangi BIRADS? BIRADS 3 olarak takip edilen lezyon 2 yıl boyunca değişmedi.",
-"a": "<b>BIRADS 2</b>'ye düşürülür, rutin taramaya döner."
+"a": "<b>BIRADS 2</b>'ye düşürülür, rutin taramaya döner.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b26",
 "deck": "Meme & BIRADS",
 "kind": "BIRADS",
 "q": "Hangi BIRADS? BIRADS 3 olarak takip edilen lezyon kontrolde büyümüş.",
-"a": "<b>BIRADS 4</b> – biyopsi."
+"a": "<b>BIRADS 4</b> – biyopsi.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b27",
@@ -4576,7 +4799,8 @@
 "kind": "BIRADS",
 "q": "Hangi BIRADS? Lumpektomi sonrası operasyon yerinde spiküle görünüm, önceki kontrollere göre stabil.",
 "a": "<b>BIRADS 2</b> – postoperatif skar.",
-"why": "Nüks şüphesinde (yeni/büyüyen) ayrım için <b>meme MR</b> (skar kontrastlanmaz, nüks kontrastlanır)."
+"why": "Nüks şüphesinde (yeni/büyüyen) ayrım için <b>meme MR</b> (skar kontrastlanmaz, nüks kontrastlanır).",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b28",
@@ -4584,7 +4808,8 @@
 "kind": "BIRADS",
 "q": "Hangi BIRADS? Biyopsi ile invaziv duktal karsinom kanıtlanmış, neoadjuvan kemoterapi öncesi meme MR.",
 "a": "<b>BIRADS 6</b> – biyopsi ile kanıtlı malignite.",
-"why": "Ek şüpheli lezyon varsa ona ayrı kategori verilir."
+"why": "Ek şüpheli lezyon varsa ona ayrı kategori verilir.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b29",
@@ -4592,7 +4817,8 @@
 "kind": "BIRADS",
 "q": "Hangi BIRADS? Mamografi ve USG tamamen normal, simetrik.",
 "a": "<b>BIRADS 1</b> – negatif, rutin tarama.",
-"why": "1 = hiç bulgu yok; 2 = bulgu var ama benign."
+"why": "1 = hiç bulgu yok; 2 = bulgu var ama benign.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b30",
@@ -4600,7 +4826,8 @@
 "kind": "BIRADS",
 "q": "Aynı gün mamografi BIRADS 0, USG'de basit kist. Raporda kategori?",
 "a": "Tek birleşik rapor: <b>BIRADS 2</b>.",
-"why": "Aynı gün yapılan yöntemler tek raporda birleştirilir; en şüpheli bulguya göre tek kategori verilir."
+"why": "Aynı gün yapılan yöntemler tek raporda birleştirilir; en şüpheli bulguya göre tek kategori verilir.",
+"hoca": "Zehra Hilal Adıbelli"
 },
 {
 "id": "b31",
@@ -4608,6 +4835,7 @@
 "kind": "BIRADS",
 "q": "BIRADS kategorilerinde malignite olasılıkları ve öneriler?",
 "a": "<b>0</b> ek inceleme · <b>1</b> negatif · <b>2</b> benign (%0) · <b>3</b> ≤%2, 6 ay takip · <b>4A</b> %2-10 · <b>4B</b> %10-50 · <b>4C</b> %50-95 → biyopsi · <b>5</b> ≥%95 → biyopsi · <b>6</b> kanıtlı malign → tedavi.",
-"why": "3 ile 4 arasındaki sınır: %2'nin üstü biyopsi demektir."
+"why": "3 ile 4 arasındaki sınır: %2'nin üstü biyopsi demektir.",
+"hoca": "Zehra Hilal Adıbelli"
 }
 ]
