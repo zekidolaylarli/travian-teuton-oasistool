@@ -309,6 +309,7 @@ function renderResults() {
       if (!picks.zeroLoss) extra += `<div class="note">${L('Bu sınırlar içinde sıfır asker kaybı veren uygun bir kadro yok.', 'No suitable army with zero troop loss exists within these limits.')}</div>`;
       if (picks.smallArmy) extra += `<div class="note ok">${PL.smallArmy[0]}: ${armyLine(repFor(picks.smallArmy.counts, withHero))} — ${L('net', 'net')} ${signed(picks.smallArmy.net)} (${pct((picks.smallArmy.net / opt.maxNet) * 100, 0)} ${L('kâr', 'of the profit')}, ${pct((picks.smallArmy.troops / picks.maxProfit.troops) * 100, 0)} ${L('asker', 'of the troops')}).</div>`;
       h += resultCard(rep, { ...ctx, title: L('Önerilen ordu — ', 'Recommended army — ') + PL[mode][0], sentence: true, extra });
+      h += barCard(opt, main, mode, withHero, PL);
       h += `<div class="card"><div class="card-h"><h3>${L('Alternatif stratejiler', 'Alternative strategies')}</h3></div>` +
         PICK_ORDER.filter((k) => picks[k]).map((k) => altRow(repFor(picks[k].counts, withHero), { tag: PL[k][0], ctx, active: k === mode, pick: k })).join('') + `</div>`;
       const used = new Set(PICK_ORDER.filter((k) => picks[k]).map((k) => picks[k].counts.join('/')));
@@ -320,6 +321,84 @@ function renderResults() {
   }
   if (R.withHero) h += heroCompare(R);
   return h;
+}
+// ---------- Olasılıklar çubuğu ----------
+// Optimizasyonun bulduğu adaylar (Pareto kümesi + öneriler) asker sayısına göre sıralanır; her asker sayısı için
+// en yüksek net kârlı kadro tutulur. Çubuk açılışta önerilen ordudadır; kaydırdıkça gelir/gider anlık hesaplanır
+// (aynı savaş motoru: repFor → createScenario().report).
+function barOptions(opt, main) {
+  const by = new Map();
+  for (const p of [...opt.pareto, ...Object.values(opt.picks)]) {
+    if (!p || !p.counts) continue;
+    const c = by.get(p.troops);
+    if (!c || p.net > c.net || (p.net === c.net && p.armyValue < c.armyValue)) by.set(p.troops, p);
+  }
+  if (main) by.set(main.troops, main);
+  return [...by.values()].sort((a, b) => a.troops - b.troops);
+}
+function barCard(opt, main, mode, withHero, PL) {
+  if (!T.bar || T.bar.key !== opt || T.bar.mode !== mode) {
+    const opts = barOptions(opt, main);
+    const labels = opts.map((o) => PICK_ORDER.filter((k) => opt.picks[k] && opt.picks[k].counts.join() === o.counts.join()).map((k) => PL[k][0]));
+    const scale = Math.max(1, ...opts.map((o) => Math.max(0, o.net) + Math.max(0, o.lossCost)));
+    T.bar = { key: opt, mode, opts, labels, scale, withHero, i: Math.max(0, opts.findIndex((o) => o.counts.join() === main.counts.join())), home: 0 };
+    T.bar.home = T.bar.i;
+  }
+  const B = T.bar, n = B.opts.length;
+  return `<div class="card barcard"><div class="card-h"><h3>${L('Olasılıklar çubuğu', 'Options slider')}</h3><span class="badge est">${n} ${L('seçenek', 'options')}</span></div>
+    <p class="muted">${L('Çubuğu kaydırın: soldan sağa asker sayısı artar, gelir ve gider anlık değişir. Her durak, o asker sayısıyla bulunan en kârlı kadrodur; açılışta önerilen ordudadır.', 'Slide the bar: troop count grows from left to right and income and expenses update instantly. Each stop is the most profitable army found for that troop count; it starts at the recommended army.')}</p>
+    ${n > 1 ? `<div class="bar-row"><button class="icon-btn" data-act="bar-step" data-id="-1" aria-label="${L('Daha az asker', 'Fewer troops')}">◀</button>
+      <input type="range" class="bar-range" min="0" max="${n - 1}" step="1" value="${B.i}" data-bar aria-label="${L('Olası ordular', 'Possible armies')}">
+      <button class="icon-btn" data-act="bar-step" data-id="1" aria-label="${L('Daha çok asker', 'More troops')}">▶</button></div>
+    <div class="bar-ends"><small>${fmt(B.opts[0].troops)} ${L('asker', 'troops')}</small><small>${fmt(B.opts[n - 1].troops)} ${L('asker', 'troops')}</small></div>` : `<p class="muted">${L('Bu vaha için tek uygun kadro bulundu.', 'Only one suitable army was found for this oasis.')}</p>`}
+    <div id="bar-out">${barPanel()}</div></div>`;
+}
+function barPanel() {
+  const B = T.bar; if (!B) return '';
+  const o = B.opts[B.i], rep = repFor(o.counts, B.withHero), R4 = RES();
+  const lossRes = [0, 0, 0, 0];
+  rep.units.forEach((u) => { if (u.lost) UNITS[u.id].cost.forEach((c, r) => { lossRes[r] += c * u.lost; }); });
+  const income = rep.bountyNominal + rep.lootNominal, expense = rep.lossCostNominal + (rep.extraCost || 0), net = income - expense;
+  const upkeep = rep.units.reduce((t, u) => t + u.sent * UNITS[u.id].upkeep, 0);
+  const lost = rep.units.filter((u) => u.lost > 0).map((u) => `${u.lost} ${esc(nameOf(u))}`).join(', ');
+  const w = (v) => Math.max(0, Math.min(100, (v / B.scale) * 100)).toFixed(1);
+  const tags = B.labels[B.i].length ? ' ' + B.labels[B.i].map((t) => `<em class="tag">${esc(t)}</em>`).join(' ') : '';
+  return `<div class="bar-panel">
+    <p class="army"><b>${B.i + 1}/${B.opts.length}</b> · ${armyLine(rep)} — <b>${fmt(rep.troops)}</b> ${L('asker', 'troops')}${tags}</p>
+    <div class="gg"><span>${L('Gelir', 'Income')}</span><i class="g-in" style="width:${w(income)}%"></i><b class="pos">${fmt(income)}</b></div>
+    <div class="gg"><span>${L('Gider', 'Expense')}</span><i class="g-out" style="width:${w(expense)}%"></i><b class="${expense > 0 ? 'neg' : ''}">${fmt(expense)}</b></div>
+    <div class="gg net"><span>${L('Net', 'Net')}</span><i></i><b class="${net > 0 ? 'pos' : 'neg'}">${signed(net)}</b></div>
+    <div class="grid2">
+     <div><h4>${L('Gelir', 'Income')}</h4>
+      ${row(L('Hayvan ödülü', 'Animal bounty'), `${fmt(rep.bountyNominal)}${rep.bountyNominal ? ` <small>(${R4.map((x) => x).join('/')}: ${fmt(rep.bountyNominal / 4)} ${L('her biri', 'each')})</small>` : ''}`)}
+      ${row(L('Normal yağma', 'Regular loot'), `${fmt(rep.lootNominal)} <small>(${L('kapasite', 'capacity')} ${fmt(rep.carry)})</small>`)}
+      ${row(L('Öldürülen hayvanlar', 'Animals killed'), rep.animals.length ? rep.animals.map((a) => `${a.icon} ${a.killed}/${a.count}`).join(' &nbsp;') : L('hayvan yok', 'no animals'))}
+      ${row(L('Toplam gelir', 'Total income'), fmt(income), 'pos')}
+     </div>
+     <div><h4>${L('Gider', 'Expense')}</h4>
+      ${row(L('Ölen askerler', 'Troops lost'), lost || L('Kayıp yok', 'No losses'), lost ? 'neg' : 'pos')}
+      ${row(L('Kayıp, hammadde başına', 'Loss per resource'), R4.map((x, r) => `${x} ${fmt(lossRes[r])}`).join(' · '))}
+      ${rep.extraCost ? row(L('Ek gerçek giderler', 'Extra real costs'), fmt(rep.extraCost)) : ''}
+      ${row(L('Toplam gider', 'Total expense'), fmt(expense), expense > 0 ? 'neg' : '')}
+     </div>
+    </div>
+    ${row(L('Net kâr', 'Net profit'), signed(net), net > 0 ? 'pos big' : 'neg big')}
+    ${Math.abs(net - rep.net) > 0.5 ? row(L('Ağırlıklı net (Ayarlar’daki hammadde ağırlıklarıyla)', 'Weighted net (resource weights from Settings)'), signed(rep.net)) : ''}
+    ${row(L('Kayıp oranı (hayvan ödülüne)', 'Loss ratio (vs animal bounty)'), rep.lossRatio == null ? L('uygulanamaz', 'n/a') : pct(rep.lossRatio, 1))}
+    ${row(L('Bağlanan ordu değeri', 'Army value committed'), fmt(rep.armyValue))}
+    ${row(L('Ordunun tahıl tüketimi', 'Army crop upkeep'), `${fmt(upkeep)} ${L('/saat', '/hour')}`)}
+    ${row(L('Yuvarlama sınırına uzaklık', 'Distance from rounding boundary'), dec(rep.margin, 3), rep.margin < rep.rules.borderMargin ? 'neg' : rep.margin >= rep.rules.safeMargin ? 'pos' : '')}
+    ${rep.hero ? row(`${L('Kahraman can kaybı', 'Hero health loss')} <i>(${L('tahmin', 'estimate')})</i>`, rep.heroDead ? L('☠ ÖLÜR', '☠ DIES') : pct(rep.heroDamage)) : ''}
+    ${rep.hours ? row(`${L('Gidiş-dönüş', 'Round trip')} <i>(${L('tahmin', 'estimate')})</i>`, formatHours(rep.hours)) + row(L('Saatlik net kâr', 'Net profit per hour'), fmt(rep.perHour)) : ''}
+    ${rep.margin < rep.rules.borderMargin ? `<div class="note warn">${L('Bu kadro yuvarlama sınırına çok yakın: küçük bir fark (bir hayvan daha) bir asker götürebilir.', 'This army is very close to the rounding boundary: a small difference (one more animal) could cost a troop.')}</div>` : ''}
+    <div class="row">${B.i !== B.home ? `<button class="btn ghost" data-act="bar-home">${L('Önerilene dön', 'Back to recommended')}</button>` : ''}<button class="btn ghost" data-act="bar-sim">${L('Simülatöre aktar', 'Open in Simulator')}</button></div>
+  </div>`;
+}
+function barMove(i) {
+  const B = T.bar; if (!B) return;
+  B.i = Math.max(0, Math.min(B.opts.length - 1, i));
+  const r = document.querySelector('[data-bar]'); if (r) r.value = B.i;
+  const out = $('#bar-out'); if (out) out.innerHTML = barPanel();
 }
 function altRow(rep, o = {}) {
   const st = statusOf(rep);
@@ -654,6 +733,9 @@ const ACTIONS = {
   'reset-smithy': () => { Object.assign(S.prefs.rules, { smithyFormula: 't4', smithyBase: DEFAULT_RULES.smithyBase, smithyUpkeepCoef: DEFAULT_RULES.smithyUpkeepCoef, smithyPercent: DEFAULT_RULES.smithyPercent, smithyRound: 'none' }); T.result = null; T.simReport = null; },
   'clear-icons': () => { S.iconTemplates = {}; },
   optimize: () => { persist(); runOptimize(); return false; },
+  'bar-step': (d) => { if (T.bar) barMove(T.bar.i + (+d || 0)); return false; },
+  'bar-home': () => { if (T.bar) barMove(T.bar.home); return false; },
+  'bar-sim': () => { const B = T.bar; if (!B) return; const o = B.opts[B.i]; S.sim.units = {}; optIds().forEach((id, k) => { S.sim.units[id] = o.counts[k]; }); S.sim.mode = S.prefs.attackMode; T.simReport = null; T.tab = 'sim'; },
   simulate: () => { persist(); runSim(); return false; },
   'sim-from-rec': () => { S.sim.units = {}; for (const u of T.lastReport.units) S.sim.units[u.id] = u.sent; S.sim.mode = T.lastReport.mode; T.simReport = null; },
   'vision-ai': () => { visionAI('oasis'); return false; },
@@ -721,6 +803,7 @@ document.addEventListener('change', async (e) => {
     if (el.dataset.rerender != null || el.type === 'checkbox' || el.tagName === 'SELECT' || T.tab === 'oasis' || T.tab === 'rainbow') render();
   }
 });
+document.addEventListener('input', (e) => { if (e.target.dataset && e.target.dataset.bar != null) barMove(int(e.target.value)); });
 document.addEventListener('keydown', (e) => { if (e.key === 'Enter' && e.target.tagName === 'INPUT') e.target.blur(); });
 if (window.matchMedia) window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { if (!S.ui.theme) { applyTheme(); render(); } });
 

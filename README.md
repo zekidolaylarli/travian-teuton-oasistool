@@ -7,6 +7,8 @@ Bağımsız bir karar destek aracıdır: Travian hesabına giriş yapmaz, şifre
 
 Derleme adımı ve bağımlılık yoktur: düz HTML + ES modülleri. Veriler yalnızca cihazda (tarayıcı deposu) tutulur.
 
+> **Romalı sürümü:** [`roma/`](roma/) klasöründe (GitHub Pages: `…/travian-teuton-oasistool/roma/`).
+>
 > **Hun sürümü de bu depoda:** [`hun/`](hun/) klasöründe Hun Vaha Aracı'nın "kayıpsız garanti" eklenmiş kopyası durur
 > (kaynak: [tbarissatir/travian-hun-oasistool](https://github.com/tbarissatir/travian-hun-oasistool)). GitHub Pages'te adresi: `…/travian-teuton-oasistool/hun/`
 
@@ -75,6 +77,14 @@ Resmî kaynak formül yayımlamadığı için oyundaki asker istatistik ekranıy
   Kavim bonusu (sığınak kapasitesi −%20) vahalarda etkisizdir. Silah listesi Cermen silahlarıdır.
 - **Küçük ordular pahalıya patlar:** kayıplar tür başına yuvarlandığı için ucuz piyade kolayca 1–2 asker kaybeder;
   orta/büyük vahalar çoğunlukla ancak kalabalık karma orduyla kârlı çıkar. Profildeki asker sayılarını gerçek sayılarınızla girin.
+
+## Olasılıklar çubuğu
+
+"En İyi Kadroyu Bul"dan sonra önerilen ordunun altında bir kaydırma çubuğu çıkar. Çubuktaki her durak,
+optimizasyonun bulduğu o asker sayısındaki en kârlı kadrodur; soldan sağa asker sayısı artar ve çubuk açılışta
+önerilen ordudadır. Kaydırdıkça **gelir** (hayvan ödülü + normal yağma), **gider** (ölen askerlerin hammadde
+başına maliyeti) ve **net kâr** anlık değişir; kayıp oranı, ordu değeri, tahıl tüketimi ve yuvarlama sınırına
+uzaklık da gösterilir. ◀ ▶ ile tek tek ilerlenir, "Simülatöre aktar" seçili kadroyu Simülatör'e taşır.
 
 ## Mimari
 

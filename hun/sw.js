@@ -1,6 +1,6 @@
 // Service worker: uygulama kabuğunu önbelleğe alır → internet olmadan elle giriş, simülasyon ve
 // optimizasyon çalışır. Strateji: önce ağ (güncel sürüm), ağ yoksa önbellek.
-const CACHE = 'hun-oasis-v4';
+const CACHE = 'hun-oasis-v5';
 const ASSETS = [
   './', 'index.html', 'styles.css', 'manifest.webmanifest', 'icons/icon.svg', 'icons/icon-180.png', 'icons/icon-192.png', 'icons/icon-512.png',
   'src/ui/app.js', 'src/ui/store.js', 'src/i18n.js', 'src/data/units.js', 'src/data/nature.js', 'src/data/references.js',

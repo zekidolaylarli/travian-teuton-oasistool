@@ -88,6 +88,14 @@ Sonuç: önerilen ordu, en kötü durumdaki savunma ve **kayıpsız kalınan aza
 - **Sınır:** doğma hızı ve sayısı resmî kaynaklarda yoktur; araç bunu tahmin etmez. Garanti, girdiğiniz
   üst sınır aşılmadığı sürece geçerlidir. Kahraman katılırsa can kaybeder; garanti yalnızca askerler içindir.
 
+## Olasılıklar çubuğu
+
+"En İyi Kadroyu Bul"dan sonra önerilen ordunun altında bir kaydırma çubuğu çıkar. Çubuktaki her durak,
+optimizasyonun bulduğu o asker sayısındaki en kârlı kadrodur; soldan sağa asker sayısı artar ve çubuk açılışta
+önerilen ordudadır. Kaydırdıkça **gelir** (hayvan ödülü + normal yağma), **gider** (ölen askerlerin hammadde
+başına maliyeti) ve **net kâr** anlık değişir; kayıp oranı, ordu değeri, tahıl tüketimi ve yuvarlama sınırına
+uzaklık da gösterilir. ◀ ▶ ile tek tek ilerlenir, "Simülatöre aktar" seçili kadroyu Simülatör'e taşır.
+
 ## Demirci
 
 Demircide bir askeri geliştirdiğinizde **Profil** sekmesinde o askerin seviyesini (0–20) güncelleyin;
