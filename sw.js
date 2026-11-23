@@ -17,6 +17,7 @@ self.addEventListener('fetch', (e) => {
   if (url.pathname.startsWith(new URL('hun/', self.registration.scope).pathname)) return; // hun/ altındaki Hun aracı kendi service worker'ını kullanır
   if (url.pathname.startsWith(new URL('roma/', self.registration.scope).pathname)) return; // roma/ altındaki Romalı aracı kendi service worker'ını kullanır
   if (url.pathname.startsWith(new URL('radyoloji/', self.registration.scope).pathname)) return; // radyoloji/ kart uygulaması önbelleğe alınmaz
+  if (url.pathname.startsWith(new URL('dermatoloji/', self.registration.scope).pathname)) return; // dermatoloji/ kart uygulaması önbelleğe alınmaz
   e.respondWith(
     fetch(e.request).then((res) => {
       if (res.ok) { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(e.request, copy)); }

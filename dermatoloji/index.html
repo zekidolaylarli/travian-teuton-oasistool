@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0c1116">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Dermatoloji OSCE Kartları</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Archivo:wght@700;800&display=swap" rel="stylesheet">
+<style>
+/* VOICE: sakin, klinik, okuma odası – sınav öncesi odak
+   IDEA: negatoskop: karanlık oda, ışıklı film kartı
+   PICTURE: kartın kendisi – üstte film, altında bulgular
+   COLOUR+TYPE: lacivert-siyah zemin, beyaz kart, camgöbeği vurgu; Archivo + Atkinson Hyperlegible
+   LAYOUT: ince üst bar + tek satır filtre; ortada kart; puan düğmeleri altta sabit */
+:root{color-scheme:light dark;
+--bg:light-dark(#e9edf0,#0c1116);--panel:light-dark(#ffffff,#151c24);--ink:light-dark(#141a20,#e8edf1);--mute:light-dark(#5b6670,#8c99a5);
+--card:light-dark(#ffffff,#1b232d);--line:light-dark(#d3dae0,#2a3541);--acc:#14a3a0;--accInk:light-dark(#0b6f6d,#5fd6cf);
+--bad:#d9483a;--mid:#d9961a;--good:#2a9d62;--film:#05080b}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 "Atkinson Hyperlegible",system-ui,sans-serif;overflow-x:clip;
+ padding:env(safe-area-inset-top) env(safe-area-inset-right) 0 env(safe-area-inset-left)}
+button,select,input{font:inherit;color:inherit}
+button{cursor:pointer}
+.wrap{max-width:900px;margin:0 auto;padding:0 14px}
+header{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 0 6px}
+h1{font:800 clamp(21px,3.4vw,30px)/1.1 Archivo,sans-serif;margin:0;letter-spacing:-.01em}
+h1 span{color:var(--accInk)}
+.pdf{display:inline-block;margin-top:6px;font-size:14px;font-weight:700;color:#fff;background:var(--acc);padding:6px 12px;border-radius:10px;text-decoration:none}
+.today{font-size:14px;color:var(--mute);text-align:right;line-height:1.3}
+.today b{color:var(--ink);font-size:18px}
+.filters{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto;gap:8px;margin:6px 0 4px}
+select{appearance:none;-webkit-appearance:none;width:100%;font-size:16px;padding:10px 30px 10px 12px;border-radius:12px;border:1px solid var(--line);
+ background:var(--panel) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%238c99a5' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 12px center;min-height:46px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+.iconb{min-width:46px;min-height:46px;border-radius:12px;border:1px solid var(--line);background:var(--panel);font-size:18px;display:grid;place-items:center}
+.iconb[aria-expanded=true]{background:var(--acc);color:#fff;border-color:var(--acc)}
+.more{display:none;gap:8px;flex-wrap:wrap;margin:6px 0 2px}
+.more.on{display:flex}
+.more input{flex:1 1 220px;font-size:16px;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--panel);min-height:46px}
+.more select{flex:1 1 180px;width:auto}
+.small{border:1px solid var(--line);background:var(--panel);border-radius:12px;padding:8px 12px;min-height:46px;font-size:15px}
+.sess{display:flex;justify-content:space-between;align-items:center;font-size:14px;color:var(--mute);margin:8px 2px 6px;gap:8px}
+.bar{flex:1;height:6px;background:var(--line);border-radius:3px;overflow:hidden;display:flex;max-width:260px}
+.bar i{display:block;height:100%}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:clip;box-shadow:0 12px 30px -18px rgba(0,0,0,.45)}
+.top{display:flex;justify-content:space-between;gap:8px;padding:11px 14px 0;font-size:13px;color:var(--mute)}
+.kind{font-weight:700;color:var(--accInk)}
+.kind.OSCE{color:#d0583f}.kind.BIRADS{color:#d0458f}.kind.Anatomi{color:#3b82c4}.kind.Endikasyon{color:#9b77d6}
+.q{font-weight:700;font-size:clamp(18px,2.4vw,22px);line-height:1.35;padding:6px 14px 8px;margin:0}
+.case{padding:6px 14px 10px;font-size:17px}
+.lbl{font-size:12px;color:var(--mute);font-weight:700;letter-spacing:.02em;display:block;margin-bottom:2px}
+.film{background:var(--film);display:flex;justify-content:center;cursor:zoom-in;position:relative}
+.film img{max-width:100%;max-height:min(58vh,620px);display:block}
+.film .tag{position:absolute;left:8px;top:8px;background:rgba(0,0,0,.65);color:#fff;font-size:12px;padding:2px 8px;border-radius:6px}
+.cap{padding:9px 14px 0;color:var(--accInk);font-weight:700;font-size:15px}
+.leg{background:#14161b;margin-top:8px;padding:8px 14px;font-size:16px;line-height:1.45}
+.leg div{margin:3px 0}
+.ans{line-height:1.6;padding:10px 14px 14px;border-top:1px dashed var(--line);margin-top:10px}
+.step{padding:10px 14px;border-top:1px solid var(--line)}
+.step .sq{font-weight:700}
+.step .sa{margin-top:6px;padding:8px 12px;border-left:4px solid var(--acc);background:color-mix(in srgb,var(--acc) 10%,transparent);border-radius:0 8px 8px 0}
+.dock{position:sticky;bottom:0;background:var(--card);border-top:1px solid var(--line);padding:10px 12px calc(10px + env(safe-area-inset-bottom));z-index:2}
+.big{width:100%;min-height:54px;border-radius:14px;border:0;font-weight:700;font-size:17px;background:var(--acc);color:#fff}
+.two{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:8px}
+.ghost{background:transparent;border:1px solid var(--line);color:var(--ink)}
+.rate{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.rate button{min-height:58px;border-radius:14px;border:0;color:#fff;font-weight:700;font-size:16px;line-height:1.15;padding:4px}
+.rate small{display:block;font-weight:400;font-size:12px;opacity:.92;margin-top:2px}
+.r0{background:var(--bad)}.r1{background:var(--mid)}.r2{background:var(--good)}
+.why{margin:8px 14px 0;padding:9px 12px;border-radius:10px;background:color-mix(in srgb,#9b77d6 12%,transparent);border-left:4px solid #9b77d6;font-size:16px}
+.why.hk{background:color-mix(in srgb,var(--good) 13%,transparent);border-left-color:var(--good)}
+.why.ek{background:color-mix(in srgb,var(--mid) 13%,transparent);border-left-color:var(--mid)}
+.why .lbl{color:inherit;opacity:.75}
+.src{margin:4px 14px 0;font-size:12.5px;font-weight:700;color:#fff;background:var(--hc);display:inline-block;padding:1px 8px;border-radius:6px}
+.navb{display:flex;justify-content:space-between;align-items:center;margin:12px 0;gap:8px}
+.navb button{min-height:44px;padding:0 14px;border-radius:12px;border:1px solid var(--line);background:var(--panel);font-size:15px}
+.empty{padding:34px 18px;text-align:center}
+.empty h2{font:800 24px/1.2 Archivo,sans-serif;margin:0 0 8px}
+.empty p{color:var(--mute);margin:6px 0 16px}
+.empty .big{max-width:340px}
+details{font-size:15px;color:var(--mute);margin:14px 2px 30px}
+details summary{cursor:pointer;color:var(--ink);font-weight:700;min-height:44px;display:flex;align-items:center}
+details li{margin:4px 0}
+#zoom{position:fixed;inset:0;background:rgba(0,0,0,.95);display:none;align-items:center;justify-content:center;z-index:9;cursor:zoom-out;padding:10px}
+#zoom img{max-width:100%;max-height:100%}
+#zoom.on{display:flex}
+@media(max-width:600px){
+ .wrap{padding:0 8px}
+ .filters{grid-template-columns:minmax(0,1fr) minmax(0,1fr) 46px}
+ .film img{max-height:46vh}
+ .rate small{font-size:11px}
+ .card{border-radius:14px}
+}
+@media(prefers-reduced-motion:no-preference){.card{animation:in .2s ease-out}@keyframes in{from{opacity:.5;transform:translateY(5px)}}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div><h1>Dermatoloji <span>kartları</span></h1><a class="pdf" href="Dermatoloji_Calisma_Notu.pdf" target="_blank" rel="noopener">⬇ Çalışma notu (PDF)</a></div>
+  <div class="today" id="today"></div>
+</header>
+<div class="filters">
+  <select id="fk" aria-label="Kart türü"></select>
+  <select id="fd" aria-label="Konu"></select>
+  <button class="iconb" id="moreb" aria-expanded="false" aria-label="Arama ve ayarlar"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg></button>
+</div>
+<div class="more" id="more">
+  <input id="search" type="search" placeholder="Ara: Wells, BIRADS 3, Graves…" aria-label="Ara">
+  <select id="fh" aria-label="Hoca"></select>
+  <select id="mode" aria-label="Hangi kartlar">
+    <option value="due">Henüz "biliyorum" demediklerim</option>
+    <option value="hard">Sadece bilmiyorum + zor</option>
+    <option value="all">Tüm kartlar</option>
+  </select>
+  <button class="small" id="reset">İlerlemeyi sıfırla</button>
+</div>
+<div class="sess"><span id="sess"></span><div class="bar" id="bar"></div></div>
+<div id="view"></div>
+<div class="navb"><button id="prev">← Önceki</button><button id="next">Atla →</button></div>
+<details>
+  <summary>Puanlama nasıl çalışıyor?</summary>
+  <ul>
+    <li><b style="color:var(--bad)">Bilmiyorum</b>: kart 4 kart sonra yine karşına çıkar. Bilene kadar döner.</li>
+    <li><b style="color:var(--mid)">Zor</b>: kart destenin sonuna atılır, oturum bitmeden bir kez daha görürsün.</li>
+    <li><b style="color:var(--good)">Biliyorum</b>: kart desteden çıkar. Sayfayı tekrar açınca da gelmez (varsayılan mod "henüz biliyorum demediklerim").</li>
+    <li>Ertesi gün hızlı tekrar için modu "Sadece bilmiyorum + zor" yap. Her şeye baştan bakmak istersen "Tüm kartlar". İlerleme bu cihazın tarayıcısında saklanır.</li>
+    <li>Görüntüye dokun: tam ekran. Sağa/sola kaydır: kart değiştir. Klavyede Boşluk çevirir, 1-2-3 puanlar.</li>
+  </ul>
+  <p>Fotoğraflar hocaların slaytlarından; açıklamalar sonradan eklendi. Gri-mavi etiket = slayt dışı temel bilgi.</p>
+</details>
+</div>
+<div id="zoom"><img alt=""></div>
+<script>
+{
+const HC={"Meltem Türkmen":"#9d3c6b","Slayt dışı – temel bilgi":"#5b6b8a"};
+const KINDS=["Fotoğraf","OSCE","Sözlü","Temel"];
+const KLAB={"Fotoğraf":"Fotoğraf – tanı ne?","OSCE":"OSCE olgu","Sözlü":"Sözlü soru","Temel":"Temel bilgi"};
+let CARDS=[],queue=[],pos=0,shown=0,hint=false,done=0,doneR=[0,0,0];
+const store={get(){try{return JSON.parse(localStorage.getItem("dk_prog")||"{}")}catch(e){return {}}},set(o){try{localStorage.setItem("dk_prog",JSON.stringify(o))}catch(e){}}};
+let prog=store.get();
+for(const k in prog){const v=prog[k];prog[k]=typeof v=="number"?v:(v&&typeof v.l=="number"?v.l:0)}
+const $=s=>document.querySelector(s);
+const strip=h=>(h||"").replace(/<[^>]+>/g,"");
+const text=c=>strip([c.q,c.a,c.case,c.cap,(c.steps||[]).flat().join(" "),(c.leg||[]).map(l=>l.t).join(" ")].join(" ")).toLocaleLowerCase("tr");
+const known=c=>prog[c.id]===2;
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function selects(){
+  const k=$("#fk").value||"*",d=$("#fd").value||"*";
+  $("#fk").innerHTML=`<option value="*">Tüm türler</option>`+KINDS.map(x=>`<option value="${x}">${KLAB[x]} ${CARDS.filter(c=>c.kind==x).length}</option>`).join("");
+  const ds={};CARDS.forEach(c=>ds[c.deck]=(ds[c.deck]||0)+1);
+  $("#fd").innerHTML=`<option value="*">Tüm konular</option>`+Object.entries(ds).map(([x,n])=>`<option value="${x}">${x} ${n}</option>`).join("");
+  const hv=$("#fh").value||"*",hs={};CARDS.forEach(c=>{if(c.hoca)hs[c.hoca]=(hs[c.hoca]||0)+1});
+  $("#fh").innerHTML=`<option value="*">Tüm hocalar</option>`+Object.entries(hs).sort((a,b)=>b[1]-a[1]).map(([x,n])=>`<option value="${x}">${x} ${n}</option>`).join("");
+  $("#fk").value=k;$("#fd").value=d;$("#fh").value=hv;
+}
+function pool(){
+  const k=$("#fk").value,d=$("#fd").value,hh=$("#fh").value,q=$("#search").value.trim().toLocaleLowerCase("tr"),m=$("#mode").value;
+  return CARDS.filter(c=>(k=="*"||c.kind==k)&&(d=="*"||c.deck==d)&&(hh=="*"||c.hoca==hh)&&(!q||text(c).includes(q))&&
+    (m=="all"||(m=="due"&&!known(c))||(m=="hard"&&(prog[c.id]===0||prog[c.id]===1))));
+}
+function start(){
+  queue=shuffle(pool().slice());CARDS.forEach(c=>delete c._z);
+  pos=0;shown=0;hint=false;done=0;doneR=[0,0,0];render();stats();
+}
+function stats(){
+  const n=CARDS.length,v=CARDS.map(c=>prog[c.id]),g=v.filter(x=>x===2).length,m=v.filter(x=>x===1).length,b=v.filter(x=>x===0).length;
+  $("#today").innerHTML=`<b>${g}</b>/${n} biliyorum`;
+  const left=Math.max(0,queue.length-pos);
+  $("#sess").textContent=queue.length?`Bu oturum: ${done} bitti · ${left} kaldı`:"";
+  $("#bar").innerHTML=`<i style="width:${g/n*100}%;background:var(--good)"></i><i style="width:${m/n*100}%;background:var(--mid)"></i><i style="width:${b/n*100}%;background:var(--bad)"></i>`;
+  $("#bar").title=`Biliyorum ${g} · Zor ${m} · Bilmiyorum ${b}`;
+}
+const film=(src,tag)=>`<div class="film" data-z="${src}"><img src="${src}" alt="Slayt görüntüsü">${tag?`<span class="tag">${tag}</span>`:""}</div>`;
+const legend=c=>c.leg&&c.leg.length?`<div class="leg">${c.leg.map(l=>`<div style="color:${l.c}"><b>${l.n?`(${l.n})`:"•"}</b> ${l.t}</div>`).join("")}</div>`:"";
+const rateBox=c=>`<div class="dock"><div class="rate"><button class="r0" data-r="0">Bilmiyorum<small>4 kart sonra yine</small></button><button class="r1" data-r="1">Zor<small>sona atılır</small></button><button class="r2" data-r="2">Biliyorum<small>desteden çıkar</small></button></div></div>`;
+const whyBox=c=>(c.hook?`<div class="why hk"><span class="lbl">AKILDA TUT</span>${c.hook}</div>`:"")+(c.why?`<div class="why"><span class="lbl">NEDEN?</span>${c.why}</div>`:"")+(c.ek?`<div class="why ek"><span class="lbl">SÖZLÜDE EK</span>${c.ek}</div>`:"");
+const flipBox=(t,h)=>`<div class="dock">${h?`<div class="two"><button class="big" id="flip">${t}</button><button class="big ghost" id="hint">İpucu</button></div>`:`<button class="big" id="flip">${t}</button>`}</div>`;
+function render(){
+  const v=$("#view");
+  if(!queue.length){v.innerHTML=`<div class="card empty"><h2>Bu filtrede kart yok</h2><p>${$("#mode").value=="due"?"Bugünkü tekrarların bitti ya da bu konuda vadesi gelen kart yok.":"Filtreleri genişlet."}</p><button class="big" id="allm">Tüm kartlarla çalış</button></div>`;stats();return}
+  if(pos>=queue.length){v.innerHTML=`<div class="card empty"><h2>Oturum bitti</h2><p>${done} kart · <span style="color:var(--good)">${doneR[2]} biliyorum</span> · <span style="color:var(--mid)">${doneR[1]} zor</span> · <span style="color:var(--bad)">${doneR[0]} bilmiyorum</span></p><button class="big" id="again">Yeni oturum başlat</button></div>`;stats();return}
+  const c=queue[pos],p=prog[c.id];
+  const st=p===undefined?"yeni":["bilmiyorum","zor","biliyorum"][p];
+  let h=`<div class="card"><div class="top"><span class="kind ${c.kind}">${KLAB[c.kind]}</span><span>${c.deck} · ${st}</span></div>${c.hoca?`<div class="src" style="--hc:${HC[c.hoca]||"var(--mute)"}">Kaynak: ${c.hoca}</div>`:""}`;
+  if(c.kind=="OSCE"){
+    h+=`<div class="case"><span class="lbl">OLGU</span>${c.case}</div>`;
+    const fin=shown>=c.steps.length;
+    if(c.front)h+=film(fin?c.img:c.front,fin?"cevap":"")+(fin?`<div class="cap">${c.cap}</div>`+legend(c):"");
+    c.steps.forEach((s,i)=>{if(i>shown)return;
+      h+=`<div class="step"><span class="lbl">ADIM ${i+1} / ${c.steps.length}</span><div class="sq">${s[0]}</div>${i<shown?`<div class="sa">${s[1]}</div>`:""}</div>`});
+    h+=shown<c.steps.length?flipBox("Cevabı göster"):whyBox(c)+rateBox(c);
+  }else if(c.kind=="Fotoğraf"){
+    h+=`<p class="q">${c.q}</p>`+film(shown?c.img:c.front,shown?"cevap":"");
+    if(!shown)h+=(hint?`<div class="cap">İpucu: ${c.cap}</div><div style="height:10px"></div>`:"")+flipBox("Bulguları göster",!hint);
+    else h+=`<div class="cap">${c.cap}</div>${legend(c)}`+(c.a?`<div class="ans"><span class="lbl">TANI</span>${c.a}</div>`:"")+whyBox(c)+`<div style="height:10px"></div>`+rateBox(c);
+  }else{
+    h+=`<p class="q">${c.q}</p>`;
+    if(c.img)h+=film(shown?c.img:(c.front||c.img),shown&&c.front!=c.img?"işaretli":"");
+    if(!shown)h+=flipBox("Cevabı göster");
+    else h+=(c.img?`<div class="cap">${c.cap}</div>${legend(c)}`:"")+`<div class="ans"><span class="lbl">CEVAP</span>${c.a}</div>`+whyBox(c)+rateBox(c);
+  }
+  v.innerHTML=h+`</div>`;stats();
+}
+function flip(){const c=queue[pos];if(!c)return;
+  if(c.kind=="OSCE"){if(shown<c.steps.length){shown++;render()}}else if(!shown){shown=1;render()}}
+function top(){const y=$("#view").getBoundingClientRect().top+scrollY-8;if(scrollY>y)scrollTo({top:y})}
+function go(d){if(!queue.length)return;pos=Math.max(0,Math.min(queue.length,pos+d));shown=0;hint=false;render();top()}
+function rate(r){
+  const c=queue[pos];
+  if(r==0)queue.splice(Math.min(pos+5,queue.length),0,c);
+  else if(r==1&&!c._z){c._z=1;queue.push(c)}
+  prog[c.id]=r;store.set(prog);done++;doneR[r]++;go(1);
+}
+document.addEventListener("click",e=>{
+  const t=e.target.closest("button,[data-z]");if(!t)return;
+  if(t.dataset.r)rate(+t.dataset.r);
+  else if(t.dataset.z){$("#zoom img").src=t.dataset.z;$("#zoom").classList.add("on")}
+  else if(t.id=="flip")flip();
+  else if(t.id=="hint"){hint=true;render()}
+  else if(t.id=="prev")go(-1);else if(t.id=="next")go(1);
+  else if(t.id=="again")start();
+  else if(t.id=="allm"){$("#mode").value="all";$("#fk").value="*";$("#fd").value="*";$("#search").value="";start()}
+  else if(t.id=="moreb"){const on=$("#more").classList.toggle("on");t.setAttribute("aria-expanded",on)}
+  else if(t.id=="reset"){if(t.dataset.sure){prog={};store.set(prog);t.textContent="İlerlemeyi sıfırla";delete t.dataset.sure;start()}else{t.dataset.sure=1;t.textContent="Emin misin? Tekrar bas"}}
+});
+$("#zoom").addEventListener("click",()=>$("#zoom").classList.remove("on"));
+["#fk","#fd","#fh","#mode"].forEach(s=>$(s).addEventListener("change",start));
+let tmr;$("#search").addEventListener("input",()=>{clearTimeout(tmr);tmr=setTimeout(start,250)});
+document.addEventListener("keydown",e=>{if(["INPUT","SELECT"].includes(e.target.tagName))return;
+  if(e.key==" "){e.preventDefault();flip()}else if(e.key=="ArrowRight")go(1);else if(e.key=="ArrowLeft")go(-1);
+  else if(["1","2","3"].includes(e.key)&&document.querySelector(".rate"))rate(+e.key-1);else if(e.key=="Escape")$("#zoom").classList.remove("on")});
+let sx=null,sy=null;
+$("#view").addEventListener("touchstart",e=>{sx=e.touches[0].clientX;sy=e.touches[0].clientY},{passive:true});
+$("#view").addEventListener("touchend",e=>{if(sx===null)return;const dx=e.changedTouches[0].clientX-sx,dy=e.changedTouches[0].clientY-sy;
+  if(Math.abs(dx)>80&&Math.abs(dx)>Math.abs(dy)*1.5)go(dx<0?1:-1);sx=null});
+fetch("cards.json").then(r=>r.json()).then(d=>{CARDS=d;selects();start()}).catch(()=>{$("#view").innerHTML=`<div class="card empty"><h2>Kartlar yüklenemedi</h2><p>Sayfayı yenile.</p></div>`});
+}
+</script>
+</body>
+</html>

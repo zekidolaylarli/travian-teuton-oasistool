@@ -14,6 +14,8 @@ Derleme adımı ve bağımlılık yoktur: düz HTML + ES modülleri. Veriler yal
 
 > **Radyoloji sözlü kartları:** [`radyoloji/`](radyoloji/) klasöründe radyoloji + nükleer tıp flashcard uygulaması durur. GitHub Pages'te adresi: `…/travian-teuton-oasistool/radyoloji/`
 
+> **Dermatoloji OSCE kartları:** [`dermatoloji/`](dermatoloji/) klasöründe; çalışma notu PDF'i de içinde. Adres: `…/travian-teuton-oasistool/dermatoloji/`
+
 ## Çalıştırma
 
 ```bash
